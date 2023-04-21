@@ -99,3 +99,44 @@ def setup_card_pricing_info():
     del identifiers, price_info # releasing the data here since the data within is no longer needed
 
     return card_data
+
+def get_price_from_card_db(card_info, card_db, site):
+    current_price = 0
+    card_sets = card_db.get(card_info['name'])
+    if card_sets:
+        set_prices = card_sets[card_info["setCode"]]
+
+        if set_prices.get('prices'):
+            if set_prices['prices'].get(site):
+                current_price = set_prices.get('prices').get(site).get('retail').get(card_info.get('treatment'))
+    
+    return current_price
+
+def get_valuation_of_deck(deck_info, card_database, site="tcgplayer"):
+    # Get the price valuation of the deck
+    # the deck should store the setcode of the card to ensure the proper card price
+    # is being used
+    # it also defaults to tcgplayer as the preferred site to use, cardkingdom is available as an alternative
+    total_value = 0
+    errors = []
+
+    commander_value = get_price_from_card_db(deck_info["commander"], card_database, site)
+
+    if commander_value > 2:
+        total_value += commander_value
+
+    for card_type, data in deck_info["the_99"].items():
+        if card_type != "basic_lands":
+            if len(data) > 0:
+                for card_info in data:
+                    card_value = get_price_from_card_db(card_info, card_database, site)
+
+                    if card_value != None:
+                        if card_value > 2:
+                            total_value += card_value
+                    else:
+                        errors.append(card_info)
+
+    print(errors)
+
+    return total_value
