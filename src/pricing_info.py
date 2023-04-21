@@ -1,6 +1,7 @@
 import src.util_funcs as util_funcs
 from datetime import timedelta as timedelta
 from datetime import date as date
+import os
 
 MTGJSON_DATA = "resources/mtgjson_data"
 
@@ -87,18 +88,29 @@ def map_pricing_data_to_cards(price_info, card_data,sites_to_use=['tcgplayer', '
 
 
 def setup_card_pricing_info():
-    identifiers = util_funcs.import_json_file(f"{MTGJSON_DATA}/AllIdentifiers.json")
-    price_info = util_funcs.import_json_file(f"{MTGJSON_DATA}/AllPrices.json")
+    # this will first check to see if a database file already exists
+    # and load it if it is
+    price_database_filename = f"price_database_{date.today().isoformat()}.json"
+    if price_database_filename in os.listdir('resources/databases/price_info'):
+        existing_data = util_funcs.import_json_file(f"resources/databases/price_info/{price_database_filename}")
+        return existing_data
+    
+    else:
 
-    # first reformat the data
-    card_data = reformat_card_data(identifiers['data'])
+        identifiers = util_funcs.import_json_file(f"{MTGJSON_DATA}/AllIdentifiers.json")
+        price_info = util_funcs.import_json_file(f"{MTGJSON_DATA}/AllPrices.json")
 
-    # then add pricing info
-    card_data = map_pricing_data_to_cards(price_info['data'], card_data)
+        # first reformat the data
+        card_data = reformat_card_data(identifiers['data'])
 
-    del identifiers, price_info # releasing the data here since the data within is no longer needed
+        # then add pricing info
+        card_data = map_pricing_data_to_cards(price_info['data'], card_data)
 
-    return card_data
+        del identifiers, price_info # releasing the data here since the data within is no longer needed
+
+        util_funcs.export_json_file(f"resources/databases/price_info/{price_database_filename}", card_data, indent=None)
+
+        return card_data
 
 def get_price_from_card_db(card_info, card_db, site):
     current_price = 0
