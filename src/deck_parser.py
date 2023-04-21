@@ -1,5 +1,3 @@
-import util_funcs
-
 def get_deck_stats(deck):
     deck_stats = {"commander": 1}
 
@@ -22,7 +20,3 @@ def print_deck_stats(deck):
         print(f"\t{k}: {v}")
 
     print(f"Total Cards in deck: {sum(deck_stats.values())}")
-
-
-deck = util_funcs.import_json_file("resources/orzhov_commander_deck.json")
-print_deck_stats(deck)

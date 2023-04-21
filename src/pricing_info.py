@@ -1,4 +1,6 @@
-import util_funcs
+import src.util_funcs as util_funcs
+
+MTGJSON_DATA = "resources/mtgjson_data"
 
 # at some point, include automatically downloading and unzipping the required files from https://mtgjson.com/downloads/all-files/
 
@@ -19,8 +21,8 @@ def create_name_to_uuid_mapping(identifiers):
 
     return mapping
 
-identifiers = util_funcs.import_json_file("resources/AllIdentifiers.json")
+identifiers = util_funcs.import_json_file(f"{MTGJSON_DATA}/AllIdentifiers.json")
 identifiers_clean = create_name_to_uuid_mapping(identifiers['data'])
 del identifiers # releasing the file here since the data within is no longer needed
 
-price_info = util_funcs.import_json_file("resources/AllPrices.json")
+price_info = util_funcs.import_json_file(f"{MTGJSON_DATA}/AllPrices.json")
