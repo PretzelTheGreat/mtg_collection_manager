@@ -13,7 +13,7 @@ def get_deck_stats(deck):
 def print_deck_stats(deck):
     deck_stats = get_deck_stats(deck)
 
-    print(f"Deck Name: {deck['name']}, Commander: {deck['commander']}")
+    print(f"Deck Name: {deck['name']}, Commander: {deck['commander']['name']}")
     print(f"Deck Theme: {deck['theme']}")
 
     for k, v in deck_stats.items():
