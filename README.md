@@ -6,7 +6,7 @@ This is a personal project i've started to create an "all-in-one" solution to ma
 
 ### Pricing info
 
-By using MTGJSON's (https://mtgjson.com/) data, I've created a way to generate a local database of relatively up to date pricing info from major online card marketplaces, making it easier to lookup pricing info about cards in my collection
+By using MTGJSON's (<https://mtgjson.com/>) data, I've created a way to generate a local database of relatively up to date pricing info from major online card marketplaces, making it easier to lookup pricing info about cards in my collection
 
 ### Deck Manager
 
