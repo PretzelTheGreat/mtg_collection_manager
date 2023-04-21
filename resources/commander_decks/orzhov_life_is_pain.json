@@ -1,0 +1,117 @@
+{
+    "name": "Orzhov Life is Pain",
+    "commander": {"name": "Elas il-Kor, Sadistic Pilgrim", "setCode": "DMU", "treatment": "foil"},
+    "theme": "Creatures entering/dying cause lifegain for self or losing life to opponents",
+    "the_99": {
+        "creatures": [
+            {"name": "Novice Occultist", "setCode": "MID", "treatement": "normal"},
+            {"name": "Selfless Spirit", "setCode": "EMN", "treatement": "normal"},
+            {"name": "Knight of the White Orchid", "setCode": "VOC", "treatement": "normal"},
+            {"name": "Pious Evangel", "setCode": "SOI", "treatement": "normal"},
+            {"name": "Crawling Chorus", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Drivnod, Carnage Dominus", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Zulaport Cutthroat", "setCode": "BFZ", "treatement": "normal"},
+            {"name": "Sheoldred, the Apocalypse", "setCode": "DMU", "treatement": "normal"},
+            {"name": "Vermin Gorger", "setCode": "MH2", "treatement": "normal"},
+            {"name": "Braids, Arisen Nightmare", "setCode": "DMU", "treatement": "normal"},
+            {"name": "Dreg Recycler", "setCode": "MOM", "treatement": "normal"},
+            {"name": "Phyrexian Missionary", "setCode": "DMU", "treatement": "normal"},
+            {"name": "Elesh Norn, Mother of Machines", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Midnight Reaper", "setCode": "MIC", "treatement": "normal"},
+            {"name": "Basilica Shepherd", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Indoctrination Attendant", "setCode": "ONE", "treatement": "foil"},
+            {"name": "Knight of Dusk's Shadow", "setCode": "DMU", "treatement": "normal"},
+            {"name": "Siege Zombie", "setCode": "MID", "treatement": "normal"},
+            {"name": "Lurrus of the Dream-Den", "setCode": "MUL", "treatement": "normal"},
+            {"name": "Cult Conscript", "setCode": "DMU", "treatement": "normal"},
+            {"name": "Glorious Enforcer", "setCode": "MH2", "treatement": "normal"},
+            {"name": "Skullport Merchant", "setCode": "AFR", "treatement": "normal"},
+            {"name": "Windborn Muse", "setCode": "VOC", "treatement": "normal"},
+            {"name": "Daxos, Blessed by the Sun", "setCode": "MUL", "treatement": "normal"},
+            {"name": "Sheoldred, Whispering One", "setCode": "MUL", "treatement": "normal"},
+            {"name": "Markov Purifier", "setCode": "VOW", "treatement": "normal"},
+            {"name": "Fleshtaker", "setCode": "MID", "treatement": "normal"},
+            {"name": "Vraan, Executioner Thane", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Benalish Sleeper", "setCode": "DMU", "treatement": "normal"},
+            {"name": "Dreadhound", "setCode": "MID", "treatement": "normal"}
+        ],
+        "instants": [
+            {"name": "Blood Pact", "setCode": "MID", "treatement": "normal"},
+            {"name": "Fracture", "setCode": "STX", "treatement": "normal"},
+            {"name": "Plumb the Forbidden", "setCode": "STX", "treatement": "normal"},
+            {"name": "Swords to Plowshares", "setCode": "VOC", "treatement": "normal"},
+            {"name": "Corrupted Conviction", "setCode": "MOM", "treatement": "normal"},
+            {"name": "Infernal Grasp", "setCode": "MID", "treatement": "normal"},
+            {"name": "Murder", "setCode": "EMN", "treatement": "normal"},
+            {"name": "Charge of the Mites", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Altar's Reap", "setCode": "CN2", "treatement": "normal"},
+            {"name": "Succumb to Temptation", "setCode": "EMN", "treatement": "normal"},
+            {"name": "Vraska's Fall", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Merciless Resolve", "setCode": "SOI", "treatement": "normal"}
+        ],
+        "sorceries": [
+            {"name": "Vindicate", "setCode": "MH2", "treatement": "foil"},
+            {"name": "Rite of Oblivion", "setCode": "MID", "treatement": "normal"},
+            {"name": "Annihilating Glare", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Bone Splinters", "setCode": "DMU", "treatement": "foil"},
+            {"name": "Feed the Swarm", "setCode": "MIC", "treatement": "normal"}
+        ],
+        "enchantments": [
+            {"name": "Ghostly Prison", "setCode": "VOC", "treatement": "normal"},
+            {"name": "Skrelv's Hive", "setCode": "ONE", "treatement": "foil"},
+            {"name": "Cleric Class", "setCode": "AFR", "treatement": "normal"},
+            {"name": "Vampiric Rites", "setCode": "2X2", "treatement": "normal"},
+            {"name": "Greed", "setCode": "MH2", "treatement": "normal"},
+            {"name": "Phyrexian Arena", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Smothering Tithe", "setCode": "2X2", "treatement": "normal"},
+            {"name": "Dreadhorde Invasion", "setCode": "MIC", "treatement": "normal"}
+        ],
+        "artifacts": [
+            {"name": "Vat of Rebirth", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Commander's Sphere", "setCode": "VOC", "treatement": "normal"},
+            {"name": "Swiftfoot Boots", "setCode": "BRC", "treatement": "normal"},
+            {"name": "Skullclamp", "setCode": "BRC", "treatement": "normal"},
+            {"name": "Thought Vessel", "setCode": "BRC", "treatement": "normal"},
+            {"name": "Sol Ring", "setCode": "C21", "treatement": "normal"},
+            {"name": "Orzhov Signet", "setCode": "BRC", "treatement": "normal"},
+            {"name": "Arcane Signet", "setCode": "VOC", "treatement": "normal"},
+            {"name": "Weatherlight Compleated", "setCode": "DMU", "treatement": "foil"},
+            {"name": "Moonsilver Key", "setCode": "MID", "treatement": "normal"}
+        ],
+        "non_basic_lands": [
+            {"name": "Terramorphic Expanse", "setCode": "ONE", "treatement": "foil"},
+            {"name": "Exotic Orchard", "setCode": "VOC", "treatement": "normal"},
+            {"name": "Evolving Wilds", "setCode": "BRC", "treatement": "normal"},
+            {"name": "Sunlit Marsh", "setCode": "DMU", "treatement": "normal"},
+            {"name": "Reliquary Tower", "setCode": "BRC", "treatement": "normal"},
+            {"name": "Orzhov Basilica", "setCode": "BRC", "treatement": "normal"},
+            {"name": "Bojuka Bog", "setCode": "MIC", "treatement": "normal"},
+            {"name": "Shineshadow Snarl", "setCode": "STX", "treatement": "normal"},
+            {"name": "The Dross Pits", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Scoured Barrens", "setCode": "MOM", "treatement": "normal"},
+            {"name": "Polluted Mire", "setCode": "DMR", "treatement": "normal"},
+            {"name": "The Fair Basilica", "setCode": "ONE", "treatement": "normal"},
+            {"name": "Command Tower", "setCode": "VOC", "treatement": "normal"},
+            {"name": "Fabled Passage", "setCode": "M21", "treatement": "normal"}
+        ], 
+        "planeswalker": [
+
+        ],
+        "basic_lands": {
+            "Swamps": 10,
+            "Plains": 10
+        }
+    },
+    "potential_upgrades": {
+        "creatures": [
+            "Suture Priest", "Corpse Knight", "Cruel Celebrant", "Blood Artist", "Teysa Karlov", "Vito, Thorn of the Dusk Rose", 
+            "Cliffhaven Vampire", "Dockside Chef", "Syr Konrad, the Grim", "Kambal, Consul of Allocation", "Soul Warden"
+        ],
+        "instants": [
+            "Costly Plunder"
+        ],
+        "enchantments": [
+            "Hidden Stockpile", "The Meathook Massacre","Ghoulish Procession"
+        ]
+    }
+}
