@@ -14,3 +14,8 @@ def import_json_file(filename):
 
     log_message(f"finished loading {filename}", "DEBUG")
     return data
+
+def export_json_file(filename, data, indent=4):
+    with open(filename, 'w', encoding='utf-8') as open_file:
+
+        json.dump(data, open_file, indent=indent)
