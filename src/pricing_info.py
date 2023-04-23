@@ -47,7 +47,7 @@ def get_todays_price(price_info):
     return price_data
 
 
-def map_pricing_data_to_cards(price_info, card_data,sites_to_use=['tcgplayer', 'cardkingdom']):
+def map_pricing_data_to_cards(price_info, card_data, sites_to_use=['tcgplayer', 'cardkingdom']):
     # take the imported price info and map it to each card, by set and price of today
     for card, data in card_data.items():
         # level: card = {setcode: {}...}
