@@ -7,7 +7,7 @@
             {"name": "Novice Occultist", "setCode": "MID", "treatment": "normal"},
             {"name": "Selfless Spirit", "setCode": "EMN", "treatment": "normal"},
             {"name": "Knight of the White Orchid", "setCode": "VOC", "treatment": "normal"},
-            {"name": "Pious Evangel", "setCode": "SOI", "treatment": "normal"},
+            {"name": "Soul Warden", "setCode": "MM3", "treatment": "normal"},
             {"name": "Crawling Chorus", "setCode": "ONE", "treatment": "normal"},
             {"name": "Drivnod, Carnage Dominus", "setCode": "ONE", "treatment": "normal"},
             {"name": "Zulaport Cutthroat", "setCode": "BFZ", "treatment": "normal"},
@@ -21,11 +21,11 @@
             {"name": "Basilica Shepherd", "setCode": "ONE", "treatment": "normal"},
             {"name": "Indoctrination Attendant", "setCode": "ONE", "treatment": "foil"},
             {"name": "Knight of Dusk's Shadow", "setCode": "DMU", "treatment": "normal"},
-            {"name": "Siege Zombie", "setCode": "MID", "treatment": "normal"},
+            {"name": "Corpse Knight", "setCode": "M20", "treatment": "normal"},
             {"name": "Lurrus of the Dream-Den", "setCode": "MUL", "treatment": "normal"},
             {"name": "Cult Conscript", "setCode": "DMU", "treatment": "normal"},
-            {"name": "Glorious Enforcer", "setCode": "MH2", "treatment": "normal"},
-            {"name": "Skullport Merchant", "setCode": "AFR", "treatment": "normal"},
+            {"name": "Vito, Thorn of the Dusk Rose", "setCode": "M21", "treatment": "foil"},
+            {"name": "Cliffhaven Vampire", "setCode": "OGW", "treatment": "normal"},
             {"name": "Windborn Muse", "setCode": "VOC", "treatment": "normal"},
             {"name": "Daxos, Blessed by the Sun", "setCode": "MUL", "treatment": "normal"},
             {"name": "Sheoldred, Whispering One", "setCode": "MUL", "treatment": "normal"},
@@ -33,7 +33,7 @@
             {"name": "Fleshtaker", "setCode": "MID", "treatment": "normal"},
             {"name": "Vraan, Executioner Thane", "setCode": "ONE", "treatment": "normal"},
             {"name": "Benalish Sleeper", "setCode": "DMU", "treatment": "normal"},
-            {"name": "Dreadhound", "setCode": "MID", "treatment": "normal"}
+            {"name": "Cruel Celebrant", "setCode": "WAR", "treatment": "normal"}
         ],
         "instants": [
             {"name": "Blood Pact", "setCode": "MID", "treatment": "normal"},
@@ -43,18 +43,18 @@
             {"name": "Corrupted Conviction", "setCode": "MOM", "treatment": "normal"},
             {"name": "Infernal Grasp", "setCode": "MID", "treatment": "normal"},
             {"name": "Murder", "setCode": "EMN", "treatment": "normal"},
-            {"name": "Charge of the Mites", "setCode": "ONE", "treatment": "normal"},
             {"name": "Altar's Reap", "setCode": "CN2", "treatment": "normal"},
             {"name": "Succumb to Temptation", "setCode": "EMN", "treatment": "normal"},
             {"name": "Vraska's Fall", "setCode": "ONE", "treatment": "normal"},
-            {"name": "Merciless Resolve", "setCode": "SOI", "treatment": "normal"}
+            {"name": "Costly Plunder", "setCode": "2XM", "treatment": "foil"}
         ],
         "sorceries": [
             {"name": "Vindicate", "setCode": "MH2", "treatment": "foil"},
             {"name": "Rite of Oblivion", "setCode": "MID", "treatment": "normal"},
             {"name": "Annihilating Glare", "setCode": "ONE", "treatment": "normal"},
             {"name": "Bone Splinters", "setCode": "DMU", "treatment": "foil"},
-            {"name": "Feed the Swarm", "setCode": "MIC", "treatment": "normal"}
+            {"name": "Feed the Swarm", "setCode": "MIC", "treatment": "normal"},
+            {"name": "Sunfall", "setCode": "MOM", "treatment": "normal"}
         ],
         "enchantments": [
             {"name": "Ghostly Prison", "setCode": "VOC", "treatment": "normal"},
@@ -92,23 +92,23 @@
             {"name": "Polluted Mire", "setCode": "DMR", "treatment": "normal"},
             {"name": "The Fair Basilica", "setCode": "ONE", "treatment": "normal"},
             {"name": "Command Tower", "setCode": "VOC", "treatment": "normal"},
-            {"name": "Fabled Passage", "setCode": "M21", "treatment": "normal"}
+            {"name": "Fabled Passage", "setCode": "M21", "treatment": "normal"},
+            {"name": "Snowfield Sinkhole", "setCode": "KHM", "treatment": "normal"}
         ], 
         "planeswalker": [
 
         ],
         "basic_lands": {
             "Swamps": 10,
-            "Plains": 10
+            "Plains": 9
         }
     },
     "potential_upgrades": {
         "creatures": [
-            "Suture Priest", "Corpse Knight", "Cruel Celebrant", "Blood Artist", "Teysa Karlov", "Vito, Thorn of the Dusk Rose", 
-            "Cliffhaven Vampire", "Dockside Chef", "Syr Konrad, the Grim", "Kambal, Consul of Allocation", "Soul Warden"
+            "Suture Priest", "Blood Artist", "Teysa Karlov", "Dockside Chef", "Syr Konrad, the Grim", "Kambal, Consul of Allocation"
         ],
         "instants": [
-            "Costly Plunder"
+            
         ],
         "enchantments": [
             "Hidden Stockpile", "The Meathook Massacre","Ghoulish Procession"
