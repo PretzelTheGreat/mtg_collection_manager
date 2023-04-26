@@ -1,5 +1,5 @@
 import os
-import src.util_funcs as util_funcs
+from src import util_funcs
 from datetime import date as date
 
 def construct_card_database():
