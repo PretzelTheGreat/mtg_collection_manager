@@ -5,7 +5,8 @@ import os
 
 MTGJSON_DATA = "resources/mtgjson_data"
 
-# TODO: at some point, include automatically downloading and unzipping the required files from https://mtgjson.com/downloads/all-files/
+# price_file_location: https://mtgjson.com/api/v5/AllPrices.json.zip
+# identifiers_location: https://mtgjson.com/api/v5/AllIdentifiers.json.zip
 
 def reformat_card_data(data):
     # because the data from MTGJSON is a large file with a bunch of unecessary data
@@ -23,6 +24,22 @@ def reformat_card_data(data):
             mapping[v['name']] = {v['setCode']: {'uuid': k}}
 
     return mapping
+
+def get_recent_pricing(price_info):
+    # this will take the pricing data, and will use the most recent date that
+    # is provided
+    price_data = {}
+
+    for treatment, data in price_info.items():
+        price_dates = [date.fromisoformat(x) for x in data.keys()]
+        price_dates.sort(reverse=True)
+        latest_date = price_dates[0]
+        
+        price_data['price_date'] = latest_date.isoformat()
+        price_data[treatment] = data[latest_date.isoformat()]
+
+    return price_data
+
 
 def get_todays_price(price_info):
     today = date.today()
@@ -46,71 +63,88 @@ def get_todays_price(price_info):
 
     return price_data
 
-
 def map_pricing_data_to_cards(price_info, card_data, sites_to_use=['tcgplayer', 'cardkingdom']):
     # take the imported price info and map it to each card, by set and price of today
-    for card, data in card_data.items():
-        # level: card = {setcode: {}...}
-        for setCode, data_2 in data.items():
-            # level: setCode = {uuid: string...}
+    # the pricing data will be held in a separate structure, in order for ease of access
+    price_data = {}
+    for card_name, data in card_data.items():
+        price_data[card_name] = {}
+        # at this level, it includes all the data for the cards
+        # since the price data is stored by the uuid for each printing, work with that
+        for setCode, uuid in data['uuids'].items():
+            price_data[card_name][setCode] = {}
             card_prices_by_site = {}
-            card_pricing_all = price_info.get(data_2['uuid'])
-            if not card_pricing_all:
-                break
+            if uuid in price_info.keys():
+                card_pricing_all = price_info.get(uuid)
+                if 'paper' in card_pricing_all.keys():
+                    current_card_prices = card_pricing_all.get('paper')
 
-            current_card_prices = card_pricing_all.get('paper')
+                    for site, price_data in current_card_prices.items():
+                        if site in sites_to_use:
+                            if price_data['currency'] == 'USD':
+                                if not card_prices_by_site.get(site):
+                                    card_prices_by_site[site] = {'retail': {}, 'buylist': {}}
+                                
+                                retail_prices = price_data.get('retail')
+                                buylist_prices = price_data.get('buylist')
 
-            if not current_card_prices:
-                break
+                                if retail_prices != None:
+                                    card_prices_by_site[site]['retail'] = get_recent_pricing(retail_prices)
+                                else:
+                                    card_prices_by_site[site]['retail']['error'] = "no retail pricing available"
+                                
+                                if buylist_prices != None:
+                                    card_prices_by_site[site]['buylist'] = get_recent_pricing(buylist_prices)
+                                else:
+                                    card_prices_by_site[site]['buylist']['error'] = "no buylist pricing available"
 
-            for site, data_3 in current_card_prices.items():
-                if site in sites_to_use:
-                    if data_3['currency'] == 'USD':
-                        if not card_prices_by_site.get(site):
-                            card_prices_by_site[site] = {'retail': {}, 'buylist': {}}
-                        
-                        retail_prices = data_3.get('retail')
-                        buylist_prices = data_3.get('buylist')
-
-                        if retail_prices != None:
-                            card_prices_by_site[site]['retail'] = get_todays_price(retail_prices)
-                        else:
-                            card_prices_by_site[site]['retail']['error'] = "no retail pricing available"
-                        
-                        if buylist_prices != None:
-                            card_prices_by_site[site]['buylist'] = get_todays_price(buylist_prices)
-                        else:
-                            card_prices_by_site[site]['buylist']['error'] = "no buylist pricing available"
-
-            card_data[card][setCode]['prices'] = card_prices_by_site
-
-    return card_data
+                else:
+                    price_data[card_name][setCode]['prices'] = {"error": "no paper printing available"}
+            
+            else:
+                price_data[card_name][setCode]['prices'] = {"error": "no pricing data available"}
+            
+            price_data[card_name][setCode]['prices'] = card_prices_by_site
 
 
-def setup_card_pricing_info():
-    # this will first check to see if a database file already exists
-    # and load it if it is
-    price_database_filename = f"price_database_{date.today().isoformat()}.json"
-    if price_database_filename in os.listdir('resources/databases/price_info'):
-        existing_data = util_funcs.import_json_file(f"resources/databases/price_info/{price_database_filename}")
-        return existing_data
+            
+    return price_data
+
+def download_card_pricing_info():
+    today = date.today()
+    filename = f"AllPrices_{today.isoformat()}.json"
+    zipfile_name = f"AllPrices_{today.isoformat()}.json.zip"
+    download_url = 'https://mtgjson.com/api/v5/AllPrices.json.zip'
+    if filename not in os.listdir('resources/mtgjson_data'):
+        util_funcs.download_file_from_url(download_url, zipfile_name)
+        util_funcs.unzip_file_to_loc(f'resources/tmp/{zipfile_name}', 'resources/mtgjson_data')
+        os.system(f'move resources\\mtgjson_data\\AllPrices.json resources\\mtgjson_data\\{filename}')
+
+def consturct_card_pricing_info(card_database):
+    # this function should be run after the card_database is generated, hence why the card_database is 
+    # a required input
     
-    else:
+    today = date.today()
+    filename = f"AllPrices_{today.isoformat()}.json"
+    download_card_pricing_info()
+    
 
-        identifiers = util_funcs.import_json_file(f"{MTGJSON_DATA}/AllIdentifiers.json")
-        price_info = util_funcs.import_json_file(f"{MTGJSON_DATA}/AllPrices.json")
+    pricing_data = util_funcs.import_json_file(f"resources/mtgjson_data/{filename}")
 
-        # first reformat the data
-        card_data = reformat_card_data(identifiers['data'])
+    # map the pricing data to the card info
+    pricing_info = map_pricing_data_to_cards(pricing_data['data'], card_database)
 
-        # then add pricing info
-        card_data = map_pricing_data_to_cards(price_info['data'], card_data)
+    util_funcs.export_json_file("resources/databases/price_info/pricing_database.json", pricing_info)
 
-        del identifiers, price_info # releasing the data here since the data within is no longer needed
+    return pricing_info
 
-        util_funcs.export_json_file(f"resources/databases/price_info/{price_database_filename}", card_data, indent=None)
+def load_pricing_database(card_database):
+    filename = 'pricing_database.json'
+    if filename not in os.listdir('resources/databases/price_info'):
+        consturct_card_pricing_info(card_database)
 
-        return card_data
+    return util_funcs.import_json_file(f"resources/databases/price_info/{filename}")
+
 
 def get_price_from_card_db(card_info, card_db, site):
     current_price = 0
@@ -123,6 +157,7 @@ def get_price_from_card_db(card_info, card_db, site):
                 current_price = set_prices.get('prices').get(site).get('retail').get(card_info.get('treatment'))
     
     return current_price
+
 
 def get_valuation_of_deck(deck_info, card_database, site="tcgplayer"):
     # Get the price valuation of the deck
