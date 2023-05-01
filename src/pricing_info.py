@@ -1,4 +1,4 @@
-import src.util_funcs as util_funcs
+from src import util_funcs
 from datetime import timedelta as timedelta
 from datetime import date as date
 import os

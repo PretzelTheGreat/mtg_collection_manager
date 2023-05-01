@@ -34,7 +34,7 @@ def download_file_from_url(url, filename):
 
     log_message(f"requesting resources from url: '{url}'", "DEBUG")
     # next, process the request
-    r = requests.get(url, allow_redirects=True)
+    r = requests.get(url, allow_redirects=True, timeout=0.500)
     log_message(f"received request data", "DEBUG")
     
     log_message(f"writing contets of request to '{filename}'", "DEBUG")
