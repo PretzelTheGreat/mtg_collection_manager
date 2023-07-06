@@ -63,52 +63,56 @@ def get_todays_price(price_info):
 
     return price_data
 
-def map_pricing_data_to_cards(price_info, card_data, sites_to_use=['tcgplayer', 'cardkingdom']):
-    # take the imported price info and map it to each card, by set and price of today
-    # the pricing data will be held in a separate structure, in order for ease of access
-    price_data = {}
-    for card_name, data in card_data.items():
-        price_data[card_name] = {}
-        # at this level, it includes all the data for the cards
-        # since the price data is stored by the uuid for each printing, work with that
+def get_uuids_with_pricing_data(card_database, pricing_data):
+    cards_to_process = {}
+
+    for card_name, data in card_database.items():
         for setCode, uuid in data['uuids'].items():
-            price_data[card_name][setCode] = {}
-            card_prices_by_site = {}
-            if uuid in price_info.keys():
-                card_pricing_all = price_info.get(uuid)
-                if 'paper' in card_pricing_all.keys():
-                    current_card_prices = card_pricing_all.get('paper')
+            if uuid in pricing_data.keys():
+                cards_to_process[uuid] = {'setCode': setCode, 'name': card_name}
 
-                    for site, price_data in current_card_prices.items():
-                        if site in sites_to_use:
-                            if price_data['currency'] == 'USD':
-                                if not card_prices_by_site.get(site):
-                                    card_prices_by_site[site] = {'retail': {}, 'buylist': {}}
-                                
-                                retail_prices = price_data.get('retail')
-                                buylist_prices = price_data.get('buylist')
+    return cards_to_process
 
-                                if retail_prices != None:
-                                    card_prices_by_site[site]['retail'] = get_recent_pricing(retail_prices)
-                                else:
-                                    card_prices_by_site[site]['retail']['error'] = "no retail pricing available"
-                                
-                                if buylist_prices != None:
-                                    card_prices_by_site[site]['buylist'] = get_recent_pricing(buylist_prices)
-                                else:
-                                    card_prices_by_site[site]['buylist']['error'] = "no buylist pricing available"
+def map_pricing_data_to_cards(pricing_data, card_database, sites=['tcgplayer', 'cardkingdom']):
+    pricing_database = {}
 
+    # first get all the uuid's of cards that have pricing data
+    cards_to_check = get_uuids_with_pricing_data(card_database, pricing_data)
+
+    cards_with_paper_printing = [x for x in cards_to_check.keys() if 'paper' in pricing_data[x].keys()]
+
+    for uuid in cards_with_paper_printing:
+        name = cards_to_check[uuid]['name']
+        setCode = cards_to_check[uuid]['setCode']
+        if name not in pricing_database.keys():
+            pricing_database[name] = {setCode: {}}
+
+        else:
+            pricing_database[name][setCode] = {}
+
+        site_pricing = {}
+        for site, price_data in pricing_data[uuid]['paper'].items():
+            
+
+            if site in sites and price_data['currency'] == 'USD':
+                site_pricing[site] = {'retail': {}, 'buylist': {}}
+
+                retail_prices = price_data.get('retail')
+                buylist_prices = price_data.get('buylist')
+
+                if retail_prices != None:
+                    site_pricing[site]['retail'] = get_recent_pricing(retail_prices)
                 else:
-                    price_data[card_name][setCode]['prices'] = {"error": "no paper printing available"}
-            
-            else:
-                price_data[card_name][setCode]['prices'] = {"error": "no pricing data available"}
-            
-            price_data[card_name][setCode]['prices'] = card_prices_by_site
+                    site_pricing[site]['retail']['error'] = "no retail pricing available"
+                
+                if buylist_prices != None:
+                    site_pricing[site]['buylist'] = get_recent_pricing(buylist_prices)
+                else:
+                    site_pricing[site]['buylist']['error'] = "no buylist pricing available"
+                    
+        pricing_database[name][setCode] = site_pricing
 
-
-            
-    return price_data
+    return pricing_database
 
 def download_card_pricing_info():
     today = date.today()
