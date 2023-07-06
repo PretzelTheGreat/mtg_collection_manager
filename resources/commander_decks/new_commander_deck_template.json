@@ -1,0 +1,34 @@
+{
+    "name": "",
+    "commander": {"name": "", "setCode": "", "treatment": ""},
+    "theme": "",
+    "the_99": {
+        "creatures": [
+            {"name": "", "setCode": "", "treatment": ""}
+        ],
+        "instants": [
+        ],
+        "sorceries": [
+        ],
+        "enchantments": [
+        ],
+        "artifacts": [
+        ],
+        "non_basic_lands": [
+        ], 
+        "planeswalker": [
+
+        ],
+        "basic_lands": {
+        }
+    },
+    "potential_upgrades": {
+        "creatures": [
+        ],
+        "instants": [
+            
+        ],
+        "enchantments": [
+        ]
+    }
+}
