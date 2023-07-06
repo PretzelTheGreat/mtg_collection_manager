@@ -132,13 +132,12 @@ def get_price_from_card_db(card_info, price_database, site):
     # card info needs to be in the following format:
     # {"name": "", "setCode": "", "treatment": ""}
     current_price = 0
-    card_sets = price_database.get(card_info['name'])
-    if card_sets:
-        set_prices = card_sets[card_info["setCode"]]
 
-        if set_prices.get('prices'):
-            if set_prices['prices'].get(site):
-                current_price = set_prices.get('prices').get(site).get('retail').get(card_info.get('treatment'))
+    set_price_data = price_database.get(card_info['name']).get(card_info['setCode'])
+
+    if set_price_data:
+        if set_price_data.get(site):
+            current_price = set_price_data.get(site).get('retail').get(card_info['treatment'])
     
     return current_price
 
