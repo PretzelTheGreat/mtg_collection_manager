@@ -41,28 +41,6 @@ def get_recent_pricing(price_info):
     return price_data
 
 
-def get_todays_price(price_info):
-    today = date.today()
-    yesterday = today - timedelta(days=1)
-    price_data = {}
-
-    # first, it will check to see if there is pricing data for today
-    # if not it will check one day before today
-
-    for treatment, data in price_info.items():
-        price_dates = data.keys()
-
-        if today.isoformat() in price_dates:
-            price_data['price_date'] = today.isoformat()
-            price_data[treatment] = data[today.isoformat()]
-
-        elif yesterday.isoformat() in price_dates:
-            price_data['price_date'] = yesterday.isoformat()
-            price_data[treatment] = data[yesterday.isoformat()]
-        
-
-    return price_data
-
 def get_uuids_with_pricing_data(card_database, pricing_data):
     cards_to_process = {}
 
@@ -109,7 +87,7 @@ def map_pricing_data_to_cards(pricing_data, card_database, sites=['tcgplayer', '
                     site_pricing[site]['buylist'] = get_recent_pricing(buylist_prices)
                 else:
                     site_pricing[site]['buylist']['error'] = "no buylist pricing available"
-                    
+
         pricing_database[name][setCode] = site_pricing
 
     return pricing_database
@@ -150,9 +128,11 @@ def load_pricing_database(card_database):
     return util_funcs.import_json_file(f"resources/databases/price_info/{filename}")
 
 
-def get_price_from_card_db(card_info, card_db, site):
+def get_price_from_card_db(card_info, price_database, site):
+    # card info needs to be in the following format:
+    # {"name": "", "setCode": "", "treatment": ""}
     current_price = 0
-    card_sets = card_db.get(card_info['name'])
+    card_sets = price_database.get(card_info['name'])
     if card_sets:
         set_prices = card_sets[card_info["setCode"]]
 
@@ -163,7 +143,7 @@ def get_price_from_card_db(card_info, card_db, site):
     return current_price
 
 
-def get_valuation_of_deck(deck_info, card_database, site="tcgplayer"):
+def get_valuation_of_deck(deck_info, price_database, site="tcgplayer"):
     # Get the price valuation of the deck
     # the deck should store the setcode of the card to ensure the proper card price
     # is being used
@@ -171,7 +151,7 @@ def get_valuation_of_deck(deck_info, card_database, site="tcgplayer"):
     total_value = 0
     errors = []
 
-    commander_value = get_price_from_card_db(deck_info["commander"], card_database, site)
+    commander_value = get_price_from_card_db(deck_info["commander"], price_database, site)
 
     if commander_value > 2:
         total_value += commander_value
@@ -180,7 +160,7 @@ def get_valuation_of_deck(deck_info, card_database, site="tcgplayer"):
         if card_type != "basic_lands":
             if len(data) > 0:
                 for card_info in data:
-                    card_value = get_price_from_card_db(card_info, card_database, site)
+                    card_value = get_price_from_card_db(card_info, price_database, site)
 
                     if card_value != None:
                         if card_value > 2:
