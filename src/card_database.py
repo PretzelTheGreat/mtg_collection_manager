@@ -16,7 +16,7 @@ def construct_card_database():
     if filename not in os.listdir('resources/mtgjson_data'):
         util_funcs.download_file_from_url(download_url, zipfile_name)
         util_funcs.unzip_file_to_loc(f'resources/tmp/{zipfile_name}', 'resources/mtgjson_data')
-        os.system(f'mv resources\\mtgjson_data\\AllIdentifiers.json resources\\mtgjson_data\\{filename}')
+        os.system(f'move resources\\mtgjson_data\\AllIdentifiers.json resources\\mtgjson_data\\{filename}')
 
     # next, create the databse from the data
     card_database = {}
