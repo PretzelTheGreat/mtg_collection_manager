@@ -12,6 +12,7 @@ class CollectionManager:
     # usage stats, etc.)
     def __init__(self, collection_filename, debug_level="DEBUG"):
         util_funcs.DEBUG_LEVEL = debug_level
+        self.initalize_environment()
         self.collection_filename = collection_filename
 
         # first, initalize all the relevant databases
@@ -28,7 +29,8 @@ class CollectionManager:
         self.highest_value_card = {"name": "", "setCode": "", "treatment": "", "value": 0}
         self.calculate_value_of_collection()
         
-
+    def initalize_environment(self):
+        util_funcs.create_tmp_dir()
 
     def search_for_card_in_collection(self, card_name):
         # searches for ownership info of a card from the collection
