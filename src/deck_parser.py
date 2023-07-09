@@ -20,3 +20,31 @@ def print_deck_stats(deck):
         print(f"\t{k}: {v}")
 
     print(f"Total Cards in deck: {sum(deck_stats.values())}")
+
+def convert_deck_to_csv_format(deck):
+    # this can be used to convert a deck list to the csv format
+    # used to add to the collection database. primarily used if
+    # the decklist cards aren't already accounted for in the database
+    # i.e you create the decklist first before having the cards in the
+    # database
+    cards_to_convert = []
+
+    f = {"name": "", "setCode": "", "treatment": "", "num_of_treatment": 1}
+
+    # add commander
+    f["name"] = deck["commander"]["name"]
+    f["setCode"] = deck["commander"]["setCode"]
+    f["treatment"] = deck["commander"]["treatment"]
+
+    cards_to_convert.append(f)
+
+    for card_type, cards in deck["the_99"].items():
+        if card_type != "basic_lands" and len(cards) > 0:
+            for card in cards:
+                f = {"name": "", "setCode": "", "treatment": "", "num_of_treatment": 1}
+                f["name"] = card["name"]
+                f["setCode"] = card["setCode"]
+                f["treatment"] = card["treatment"]
+                cards_to_convert.append(f)
+
+    return cards_to_convert
