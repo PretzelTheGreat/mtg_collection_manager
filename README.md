@@ -22,6 +22,8 @@ By using the pricing info database, I can create a full valuation for my collect
 
 ### Todo list
 
+#### Adding cards to collection
+
 * add Red rares to collection
 * add Green rares to collection
 * add Multicolor rares to collection
