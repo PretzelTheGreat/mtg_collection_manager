@@ -94,5 +94,1253 @@
                 "foil": 0
             }
         }
+    },
+    "Nadaar, Selfless Paladin": {
+        "AFR": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Oswald Fiddlebender": {
+        "AFR": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Skrelv, Defector Mite": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Sanguine Sacrament": {
+        "XLN": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Serra Paragon": {
+        "DMU": {
+            "treatments": {
+                "normal": 0,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Serra Redeemer": {
+        "DMU": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Solitary Confinement": {
+        "MH2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Temporary Lockdown": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Valiant Veteran": {
+        "DMU": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Urza Assembles the Titans": {
+        "DMU": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Sigarda's Aid": {
+        "EMN": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Selfless Spirit": {
+        "EMN": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Leyline Binding": {
+        "DMU": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Urza's Ruinous Blast": {
+        "BRC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Ajani's Last Stand": {
+        "M19": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Phyrexian Vindicator": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Skyhunter Strike Force": {
+        "ONC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Heliod, the Radiant Dawn": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Cemetery Protector": {
+        "VOW": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Breathkeeper Seraph": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Sunfall": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Firemane Commando": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Dusk Legion Duelist": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Knight-Errant of Eos": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Elas il-Kor, Sadistic Pilgrim": {
+        "DMU": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Novice Occultist": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Knight of the White Orchid": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Soul Warden": {
+        "MM3": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Crawling Chorus": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Drivnod, Carnage Dominus": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Zulaport Cutthroat": {
+        "BFZ": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Sheoldred, the Apocalypse": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Vermin Gorger": {
+        "MH2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Braids, Arisen Nightmare": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Blood Artist": {
+        "JMP": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Phyrexian Missionary": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Elesh Norn, Mother of Machines": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Teysa Karlov": {
+        "MUL": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Syr Konrad, the Grim": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Indoctrination Attendant": {
+        "ONE": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Knight of Dusk's Shadow": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Corpse Knight": {
+        "M20": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Lurrus of the Dream-Den": {
+        "MUL": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Cult Conscript": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Vito, Thorn of the Dusk Rose": {
+        "M21": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Cliffhaven Vampire": {
+        "OGW": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Windborn Muse": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Daxos, Blessed by the Sun": {
+        "MUL": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Sheoldred, Whispering One": {
+        "MUL": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Kambal, Consul of Allocation": {
+        "KLD": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Suture Priest": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Vraan, Executioner Thane": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Benalish Sleeper": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Cruel Celebrant": {
+        "WAR": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Blood Pact": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Fracture": {
+        "STX": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Plumb the Forbidden": {
+        "STX": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Swords to Plowshares": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Corrupted Conviction": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Infernal Grasp": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Murder": {
+        "EMN": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Altar's Reap": {
+        "CN2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Succumb to Temptation": {
+        "EMN": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Vraska's Fall": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Costly Plunder": {
+        "2XM": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Vindicate": {
+        "MH2": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Rite of Oblivion": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Annihilating Glare": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Bone Splinters": {
+        "DMU": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Feed the Swarm": {
+        "MIC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Ghostly Prison": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Skrelv's Hive": {
+        "ONE": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Ghoulish Procession": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Vampiric Rites": {
+        "2X2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Greed": {
+        "MH2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Phyrexian Arena": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Smothering Tithe": {
+        "2X2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Dreadhorde Invasion": {
+        "MIC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Vat of Rebirth": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Commander's Sphere": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Swiftfoot Boots": {
+        "BRC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Skullclamp": {
+        "BRC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Thought Vessel": {
+        "BRC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Sol Ring": {
+        "C21": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Orzhov Signet": {
+        "BRC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Arcane Signet": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Weatherlight Compleated": {
+        "DMU": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Moonsilver Key": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Terramorphic Expanse": {
+        "ONE": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Exotic Orchard": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Evolving Wilds": {
+        "BRC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Sunlit Marsh": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Reliquary Tower": {
+        "BRC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Orzhov Basilica": {
+        "BRC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Bojuka Bog": {
+        "MIC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Shineshadow Snarl": {
+        "STX": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "The Dross Pits": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Scoured Barrens": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Polluted Mire": {
+        "DMR": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "The Fair Basilica": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Command Tower": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Fabled Passage": {
+        "M21": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Snowfield Sinkhole": {
+        "KHM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Caves of Koilos": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
     }
 }
