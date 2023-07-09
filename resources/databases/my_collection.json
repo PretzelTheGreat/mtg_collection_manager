@@ -1342,5 +1342,557 @@
                 "foil": 0
             }
         }
+    },
+    "Academy Loremaster": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Aether Channeler": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Clash of Wills": {
+        "FNM": {
+            "treatments": {
+                "normal": 0,
+                "foil": 2
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Emperor Mihail II": {
+        "DMC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Engulf the Shore": {
+        "SOI": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Cut Your Losses": {
+        "SNC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Imprisoned in the Moon": {
+        "EMN": {
+            "treatments": {
+                "normal": 0,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Aboshan, Cephalid Emperor": {
+        "PLIST": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Keeper of Keys": {
+        "CN2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Mausoleum Wanderer": {
+        "EMN": {
+            "treatments": {
+                "normal": 4,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Midnight Clock": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Niblis of Frost": {
+        "EMN": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Overcharged Amalgam": {
+        "VOW": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Uvilda, Dean of Perfection // Nassari, Dean of Expression": {
+        "STX": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Rattlechains": {
+        "SOI": {
+            "treatments": {
+                "normal": 4,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Silver Scrutiny": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Sphinx of Clear Skies": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Sphinx of Magosi": {
+        "CN2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Thing in the Ice // Awoken Horror": {
+        "SOI": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Triskaidekaphile": {
+        "MID": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Vodalian Hexcatcher": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Ichormoon Gauntlet": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Stroke of Genius": {
+        "DMR": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Verity Circle": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Wonder": {
+        "MH2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Poppet Stitcher // Poppet Factory": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Haughty Djinn": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Archmage Emeritus": {
+        "STX": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Vexing Sphinx": {
+        "DMR": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Urza's Command": {
+        "BRO": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Mirage Mockery": {
+        "ONC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Mindsplice Apparatus": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Hurkyl's Final Meditation": {
+        "BRO": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Unctus, Grand Metatect": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Encroaching Mycosynth": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Suspend": {
+        "MH2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Jace's Sanctum": {
+        "ORI": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Spectral Adversary": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "One with the Multiverse": {
+        "BRO": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Ethersworn Adjudicator": {
+        "BRC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Invasion of Arcavios // Invocation of the Founders": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Faerie Mastermind": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "See Double": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Invasion of Segovia // Caetus, Sea Tyrant of Segovia": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Chrome Host Seedshark": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Complete the Circuit": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
     }
 }
