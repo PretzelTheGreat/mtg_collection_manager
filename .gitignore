@@ -2,3 +2,5 @@
 **test*
 resources/mtgjson_data
 resources/tmp
+resources/databases/card_database.json
+resources/databases/price_info
