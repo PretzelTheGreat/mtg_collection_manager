@@ -32,6 +32,12 @@ class CollectionManager:
     def initalize_environment(self):
         util_funcs.create_tmp_dir()
 
+        if 'mtgjson_data' not in os.listdir('resources'):
+            os.mkdir('resources/mtgjson_data')
+
+        if 'price_info' not in os.listdir('resources/databases'):
+            os.mkdir('resources/databases/price_info')
+
     def search_for_card_in_collection(self, card_name):
         # searches for ownership info of a card from the collection
         # it will also pull various other info from the different databases
