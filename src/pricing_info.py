@@ -145,7 +145,7 @@ def get_price_from_card_db(card_info, price_database, site):
     
     if current_price == None:
         current_price = 0
-    util_funcs.log_message(f"{card_info['name']} price - {current_price}", "INFO")
+        
     return current_price
 
 
