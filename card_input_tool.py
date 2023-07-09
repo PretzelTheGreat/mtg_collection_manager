@@ -46,7 +46,9 @@ def auto_add_cards(filename):
 
         new_cards.append(data)
 
-    return new_cards
+    deduped_list = dedupe_add_list(new_cards)
+
+    return deduped_list
 
 
 def dedupe_add_list(add_list):
