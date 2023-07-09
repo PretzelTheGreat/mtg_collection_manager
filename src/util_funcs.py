@@ -36,6 +36,13 @@ def export_json_file(filename, data, indent=4):
 
         json.dump(data, open_file, indent=indent)
 
+def export_csv_file(filename, data, fieldnames):
+    with open(filename, 'w', newline="") as open_file:
+        csv_writer = csv.DictWriter(open_file, fieldnames=fieldnames)
+
+        csv_writer.writeheader()
+        csv_writer.writerows(data)
+
 def create_tmp_dir():
     if 'tmp' not in os.listdir('resources'):
         os.mkdir('resources/tmp')
