@@ -1,0 +1,98 @@
+{
+    "Always Watching": {
+        "SOI": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Annointed Peacekeeper": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Bygone Bishop": {
+        "SOI": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Curse of Silence": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Drogskol Cavalry": {
+        "SOI": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Fateful Absence": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Gods Willing": {
+        "STA": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Historian's Boon": {
+        "DMC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    }
+}
