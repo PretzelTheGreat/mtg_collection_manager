@@ -133,12 +133,19 @@ def get_price_from_card_db(card_info, price_database, site):
     # {"name": "", "setCode": "", "treatment": ""}
     current_price = 0
 
-    set_price_data = price_database.get(card_info['name']).get(card_info['setCode'])
+    try:
+        set_price_data = price_database.get(card_info['name']).get(card_info['setCode'])
 
-    if set_price_data:
-        if set_price_data.get(site):
-            current_price = set_price_data.get(site).get('retail').get(card_info['treatment'])
+        if set_price_data:
+            if set_price_data.get(site):
+                current_price = set_price_data.get(site).get('retail').get(card_info['treatment'])
+
+    except AttributeError:
+        util_funcs.log_message(f"{card_info} cause an error when getting the price", "WARNING")
     
+    if current_price == None:
+        current_price = 0
+    util_funcs.log_message(f"{card_info['name']} price - {current_price}", "INFO")
     return current_price
 
 
