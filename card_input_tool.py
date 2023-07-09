@@ -1,5 +1,6 @@
 # this will make adding cards to the database easier
 import src.util_funcs as util_funcs
+import sys
 
 card_format = {"name": "", "setCode": "", "treatments": {"normal": 0, "foil": 0}, "in_use": {"normal": 0, "foil": 0}}
 
@@ -22,6 +23,31 @@ def manual_add_card():
             break
 
     return data
+
+def auto_add_cards(filename):
+    # this file should include the following keys:
+    # name,setCode,treatment,num_of_treatment,num_in_use
+    cards_to_add = util_funcs.import_csv_file(filename)
+    new_cards = []
+
+    for card in cards_to_add:
+        data = {"name": "", "setCode": "", "treatments": {"normal": 0, "foil": 0}, "in_use": {"normal": 0, "foil": 0}}
+
+        data["name"] = card["name"]
+        data["setCode"] = card["setCode"]
+
+        if card["treatment"] == "normal":
+            data["treatments"]["normal"] += int(card["num_of_treatment"])
+            data["in_use"]["normal"] += int(card["num_in_use"])
+
+        elif card["treatment"] == "foil":
+            data["treatments"]["foil"] += int(card["num_of_treatment"])
+            data["in_use"]["foil"] += int(card["num_in_use"])
+
+        new_cards.append(data)
+
+    return new_cards
+
 
 def dedupe_add_list(add_list):
     new_add_list = {}
@@ -108,10 +134,19 @@ def calculate_number_of_cards(new_cards):
 
     return total
 
-def run_tool():
+def run_tool(filename):
+    # this tool should preferably be run automated.
+    # the manual adding is kept here as a alternate way
     existing_database = util_funcs.import_json_file("resources/databases/my_collection.json")
-    new_cards_to_add = card_adding_menu()
+    new_cards_to_add = reformat_to_database_format(auto_add_cards(filename))
     print("\n\n")
     final_database = merge_database_with_new_data(existing_database, new_cards_to_add)
     util_funcs.export_json_file("resources/databases/my_collection.json", final_database)
     print(f"Database has been saved! Added {calculate_number_of_cards(new_cards_to_add)} more cards!")
+
+if len(sys.argv) > 1:
+    print(sys.argv[1])
+    run_tool(sys.argv[1].strip())
+
+else:
+    print(f"format: \n\tcard_input_tool [filename]")
