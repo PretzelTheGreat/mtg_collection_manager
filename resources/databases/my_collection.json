@@ -11,7 +11,7 @@
             }
         }
     },
-    "Annointed Peacekeeper": {
+    "Anointed Peacekeeper": {
         "DMU": {
             "treatments": {
                 "normal": 1,
@@ -299,7 +299,7 @@
             }
         }
     },
-    "Heliod, the Radiant Dawn": {
+    "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse": {
         "MOM": {
             "treatments": {
                 "normal": 1,
