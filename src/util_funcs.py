@@ -35,16 +35,22 @@ def import_csv_file(filename):
     return data
 
 def export_json_file(filename, data, indent=4):
+    log_message(f"exporting {filename}", "INFO")
     with open(filename, 'w', encoding='utf-8') as open_file:
 
         json.dump(data, open_file, indent=indent)
 
+    log_message(f"done exporting {filename}", "INFO")
+
 def export_csv_file(filename, data, fieldnames):
+    log_message(f"exporting {filename}", "INFO")
     with open(filename, 'w', newline="") as open_file:
         csv_writer = csv.DictWriter(open_file, fieldnames=fieldnames)
 
         csv_writer.writeheader()
         csv_writer.writerows(data)
+
+    log_message(f"done exporting {filename}", "INFO")
 
 def create_tmp_dir():
     if 'tmp' not in os.listdir('resources'):
