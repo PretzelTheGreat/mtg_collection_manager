@@ -19,3 +19,13 @@ This will be used to manage all the cards in my collection, to include keeping t
 ### Collection Valuation
 
 By using the pricing info database, I can create a full valuation for my collection, and filter by only rares/mythics or the collection as a whole (in case there are some uncommons or commons that are going for more than $2.00 USD)
+
+### Todo list
+
+* add Red rares to collection
+* add Green rares to collection
+* add Multicolor rares to collection
+* add Artifact rares to collection
+* add Land rares to collection
+* add any constructed decks as decks and then to collection
+* add all loose cards to collection
