@@ -55,6 +55,28 @@ def reformat_to_database_format(data):
 
     return new_format
 
+def merge_database_with_new_data(database, new_data):
+    # this will merge an exisiting database with cards
+    # added. This step will be run after the new cards are
+    # deduped and reformatted to the database format
+    for card_name, data in new_data.items():
+        if card_name not in database.keys():
+            database[card_name] = data
+
+        else:
+            for setCode, ownership_data in data.items():
+                if setCode not in database[card_name].keys():
+                    database[card_name][setCode] = ownership_data
+
+                else:
+                    for treatment, num in ownership_data["treatments"].items():
+                        database[card_name][setCode]["treatments"][treatment] += num
+
+                    for treatment, num in ownership_data["in_use"].items():
+                        database[card_name][setCode]["in_use"][treatment] += num
+
+    return database
+
 def card_adding_menu():
     cards_to_add = []
 
@@ -73,6 +95,23 @@ def card_adding_menu():
     deduped_list = dedupe_add_list(cards_to_add)
     new_format = reformat_to_database_format(deduped_list)
 
-    util_funcs.export_json_file("resources/databases/my_collection.json", new_format)
-    
-card_adding_menu()
+    #util_funcs.export_json_file("resources/databases/my_collection.json", final_database)
+    return new_format
+
+def calculate_number_of_cards(new_cards):
+    total = 0
+
+    for card_name, sets in new_cards.items():
+        for setCode, ownership_data in sets.items():
+            for treatment, num in ownership_data["treatments"].items():
+                total += num
+
+    return total
+
+def run_tool():
+    existing_database = util_funcs.import_json_file("resources/databases/my_collection.json")
+    new_cards_to_add = card_adding_menu()
+    print("\n\n")
+    final_database = merge_database_with_new_data(existing_database, new_cards_to_add)
+    util_funcs.export_json_file("resources/databases/my_collection.json", final_database)
+    print(f"Database has been saved! Added {calculate_number_of_cards(new_cards_to_add)} more cards!")
