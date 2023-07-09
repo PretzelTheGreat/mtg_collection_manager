@@ -1,6 +1,7 @@
 import json
 import requests
 import os
+import csv
 import zipfile
 
 show_log = True
@@ -14,6 +15,18 @@ def import_json_file(filename):
     log_message(f"loading {filename}", "DEBUG")
     with open(filename, 'r', encoding="utf-8") as open_file:
         data = json.load(open_file)
+
+    log_message(f"finished loading {filename}", "DEBUG")
+    return data
+
+def import_csv_file(filename):
+    data = []
+    log_message(f"loading {filename}", "DEBUG")
+    with open(filename, 'r') as open_file:
+        csv_reader = csv.DictReader(open_file)
+
+        for line in csv_reader:
+            data.append(line)
 
     log_message(f"finished loading {filename}", "DEBUG")
     return data
