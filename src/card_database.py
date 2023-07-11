@@ -43,7 +43,10 @@ def construct_card_database():
 
 def load_card_database():
     filename = 'card_database.json'
-    if filename not in os.listdir('resources/databases'):
+    metadata = util_funcs.import_json_file("resources/database_update_metadata.json")
+    if filename not in os.listdir('resources/databases') or date.fromisoformat(metadata["card_database"]) < date.today():
         construct_card_database()
+        metadata["card_database"] = date.today().isoformat()
+        util_funcs.export_json_file("resources/database_update_metadata.json", metadata)
 
     return util_funcs.import_json_file(f"resources/databases/{filename}")
