@@ -29,7 +29,7 @@ def convert_deck_to_csv_format(deck):
     # database
     cards_to_convert = []
 
-    f = {"name": "", "setCode": "", "treatment": "", "num_of_treatment": 1}
+    f = {"name": "", "setCode": "", "treatment": "", "num_of_treatment": 1, "num_in_use": 1}
 
     # add commander
     f["name"] = deck["commander"]["name"]
@@ -41,7 +41,7 @@ def convert_deck_to_csv_format(deck):
     for card_type, cards in deck["the_99"].items():
         if card_type != "basic_lands" and len(cards) > 0:
             for card in cards:
-                f = {"name": "", "setCode": "", "treatment": "", "num_of_treatment": 1}
+                f = {"name": "", "setCode": "", "treatment": "", "num_of_treatment": 1, "num_in_use": 1}
                 f["name"] = card["name"]
                 f["setCode"] = card["setCode"]
                 f["treatment"] = card["treatment"]
