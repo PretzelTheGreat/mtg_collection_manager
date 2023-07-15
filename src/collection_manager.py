@@ -123,6 +123,8 @@ class CollectionManager:
                                 tmp["copies"] = final_num
                                 tmp["card_value"] = current_price
                                 tmp["subtotal"] = current_price * final_num
+                                tmp["60% value"] = round(tmp["subtotal"] * 0.6, 2)
+                                tmp["40% value"] = round(tmp["subtotal"] * 0.4, 2)
 
                                 final_data.append(tmp)
 
