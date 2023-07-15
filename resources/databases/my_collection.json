@@ -3154,5 +3154,519 @@
                 "foil": 0
             }
         }
+    },
+    "Aeve, Progenitor Ooze": {
+        "MH2": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Surrak and Goreclaw": {
+        "MOM": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Briarbridge Tracker": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Endurance": {
+        "MH2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Herd Migration": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Hollowhenge Overlord": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Titania's Command": {
+        "BRO": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Llanowar Loamspeaker": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Long Rest": {
+        "AFR": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Quirion Beastcaller": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Ranger Class": {
+        "AFR": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Regal Behemoth": {
+        "CN2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Sanctum Weaver": {
+        "MH2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Silverback Elder": {
+        "DMU": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "The World Spell": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Tovolar's Huntmaster // Tovolar's Packleader": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Unnatural Growth": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Urborg Lhurgoyf": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Wrenn and Seven": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Ulvenwald Observer": {
+        "EMN": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Workshop Warchief": {
+        "SNC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Kalonian Hydra": {
+        "PLIST": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Glorious Sunrise": {
+        "VOW": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Ecological Appreciation": {
+        "STX": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Blex, Vexing Pest // Search for Blex": {
+        "STX": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Arboria": {
+        "DMR": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Evolved Spinoderm": {
+        "ONE": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Bloated Contaminator": {
+        "ONE": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Verdant Command": {
+        "MH2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Regrowth": {
+        "STA": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Thrun, Breaker of Silence": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Zopandrel, Hunger Dominus": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Hamlet Vanguard": {
+        "VOW": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Invasion of Ixalan // Belligerent Regisaur": {
+        "PMOM": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        },
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Invasion of Ikoria // Zilortha, Apex of Ikoria": {
+        "MOM": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Ozolith, the Shattered Spire": {
+        "MOM": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Invasion of Shandalar // Leyline Surge": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Polukranos Reborn // Polukranos, Engine of Ruin": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Ancient Imperiosaur": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Tribute to the World Tree": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Yedora, Grave Gardener": {
+        "MUL": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Goreclaw, Terror of Qal Sisma": {
+        "MUL": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
     }
 }
