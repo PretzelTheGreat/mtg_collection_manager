@@ -1,0 +1,113 @@
+{
+    "name": "Rashmi and Ragavan Stacks",
+    "commander": {"name": "Rashmi and Ragavan", "setCode": "MOC", "treatment": "foil"},
+    "theme": "Create tons of artifact tokens and use the value generated for casting free spells",
+    "the_99": {
+        "creatures": [
+            {"name": "Tireless Provisioner", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Sharding Sphinx", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Sandsteppe War Riders", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Tireless Tracker", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Feldon of the Third Path", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Pain Distributor", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Goldspan Dragon", "setCode": "KHM", "treatment": "normal"},
+            {"name": "Junk Winder", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Whirler Rogue", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Gilded Goose", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Pia and Kiran Nalaar", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Hellkite Igniter", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Hedron Detonator", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Cutthroat Negotiator", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Master of Etherium", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Brudiclad, Telchor Engineer", "setCode": "MUL", "treatment": "normal"},
+            {"name": "Etali, Primal Conqueror // Etali, Primal Sickness", "setCode": "MOM", "treatment": "normal"},
+            {"name": "Workshop Elders", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Schema Thief", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Vedalken Humiliator", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Academy Manufactor", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Gimbal, Gremlin Prodigy", "setCode": "MOC", "treatment": "foil"},
+            {"name": "Shimmer Dragon", "setCode": "MOC", "treatment": "normal"}
+        ],
+        "instants": [
+            {"name": "Struggle // Survive", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Spell Swindle", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Stroke of Genius", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Masterful Replication", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Reality Shift", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Vampires' Vengeance", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Perplexing Test", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Chaos Warp", "setCode": "MOC", "treatment": "normal"}
+        ],
+        "sorceries": [
+            {"name": "Crack Open", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Path of the Animist", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Reverse Engineer", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Brass's Bounty", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Rise and Shine", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Dance with Calamity", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Thoughtcast", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Saheeli's Artistry", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Root Out", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Fiery Confluence", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Echo Storm", "setCode": "MOC", "treatment": "normal"}
+        ],
+        "enchantments": [
+            {"name": "Curse of Opulence", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Aid from the Cowl", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Imprisoned in the Moon", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Weirding Wood", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Ghirapur Aether Grid", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Thopter Spy Network", "setCode": "MOC", "treatment": "normal"}
+        ],
+        "artifacts": [
+            {"name": "Spine of Ish Sah", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Skyclave Relic", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Bloodforged Battle-Axe", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Izzet Signet", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Gruul Signet", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Simic Signet", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Bootleggers' Stash", "setCode": "SNC", "treatment": "normal"},
+            {"name": "Inspiring Statuary", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Combine Chrysalis", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Sword of Forge and Frontier", "setCode": "ONE", "treatment": "foil"},
+            {"name": "Sol Ring", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Arcane Signet", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Replicating Ring", "setCode": "MOC", "treatment": "normal"}
+        ],
+        "non_basic_lands": [
+            {"name": "Frontier Bivouac", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Exotic Orchard", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Temple of Epiphany", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Swiftwater Cliffs", "setCode": "MOM", "treatment": "foil"},
+            {"name": "Vineglimmer Snarl", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Cinder Glade", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Temple of Mystery", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Evolving Wilds", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Game Trail", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Command Tower", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Temple of Abandon", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Simic Growth Chamber", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Path of Ancestry", "setCode": "MOC", "treatment": "normal"},
+            {"name": "Frostboil Snarl", "setCode": "STX", "treatment": "foil"},
+            {"name": "Copperline Gorge", "setCode": "ONE", "treatment": "normal"},
+            {"name": "Terramorphic Expanse", "setCode": "MOC", "treatment": "normal"}
+        ], 
+        "planeswalker": [
+            {"name": "Saheeli, Sublime Artificer", "setCode": "MOC", "treatment": "normal"}
+        ],
+        "basic_lands": {
+            "Forests": 6,
+            "Islands": 7,
+            "Mountains": 8
+        }
+    },
+    "potential_upgrades": {
+        "creatures": [
+        ],
+        "instants": [
+            
+        ],
+        "enchantments": [
+        ]
+    }
+}
