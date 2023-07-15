@@ -22,9 +22,8 @@ class CollectionManager:
         self.collection = util_funcs.import_json_file(self.collection_filename)
         self.card_database = card_database.load_card_database()
         self.pricing_data = pricing_info.load_pricing_database(self.card_database)
-        # TODO: implement a method that parses the deck folder, and ignores templates
-        # TODO: this should be in the format {format: {deck_name: filename}}
         self.constructed_decks = {}
+        self.parse_decks_folder()
         self.collection_value = 0
         self.highest_value_card = {"name": "", "setCode": "", "treatment": "", "value": 0}
         self.calculate_value_of_collection()
@@ -37,6 +36,21 @@ class CollectionManager:
 
         if 'price_info' not in os.listdir('resources/databases'):
             os.mkdir('resources/databases/price_info')
+
+    def parse_decks_folder(self):
+        folder = "resources/decks"
+
+        for path, subfolders, filenames in os.walk(folder):
+            for subfolder in subfolders:
+                self.constructed_decks[subfolder] = {}
+
+                for filename in os.listdir(f"resources/decks/{subfolder}"):
+                    if "template" not in filename:
+                        f_split = filename.split('.')[0]
+                        new_fname = f"resources/decks/{subfolder}/{filename}"
+                        self.constructed_decks[subfolder][f_split] = {"filename": new_fname}
+                        self.constructed_decks[subfolder][f_split]["deck_stats"] = deck_parser.get_deck_stats(util_funcs.import_json_file(new_fname))
+
 
     def search_for_card_in_collection(self, card_name):
         # searches for ownership info of a card from the collection
