@@ -2,7 +2,9 @@
 import src.util_funcs as util_funcs
 import sys
 
-card_format = {"name": "", "setCode": "", "treatments": {"normal": 0, "foil": 0}, "in_use": {"normal": 0, "foil": 0}}
+# number in this context is the number that correlates to the number
+# the card has for it's setCode
+# card_format = {"name": "", "setCode": "", setNumber: {"treatments": {"normal": 0, "foil": 0}, "in_use": {"normal": 0, "foil": 0}}}
 
 def manual_add_card():
     data = {"name": "", "setCode": "", "treatments": {"normal": 0, "foil": 0}, "in_use": {"normal": 0, "foil": 0}}
@@ -31,10 +33,11 @@ def auto_add_cards(filename):
     new_cards = []
 
     for card in cards_to_add:
-        data = {"name": "", "setCode": "", "treatments": {"normal": 0, "foil": 0}, "in_use": {"normal": 0, "foil": 0}}
+        data = {"name": "", "setCode": "", "setNumber": "", "treatments": {"normal": 0, "foil": 0}, "in_use": {"normal": 0, "foil": 0}}
 
         data["name"] = card["name"]
         data["setCode"] = card["setCode"]
+        data["setNumber"] = card["setNumber"]
 
         if card["treatment"] == "normal":
             data["treatments"]["normal"] += int(card["num_of_treatment"])
@@ -55,7 +58,7 @@ def dedupe_add_list(add_list):
     new_add_list = {}
 
     for card in add_list:
-        combined_name = f"{card['name']}:{card['setCode']}"
+        combined_name = f"{card['name']}:{card['setCode']}:{card['setNumber']}"
         if combined_name not in new_add_list.keys():
             new_add_list[combined_name] = card
 
@@ -63,23 +66,30 @@ def dedupe_add_list(add_list):
             new_add_list[combined_name]['treatments']['normal'] += card['treatments']['normal']
             new_add_list[combined_name]['treatments']['foil'] += card['treatments']['foil']
             new_add_list[combined_name]['in_use']['normal'] += card['in_use']['normal']
-            new_add_list[combined_name]['treatments']['foil'] += card['in_use']['foil']
+            new_add_list[combined_name]['in_use']['foil'] += card['in_use']['foil']
 
     return list(new_add_list.values())
 
 def reformat_to_database_format(data):
     # this will take the deduped added list and reformat it into a format
     # that can be saved in json format
-    # format = {"card_name": {"setCode": {treatment data and usage data}}}
+    # format = {"card_name": {"setCode": {"setNumber": {treatment data and usage data}}}}
 
     new_format = {}
 
     for card in data:
-        if card["name"] not in new_format.keys():
-            new_format[card["name"]] = {card["setCode"]: {"treatments": card["treatments"], "in_use": card["in_use"]}}
+        name = card["name"]
+        setCode = card["setCode"]
+        setNumber = card["setNumber"]
+        if name not in new_format.keys():
+            new_format[name] = {setCode: {setNumber: {"treatments": card["treatments"], "in_use": card["in_use"]}}}
 
         else:
-            new_format[card["name"]][card["setCode"]] = {"treatments": card["treatments"], "in_use": card["in_use"]}
+            if setCode not in new_format[name].keys():
+                new_format[name][setCode] = {setNumber: {"treatments": card["treatments"], "in_use": card["in_use"]}}
+            else:
+                if setNumber not in new_format[card["name"]][card["setCode"]].keys():
+                    new_format[card["name"]][card["setCode"]][card["setNumber"]] = {"treatments": card["treatments"], "in_use": card["in_use"]}
 
     return new_format
 
@@ -92,16 +102,20 @@ def merge_database_with_new_data(database, new_data):
             database[card_name] = data
 
         else:
-            for setCode, ownership_data in data.items():
+            for setCode, setNumbers in data.items():
                 if setCode not in database[card_name].keys():
-                    database[card_name][setCode] = ownership_data
-
+                    database[card_name][setCode] = setNumbers
                 else:
-                    for treatment, num in ownership_data["treatments"].items():
-                        database[card_name][setCode]["treatments"][treatment] += num
+                    for setNumber, ownership_data in setNumbers.items():
+                        if setNumber not in database[card_name][setCode].keys():
+                            database[card_name][setCode][setNumber] = ownership_data
 
-                    for treatment, num in ownership_data["in_use"].items():
-                        database[card_name][setCode]["in_use"][treatment] += num
+                        else:
+                            for treatment, num in ownership_data["treatments"].items():
+                                database[card_name][setCode][setNumber]["treatments"][treatment] += num
+
+                            for treatment, num in ownership_data["in_use"].items():
+                                database[card_name][setCode][setNumber]["in_use"][treatment] += num
 
     return database
 
@@ -130,25 +144,32 @@ def calculate_number_of_cards(new_cards):
     total = 0
 
     for card_name, sets in new_cards.items():
-        for setCode, ownership_data in sets.items():
-            for treatment, num in ownership_data["treatments"].items():
-                total += num
+        for setCode, setNumbers in sets.items():
+            for setNumber, ownership_data in setNumbers.items():
+                for treatment, num in ownership_data["treatments"].items():
+                    total += num
 
     return total
 
-def run_tool(filename):
+def run_tool(database_filename, cards_to_add_filename):
     # this tool should preferably be run automated.
     # the manual adding is kept here as a alternate way
-    existing_database = util_funcs.import_json_file("resources/databases/my_collection.json")
-    new_cards_to_add = reformat_to_database_format(auto_add_cards(filename))
-    print("\n\n")
-    final_database = merge_database_with_new_data(existing_database, new_cards_to_add)
-    util_funcs.export_json_file("resources/databases/my_collection.json", final_database)
-    print(f"Database has been saved! Added {calculate_number_of_cards(new_cards_to_add)} more cards!")
+    existing_database = util_funcs.import_json_file(database_filename)
+    new_cards_to_add = auto_add_cards(cards_to_add_filename)
+    reformatted_cards = reformat_to_database_format(new_cards_to_add)
+    final_database = merge_database_with_new_data(existing_database, reformatted_cards)
 
-if len(sys.argv) > 1:
-    print(sys.argv[1])
-    run_tool(sys.argv[1].strip())
+    nc_vindicate = [x for x in new_cards_to_add if x["name"] == "Vindicate"]
+    rc_vindicate = reformatted_cards["Vindicate"]
+    fd_vindicate = final_database["Vindicate"]
+    util_funcs.log_message(f"{nc_vindicate}", "DEBUG")
+    util_funcs.log_message(f"{rc_vindicate}", "DEBUG")
+    util_funcs.log_message(f"{fd_vindicate}", "DEBUG")
+    util_funcs.export_json_file(database_filename, final_database)
+    print(f"Database has been saved! Added {calculate_number_of_cards(reformatted_cards)} more cards!")
+
+if len(sys.argv) > 2:
+    run_tool(sys.argv[1].strip(), sys.argv[2].strip())
 
 else:
-    print(f"format: \n\tcard_input_tool [filename]")
+    print(f"format: \n\tcard_input_tool [database_filename] [cards_to_add_filename]")
