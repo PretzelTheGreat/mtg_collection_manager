@@ -2,6 +2,7 @@
     "name": "Orzhov Life is Pain",
     "commander": {"name": "Elas il-Kor, Sadistic Pilgrim", "setCode": "DMU", "treatment": "foil"},
     "theme": "Creatures entering/dying cause lifegain for self or losing life to opponents",
+    "deck_in_use": true,
     "the_99": {
         "creatures": [
             {"name": "Novice Occultist", "setCode": "MID", "treatment": "normal"},

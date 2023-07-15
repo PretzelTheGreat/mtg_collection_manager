@@ -2,6 +2,7 @@
     "name": "Rashmi and Ragavan Stacks",
     "commander": {"name": "Rashmi and Ragavan", "setCode": "MOC", "treatment": "foil"},
     "theme": "Create tons of artifact tokens and use the value generated for casting free spells",
+    "deck_in_use": true,
     "the_99": {
         "creatures": [
             {"name": "Tireless Provisioner", "setCode": "MOC", "treatment": "normal"},

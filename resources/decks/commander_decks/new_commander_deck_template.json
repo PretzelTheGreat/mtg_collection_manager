@@ -2,6 +2,7 @@
     "name": "",
     "commander": {"name": "", "setCode": "", "treatment": ""},
     "theme": "",
+    "deck_in_use": false,
     "the_99": {
         "creatures": [
             {"name": "", "setCode": "", "treatment": ""}
