@@ -45,9 +45,10 @@ def get_uuids_with_pricing_data(card_database, pricing_data):
     cards_to_process = {}
 
     for card_name, data in card_database.items():
-        for setCode, uuid in data['uuids'].items():
-            if uuid in pricing_data.keys():
-                cards_to_process[uuid] = {'setCode': setCode, 'name': card_name}
+        for setCode, setNumbers in data['uuids'].items():
+            for setNumber, uuid in setNumbers.items():
+                if uuid in pricing_data.keys():
+                    cards_to_process[uuid] = {'setCode': setCode, 'name': card_name, 'setNumber': setNumber}
 
     return cards_to_process
 
@@ -62,16 +63,15 @@ def map_pricing_data_to_cards(pricing_data, card_database, sites=['tcgplayer', '
     for uuid in cards_with_paper_printing:
         name = cards_to_check[uuid]['name']
         setCode = cards_to_check[uuid]['setCode']
+        setNumber = cards_to_check[uuid]['setNumber']
         if name not in pricing_database.keys():
-            pricing_database[name] = {setCode: {}}
+            pricing_database[name] = {setCode: {setNumber: {}}}
 
         else:
-            pricing_database[name][setCode] = {}
+            pricing_database[name][setCode] = {setNumber: {}}
 
         site_pricing = {}
         for site, price_data in pricing_data[uuid]['paper'].items():
-            
-
             if site in sites and price_data['currency'] == 'USD':
                 site_pricing[site] = {'retail': {}, 'buylist': {}}
 
@@ -88,7 +88,7 @@ def map_pricing_data_to_cards(pricing_data, card_database, sites=['tcgplayer', '
                 else:
                     site_pricing[site]['buylist']['error'] = "no buylist pricing available"
 
-        pricing_database[name][setCode] = site_pricing
+        pricing_database[name][setCode][setNumber] = site_pricing
 
     return pricing_database
 
