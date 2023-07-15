@@ -1238,7 +1238,7 @@
     "Shineshadow Snarl": {
         "STX": {
             "treatments": {
-                "normal": 1,
+                "normal": 2,
                 "foil": 0
             },
             "in_use": {
@@ -4979,6 +4979,232 @@
     },
     "Realmbreaker, the Invasion Tree": {
         "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Cave of the Frost Dragon": {
+        "AFR": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Seachrome Coast": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Hostile Hostel // Creeping Inn": {
+        "MID": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Plaza of Heroes": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Port Town": {
+        "SOI": {
+            "treatments": {
+                "normal": 4,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Prairie Stream": {
+        "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        },
+        "BFZ": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Shrine of the Forsaken Gods": {
+        "BFZ": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Sokenzan, Crucible of Defiance": {
+        "NEO": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Deserted Beach": {
+        "MID": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Yavimaya Coast": {
+        "DMU": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Mishra's Foundry": {
+        "BRO": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "The Monumental Facade": {
+        "ONE": {
+            "treatments": {
+                "normal": 2,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Yavimaya, Cradle of Growth": {
+        "MH2": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Ziatora's Proving Ground": {
+        "SNC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "The Seedcore": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "The Mycosynth Gardens": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Copperline Gorge": {
+        "ONE": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 0
+            }
+        }
+    },
+    "Frostboil Snarl": {
+        "MOC": {
             "treatments": {
                 "normal": 1,
                 "foil": 0
