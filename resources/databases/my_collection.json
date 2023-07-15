@@ -1101,6 +1101,16 @@
                 "normal": 1,
                 "foil": 0
             }
+        },
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
         }
     },
     "Orzhov Signet": {
@@ -1117,6 +1127,16 @@
     },
     "Arcane Signet": {
         "VOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        },
+        "MOC": {
             "treatments": {
                 "normal": 1,
                 "foil": 0
@@ -1161,6 +1181,16 @@
                 "normal": 0,
                 "foil": 1
             }
+        },
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
         }
     },
     "Exotic Orchard": {
@@ -1173,10 +1203,30 @@
                 "normal": 1,
                 "foil": 0
             }
+        },
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
         }
     },
     "Evolving Wilds": {
         "BRC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        },
+        "MOC": {
             "treatments": {
                 "normal": 1,
                 "foil": 0
@@ -1305,6 +1355,16 @@
                 "normal": 1,
                 "foil": 0
             }
+        },
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
         }
     },
     "Fabled Passage": {
@@ -1423,6 +1483,16 @@
             },
             "in_use": {
                 "normal": 0,
+                "foil": 0
+            }
+        },
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
                 "foil": 0
             }
         }
@@ -1615,6 +1685,16 @@
             },
             "in_use": {
                 "normal": 0,
+                "foil": 0
+            }
+        },
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
                 "foil": 0
             }
         }
@@ -4603,6 +4683,16 @@
                 "normal": 0,
                 "foil": 0
             }
+        },
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
         }
     },
     "Clockwork Dragon": {
@@ -5194,11 +5284,11 @@
     "Copperline Gorge": {
         "ONE": {
             "treatments": {
-                "normal": 1,
+                "normal": 2,
                 "foil": 0
             },
             "in_use": {
-                "normal": 0,
+                "normal": 1,
                 "foil": 0
             }
         }
@@ -5211,6 +5301,832 @@
             },
             "in_use": {
                 "normal": 0,
+                "foil": 0
+            }
+        },
+        "STX": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Rashmi and Ragavan": {
+        "MOC": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Tireless Provisioner": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Sharding Sphinx": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Sandsteppe War Riders": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Tireless Tracker": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Feldon of the Third Path": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Pain Distributor": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Goldspan Dragon": {
+        "KHM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Junk Winder": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Whirler Rogue": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Gilded Goose": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Pia and Kiran Nalaar": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Hellkite Igniter": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Hedron Detonator": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Cutthroat Negotiator": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Master of Etherium": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Brudiclad, Telchor Engineer": {
+        "MUL": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Etali, Primal Conqueror // Etali, Primal Sickness": {
+        "MOM": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Workshop Elders": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Schema Thief": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Vedalken Humiliator": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Gimbal, Gremlin Prodigy": {
+        "MOC": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Shimmer Dragon": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Struggle // Survive": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Spell Swindle": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Masterful Replication": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Reality Shift": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Vampires' Vengeance": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Perplexing Test": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Chaos Warp": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Crack Open": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Path of the Animist": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Reverse Engineer": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Brass's Bounty": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Rise and Shine": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Dance with Calamity": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Thoughtcast": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Saheeli's Artistry": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Root Out": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Fiery Confluence": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Echo Storm": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Curse of Opulence": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Aid from the Cowl": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Weirding Wood": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Ghirapur Aether Grid": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Thopter Spy Network": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Spine of Ish Sah": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Skyclave Relic": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Bloodforged Battle-Axe": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Izzet Signet": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Gruul Signet": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Simic Signet": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Bootleggers' Stash": {
+        "SNC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Inspiring Statuary": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Combine Chrysalis": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Sword of Forge and Frontier": {
+        "ONE": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Replicating Ring": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Frontier Bivouac": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Temple of Epiphany": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Swiftwater Cliffs": {
+        "MOM": {
+            "treatments": {
+                "normal": 0,
+                "foil": 1
+            },
+            "in_use": {
+                "normal": 0,
+                "foil": 1
+            }
+        }
+    },
+    "Vineglimmer Snarl": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Cinder Glade": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Temple of Mystery": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Game Trail": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Temple of Abandon": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Simic Growth Chamber": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Path of Ancestry": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
+                "foil": 0
+            }
+        }
+    },
+    "Saheeli, Sublime Artificer": {
+        "MOC": {
+            "treatments": {
+                "normal": 1,
+                "foil": 0
+            },
+            "in_use": {
+                "normal": 1,
                 "foil": 0
             }
         }
