@@ -177,6 +177,6 @@ def get_valuation_of_deck(deck_info, price_database, site="tcgplayer"):
                     else:
                         errors.append(card_info)
 
-    print(errors)
+    util_funcs.log_message(f"Errors in get_valuation_of_deck({deck_info['name']}): {errors}", "INFO")
 
-    return total_value
+    return round(total_value, 2)
