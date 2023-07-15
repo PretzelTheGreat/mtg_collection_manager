@@ -32,11 +32,14 @@ def construct_card_database():
         filtered_keys = {k:v for k, v in data.items() if k in keys}
 
         if name not in card_database.keys():
-            filtered_keys['uuids'] = {setCode: uuid}
+            filtered_keys['uuids'] = {setCode: {filtered_keys['number']: uuid}}
             card_database[name] = filtered_keys
 
         else:
-            card_database[name]['uuids'][setCode] = uuid
+            if setCode not in card_database[name]['uuids']:
+                card_database[name]['uuids'][setCode] = {filtered_keys['number']: uuid}
+            else:
+                card_database[name]['uuids'][setCode][filtered_keys['number']] = uuid
 
     util_funcs.export_json_file('resources/databases/card_database.json', card_database)
 
