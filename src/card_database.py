@@ -19,6 +19,8 @@ def construct_card_database():
         os.system(f'move resources\\mtgjson_data\\AllIdentifiers.json resources\\mtgjson_data\\{filename}')
 
     # next, create the databse from the data
+    # in this step the 'number' field is renamed to setNumber, because number is too ambiguous,
+    # and doesn't indicate what it's related to
     card_database = {}
     keys = ['availability', 'colorIdentity', 'colors', 'convertedManaCost', 'keywords', 'layout', 
             'legalities', 'manaCost', 'manaValue', 'name', 'number', 'originalText', 'originalType', 'power',
@@ -30,16 +32,18 @@ def construct_card_database():
         setCode = data['setCode']
         name = data['name']
         filtered_keys = {k:v for k, v in data.items() if k in keys}
+        filtered_keys['setNumber'] = filtered_keys['number']
+        void = filtered_keys.pop('number')
 
         if name not in card_database.keys():
-            filtered_keys['uuids'] = {setCode: {filtered_keys['number']: uuid}}
+            filtered_keys['uuids'] = {setCode: {filtered_keys['setNumber']: uuid}}
             card_database[name] = filtered_keys
 
         else:
             if setCode not in card_database[name]['uuids']:
-                card_database[name]['uuids'][setCode] = {filtered_keys['number']: uuid}
+                card_database[name]['uuids'][setCode] = {filtered_keys['setNumber']: uuid}
             else:
-                card_database[name]['uuids'][setCode][filtered_keys['number']] = uuid
+                card_database[name]['uuids'][setCode][filtered_keys['setNumber']] = uuid
 
     util_funcs.export_json_file('resources/databases/card_database.json', card_database)
 
