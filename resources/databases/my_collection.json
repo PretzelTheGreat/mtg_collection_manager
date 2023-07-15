@@ -4488,7 +4488,7 @@
     "Baral, Chief of Compliance": {
         "MUL": {
             "treatments": {
-                "normal": 2,
+                "normal": 1,
                 "foil": 0
             },
             "in_use": {
