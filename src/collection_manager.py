@@ -49,7 +49,7 @@ class CollectionManager:
                         f_split = filename.split('.')[0]
                         new_fname = f"resources/decks/{subfolder}/{filename}"
                         self.constructed_decks[subfolder][f_split] = {"filename": new_fname}
-                        self.constructed_decks[subfolder][f_split]["deck_stats"] = deck_parser.get_deck_stats(util_funcs.import_json_file(new_fname))
+                        self.constructed_decks[subfolder][f_split]["deck_stats"] = deck_parser.get_deck_stats(util_funcs.import_json_file(new_fname), self.pricing_data)
 
 
     def search_for_card_in_collection(self, card_name):

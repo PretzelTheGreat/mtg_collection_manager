@@ -1,4 +1,6 @@
-def get_deck_stats(deck):
+import src.pricing_info as pricing_info
+
+def get_deck_stats(deck, pricing_data):
     deck_stats = {"commander": 1}
 
     for k, v in deck["the_99"].items():
@@ -7,6 +9,8 @@ def get_deck_stats(deck):
 
         elif len(v) != 0:
             deck_stats[k] = len(v)
+
+    deck_stats["deck_value"] = pricing_info.get_valuation_of_deck(deck, pricing_data)
 
     return deck_stats
 
