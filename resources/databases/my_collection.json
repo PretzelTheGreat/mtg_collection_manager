@@ -753,6 +753,18 @@
                     "foil": 0
                 }
             }
+        },
+        "MOC": {
+            "238": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Poppet Stitcher // Poppet Factory": {
@@ -3414,6 +3426,18 @@
                 },
                 "in_use": {
                     "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "MOC": {
+            "346": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
                     "foil": 0
                 }
             }
