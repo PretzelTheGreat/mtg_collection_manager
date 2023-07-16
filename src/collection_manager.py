@@ -37,6 +37,11 @@ class CollectionManager:
         if 'price_info' not in os.listdir('resources/databases'):
             os.mkdir('resources/databases/price_info')
 
+        # creates database metadata file in case it doesn't exist
+        if 'database_update_metadata.json' not in os.listdir('resourses/tmp'):
+            data = {"card_database": "2010-01-01","pricing_info": "2010-01-01"}
+            util_funcs.export_json_file("resources/tmp/database_update_metadata.json", data)
+
     def parse_decks_folder(self):
         folder = "resources/decks"
 
