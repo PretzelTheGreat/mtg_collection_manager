@@ -68,7 +68,12 @@ def map_pricing_data_to_cards(pricing_data, card_database, sites=['tcgplayer', '
             pricing_database[name] = {setCode: {setNumber: {}}}
 
         else:
-            pricing_database[name][setCode] = {setNumber: {}}
+            if setCode not in pricing_database[name].keys():
+                pricing_database[name][setCode] = {setNumber: {}}
+
+            else:
+                if setNumber not in pricing_database[name][setCode].keys():
+                    pricing_database[name][setCode][setNumber] = {}
 
         site_pricing = {}
         for site, price_data in pricing_data[uuid]['paper'].items():
@@ -133,22 +138,22 @@ def load_pricing_database(card_database):
 
 def get_price_from_card_db(card_info, price_database, site):
     # card info needs to be in the following format:
-    # {"name": "", "setCode": "", "treatment": ""}
+    # {"name": "", "setCode": "", "setNumber: "", "treatment": ""}
     current_price = 0
 
     try:
-        set_price_data = price_database.get(card_info['name']).get(card_info['setCode'])
-
-        if set_price_data:
-            if set_price_data.get(site):
-                current_price = set_price_data.get(site).get('retail').get(card_info['treatment'])
+        set_price_data = price_database[card_info["name"]][card_info['setCode']]
+        current_price = set_price_data[card_info["setNumber"]][site]['retail'][card_info['treatment']]
 
     except AttributeError:
         util_funcs.log_message(f"{card_info} cause an error when getting the price", "WARNING")
+
+    except KeyError:
+        util_funcs.log_message(f"{card_info} does not have pricing data with this informmation", "WARNING")
     
     if current_price == None:
         current_price = 0
-        
+
     return current_price
 
 

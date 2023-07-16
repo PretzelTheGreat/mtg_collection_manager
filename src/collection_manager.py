@@ -94,22 +94,25 @@ class CollectionManager:
     def calculate_value_of_collection(self, minimum=2.0):
         # this will get a total valuation of your collection, based on a minimum value (set by default to 2)
         total_value = 0
-        highest_value_card = {"name": "", "setCode": "", "treatment": "", "value": 0}
+        highest_value_card = {"name": "", "setCode": "", "setNumber": "", "treatment": "", "value": 0}
 
         for card_name, card_data in self.collection.items():
-            for setCode in card_data.keys():
-                for treatment, num in card_data[setCode]["treatments"].items():
-                    tmp = {"name": card_name, "setCode": setCode, "treatment": treatment}
-                    current_price = pricing_info.get_price_from_card_db(tmp, self.pricing_data, "tcgplayer")
+            for setCode, setNumbers in card_data.items():
+                for setNumber, ownership_data in setNumbers.items():
+                    for treatment, num in ownership_data['treatments'].items():
+                        if num > 0:
+                            tmp = {"name": card_name, "setCode": setCode, "setNumber": setNumber, "treatment": treatment}
+                            current_price = pricing_info.get_price_from_card_db(tmp, self.pricing_data, "tcgplayer")
 
-                    if current_price >= minimum:
-                        if current_price > highest_value_card["value"] and num > 0:
-                            highest_value_card["name"] = card_name
-                            highest_value_card["setCode"] = setCode
-                            highest_value_card["treatment"] = treatment
-                            highest_value_card["value"] = round(current_price, 2)
+                            if current_price >= minimum:
+                                if current_price > highest_value_card["value"] and num > 0:
+                                    highest_value_card["name"] = card_name
+                                    highest_value_card["setCode"] = setCode
+                                    highest_value_card["setNumber"] = setNumber
+                                    highest_value_card["treatment"] = treatment
+                                    highest_value_card["value"] = round(current_price, 2)
 
-                        total_value += current_price * num
+                                total_value += current_price * num
 
         self.collection_value = round(total_value, 2)
         self.highest_value_card = highest_value_card
@@ -121,26 +124,27 @@ class CollectionManager:
         final_data = []
 
         for card_name, card_data in self.collection.items():
-            for setCode in card_data.keys():
-                for treatment, num in card_data[setCode]["treatments"].items():
-                    tmp = {"name": card_name, "setCode": setCode, "treatment": treatment}
-                    if num > 0:
-                        current_price = pricing_info.get_price_from_card_db(tmp, self.pricing_data, "tcgplayer")
-                        if current_price >= minimum:
-                            # this will only export any cards that are not being used. The database will only allow for 
-                            # the max in_use to be equal to the number in the "treatment" key
-                            final_num = num
-                            if not include_in_use:
-                                final_num = num - card_data[setCode]["in_use"][treatment]
+            for setCode, setNumbers in card_data.items():
+                for setNumber, ownership_data in setNumbers.items():
+                    for treatment, num in ownership_data['treatments'].items():
+                        tmp = {"name": card_name, "setCode": setCode, "setNumber": setNumber, "treatment": treatment}
+                        if num > 0:
+                            current_price = pricing_info.get_price_from_card_db(tmp, self.pricing_data, "tcgplayer")
+                            if current_price >= minimum:
+                                # this will only export any cards that are not being used. The database will only allow for 
+                                # the max in_use to be equal to the number in the "treatment" key
+                                final_num = num
+                                if not include_in_use:
+                                    final_num = num - card_data[setCode][setNumber]["in_use"][treatment]
 
-                            if final_num > 0:
-                                tmp["copies"] = final_num
-                                tmp["card_value"] = current_price
-                                tmp["subtotal"] = current_price * final_num
-                                tmp["60% value"] = round(tmp["subtotal"] * 0.6, 2)
-                                tmp["40% value"] = round(tmp["subtotal"] * 0.4, 2)
+                                if final_num > 0:
+                                    tmp["copies"] = final_num
+                                    tmp["card_value"] = current_price
+                                    tmp["subtotal"] = current_price * final_num
+                                    tmp["60% value"] = round(tmp["subtotal"] * 0.6, 2)
+                                    tmp["40% value"] = round(tmp["subtotal"] * 0.4, 2)
 
-                                final_data.append(tmp)
+                                    final_data.append(tmp)
 
 
         util_funcs.export_csv_file("resources/tmp/collection_valuation.csv", final_data, final_data[0].keys())
