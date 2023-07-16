@@ -127,11 +127,11 @@ def consturct_card_pricing_info(card_database):
 
 def load_pricing_database(card_database):
     filename = 'pricing_database.json'
-    metadata = util_funcs.import_json_file("resources/database_update_metadata.json")
+    metadata = util_funcs.import_json_file("resources/tmp/database_update_metadata.json")
     if filename not in os.listdir('resources/databases/price_info') or date.fromisoformat(metadata["pricing_info"]) < date.today():
         consturct_card_pricing_info(card_database)
         metadata["pricing_info"] = date.today().isoformat()
-        util_funcs.export_json_file("resources/database_update_metadata.json", metadata)
+        util_funcs.export_json_file("resources/tmp/database_update_metadata.json", metadata)
 
     return util_funcs.import_json_file(f"resources/databases/price_info/{filename}")
 
