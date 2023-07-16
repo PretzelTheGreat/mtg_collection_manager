@@ -1,4 +1,5 @@
 import os
+import platform
 from src import util_funcs
 from datetime import date as date
 
@@ -16,7 +17,10 @@ def construct_card_database():
     if filename not in os.listdir('resources/mtgjson_data'):
         util_funcs.download_file_from_url(download_url, zipfile_name)
         util_funcs.unzip_file_to_loc(f'resources/tmp/{zipfile_name}', 'resources/mtgjson_data')
-        os.system(f'move resources\\mtgjson_data\\AllIdentifiers.json resources\\mtgjson_data\\{filename}')
+        if platform.system() == "Windows":
+            os.system(f'move resources\\mtgjson_data\\AllIdentifiers.json resources\\mtgjson_data\\{filename}')
+        elif platform.system() == "Linux":
+            os.system(f'mv resources/mtgjson_data/AllIdentifiers.json resources/mtgjson_data/{filename}')
 
     # next, create the databse from the data
     # in this step the 'number' field is renamed to setNumber, because number is too ambiguous,

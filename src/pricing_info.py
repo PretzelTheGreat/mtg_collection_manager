@@ -2,6 +2,7 @@ from src import util_funcs
 from datetime import timedelta as timedelta
 from datetime import date as date
 import os
+import platform
 
 MTGJSON_DATA = "resources/mtgjson_data"
 
@@ -105,7 +106,10 @@ def download_card_pricing_info():
     if filename not in os.listdir('resources/mtgjson_data'):
         util_funcs.download_file_from_url(download_url, zipfile_name)
         util_funcs.unzip_file_to_loc(f'resources/tmp/{zipfile_name}', 'resources/mtgjson_data')
-        os.system(f'move resources\\mtgjson_data\\AllPrices.json resources\\mtgjson_data\\{filename}')
+        if platform.system() == "Windows":
+            os.system(f'move resources\\mtgjson_data\\AllPrices.json resources\\mtgjson_data\\{filename}')
+        elif platform.system() == "Linux":
+            os.system(f'mv resources/mtgjson_data/AllPrices.json resources/mtgjson_data/{filename}')
 
 def consturct_card_pricing_info(card_database):
     # this function should be run after the card_database is generated, hence why the card_database is 
