@@ -158,13 +158,6 @@ def run_tool(database_filename, cards_to_add_filename):
     new_cards_to_add = auto_add_cards(cards_to_add_filename)
     reformatted_cards = reformat_to_database_format(new_cards_to_add)
     final_database = merge_database_with_new_data(existing_database, reformatted_cards)
-
-    nc_vindicate = [x for x in new_cards_to_add if x["name"] == "Vindicate"]
-    rc_vindicate = reformatted_cards["Vindicate"]
-    fd_vindicate = final_database["Vindicate"]
-    util_funcs.log_message(f"{nc_vindicate}", "DEBUG")
-    util_funcs.log_message(f"{rc_vindicate}", "DEBUG")
-    util_funcs.log_message(f"{fd_vindicate}", "DEBUG")
     util_funcs.export_json_file(database_filename, final_database)
     print(f"Database has been saved! Added {calculate_number_of_cards(reformatted_cards)} more cards!")
 
