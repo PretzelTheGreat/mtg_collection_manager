@@ -1,11 +1,11 @@
 {
     "name": "",
-    "commander": {"name": "", "setCode": "", "treatment": ""},
+    "commander": {"name": "", "setCode": "", "setNumber": "", "treatment": ""},
     "theme": "",
     "deck_in_use": false,
     "the_99": {
         "creatures": [
-            {"name": "", "setCode": "", "treatment": ""}
+            {"name": "", "setCode": "", "setNumber": "", "treatment": ""}
         ],
         "instants": [
         ],
