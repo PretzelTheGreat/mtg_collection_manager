@@ -24,10 +24,5 @@ By using the pricing info database, I can create a full valuation for my collect
 
 #### Adding cards to collection
 
-* add Red rares to collection
-* add Green rares to collection
-* add Multicolor rares to collection
-* add Artifact rares to collection
-* add Land rares to collection
 * add any constructed decks as decks and then to collection
 * add all loose cards to collection
