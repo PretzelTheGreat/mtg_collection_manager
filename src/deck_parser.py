@@ -14,8 +14,9 @@ def get_deck_stats(deck, pricing_data):
 
     return deck_stats
 
-def print_deck_stats(deck):
-    deck_stats = get_deck_stats(deck)
+def print_deck_stats(deck, pricing_data):
+    deck_stats = get_deck_stats(deck, pricing_data)
+    deck_value = deck_stats.pop('deck_value')
 
     print(f"Deck Name: {deck['name']}, Commander: {deck['commander']['name']}")
     print(f"Deck Theme: {deck['theme']}")
@@ -24,6 +25,7 @@ def print_deck_stats(deck):
         print(f"\t{k}: {v}")
 
     print(f"Total Cards in deck: {sum(deck_stats.values())}")
+    print(f"Total Deck Value: ${deck_value}")
 
 def convert_deck_to_csv_format(deck):
     # this can be used to convert a deck list to the csv format
