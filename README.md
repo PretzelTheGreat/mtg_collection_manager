@@ -20,6 +20,10 @@ This will be used to manage all the cards in my collection, to include keeping t
 
 By using the pricing info database, I can create a full valuation for my collection, and filter by only rares/mythics or the collection as a whole (in case there are some uncommons or commons that are going for more than $2.00 USD)
 
+### Requirements
+
+You need to run `pip install requests` in order for the program to properly request the data from MTGJson.com
+
 ### Todo list
 
 #### Adding cards to collection
