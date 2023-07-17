@@ -102,7 +102,7 @@
             "33": {
                 "treatments": {
                     "normal": 1,
-                    "foil": 0
+                    "foil": 1
                 },
                 "in_use": {
                     "normal": 0,
@@ -501,6 +501,18 @@
                     "foil": 1
                 }
             }
+        },
+        "BRC": {
+            "131": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Skrelv's Hive": {
@@ -890,6 +902,16 @@
                     "normal": 0,
                     "foil": 0
                 }
+            },
+            "303": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
             }
         }
     },
@@ -898,7 +920,7 @@
             "47": {
                 "treatments": {
                     "normal": 1,
-                    "foil": 0
+                    "foil": 1
                 },
                 "in_use": {
                     "normal": 0,
@@ -4557,6 +4579,18 @@
                     "foil": 0
                 }
             }
+        },
+        "BRC": {
+            "75": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Corrupted Conviction": {
@@ -4875,6 +4909,18 @@
                     "foil": 0
                 }
             }
+        },
+        "BRC": {
+            "160": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Orzhov Signet": {
@@ -4924,6 +4970,18 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "BRC": {
+            "132": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -5007,6 +5065,18 @@
                     "foil": 0
                 }
             }
+        },
+        "BRC": {
+            "185": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Evolving Wilds": {
@@ -5086,6 +5156,18 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "BRC": {
+            "176": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -5180,6 +5262,18 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "BRC": {
+            "178": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6453,6 +6547,18 @@
                     "foil": 0
                 }
             }
+        },
+        "BRC": {
+            "193": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Shrine of the Forsaken Gods": {
@@ -6492,6 +6598,18 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "BRC": {
+            "94": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6551,6 +6669,18 @@
                     "foil": 0
                 }
             }
+        },
+        "BRC": {
+            "101": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Gilded Goose": {
@@ -6607,6 +6737,18 @@
                     "foil": 0
                 }
             }
+        },
+        "BRC": {
+            "86": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Workshop Elders": {
@@ -6635,6 +6777,18 @@
                     "foil": 0
                 }
             }
+        },
+        "BRC": {
+            "100": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Shimmer Dragon": {
@@ -6646,6 +6800,18 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "BRC": {
+            "95": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6943,6 +7109,18 @@
                     "foil": 0
                 }
             }
+        },
+        "BRC": {
+            "97": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Spine of Ish Sah": {
@@ -7218,6 +7396,18 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "BRC": {
+            "192": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -8184,6 +8374,902 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Urza, Chief Artificer": {
+        "BRC": {
+            "2": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Etched Champion": {
+        "BRC": {
+            "140": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Noxious Gearhulk": {
+        "BRC": {
+            "110": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Marionette Master": {
+        "BRC": {
+            "109": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Solemn Simulacrum": {
+        "BRC": {
+            "161": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Wreck Hunter": {
+        "BRC": {
+            "11": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Thought Monitor": {
+        "BRC": {
+            "98": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Myr Battlesphere": {
+        "BRC": {
+            "151": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Tawnos, Solemn Survivor": {
+        "BRC": {
+            "3": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Teshar, Ancestor's Apostle": {
+        "BRC": {
+            "77": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Filigree Attendant": {
+        "BRC": {
+            "85": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Steel Hellkite": {
+        "BRC": {
+            "163": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Hexavus": {
+        "BRC": {
+            "14": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sai, Master Thopterist": {
+        "BRC": {
+            "93": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Baleful Strix": {
+        "BRC": {
+            "120": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Losheel, Clockwork Scholar": {
+        "BRC": {
+            "73": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Steel Overseer": {
+        "BRC": {
+            "164": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Scholar of New Horizons": {
+        "BRC": {
+            "6": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Chief of the Foundry": {
+        "BRC": {
+            "134": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Indomitable Archangel": {
+        "BRC": {
+            "72": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Etherium Sculptor": {
+        "BRC": {
+            "82": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Wire Surgeons": {
+        "BRC": {
+            "10": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sanwell, Avenger Ace": {
+        "BRC": {
+            "5": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Angel of the Ruins": {
+        "BRC": {
+            "68": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Alela, Artful Provocateur": {
+        "BRC": {
+            "119": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Chrome Courier": {
+        "BRC": {
+            "123": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Bronze Guardian": {
+        "BRC": {
+            "70": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Foundry Inspector": {
+        "KLD": {
+            "215": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Digsite Engineer": {
+        "BRC": {
+            "71": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sharuum the Hegemon": {
+        "BRC": {
+            "128": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Armix, Filigree Thrasher": {
+        "BRC": {
+            "103": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sphinx's Revelation": {
+        "BRC": {
+            "130": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Despark": {
+        "BRC": {
+            "124": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Unbreakable Formation": {
+        "BRC": {
+            "78": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Phyrexian Rebirth": {
+        "BRC": {
+            "74": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "One with the Machine": {
+        "BRC": {
+            "90": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Preordain": {
+        "BRC": {
+            "92": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Austere Command": {
+        "BRC": {
+            "69": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "March of Progress": {
+        "BRC": {
+            "8": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Bident of Thassa": {
+        "BRC": {
+            "80": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Tempered Steel": {
+        "BRC": {
+            "76": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Thopter Shop": {
+        "BRC": {
+            "19": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Cranial Plating": {
+        "BRC": {
+            "136": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Liquimetal Torque": {
+        "BRC": {
+            "145": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Azorius Signet": {
+        "BRC": {
+            "133": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Dimir Signet": {
+        "BRC": {
+            "138": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Ancient Den": {
+        "BRC": {
+            "172": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Arcane Sanctum": {
+        "BRC": {
+            "173": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Mistvault Bridge": {
+        "BRC": {
+            "189": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Temple of Enlightenment": {
+        "BRC": {
+            "206": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Vault of Whispers": {
+        "BRC": {
+            "211": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Darksteel Citadel": {
+        "BRC": {
+            "180": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Spire of Industry": {
+        "BRC": {
+            "203": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Goldmire Bridge": {
+        "BRC": {
+            "186": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Razortide Bridge": {
+        "BRC": {
+            "195": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Azorius Chancery": {
+        "BRC": {
+            "175": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Seat of the Synod": {
+        "BRC": {
+            "198": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Temple of Silence": {
+        "BRC": {
+            "209": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Dimir Aqueduct": {
+        "BRC": {
+            "182": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "River of Tears": {
+        "BRC": {
+            "197": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Temple of Deceit": {
+        "BRC": {
+            "205": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Ash Barrens": {
+        "BRC": {
+            "174": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Skycloud Expanse": {
+        "BRC": {
+            "201": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sunken Hollow": {
+        "BRC": {
+            "204": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
