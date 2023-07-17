@@ -3806,7 +3806,7 @@
             "281": {
                 "treatments": {
                     "normal": 1,
-                    "foil": 0
+                    "foil": 1
                 },
                 "in_use": {
                     "normal": 0,
@@ -4249,7 +4249,7 @@
         "EMN": {
             "40": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -6219,7 +6219,7 @@
         "EMN": {
             "189": {
                 "treatments": {
-                    "normal": 3,
+                    "normal": 4,
                     "foil": 0
                 },
                 "in_use": {
@@ -6540,7 +6540,7 @@
             "241": {
                 "treatments": {
                     "normal": 2,
-                    "foil": 0
+                    "foil": 1
                 },
                 "in_use": {
                     "normal": 0,
@@ -9264,6 +9264,20 @@
     "Sunken Hollow": {
         "BRC": {
             "204": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sanctifier en-Vec": {
+        "MH2": {
+            "27": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
