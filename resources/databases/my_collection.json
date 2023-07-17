@@ -4863,6 +4863,18 @@
                     "foil": 0
                 }
             }
+        },
+        "KHC": {
+            "104": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Orzhov Signet": {
@@ -4894,6 +4906,18 @@
         },
         "MOC": {
             "348": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "KHC": {
+            "96": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
@@ -5138,6 +5162,18 @@
         },
         "MOC": {
             "396": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "KHC": {
+            "108": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
@@ -7173,11 +7209,975 @@
                     "foil": 0
                 }
             }
+        },
+        "KHC": {
+            "117": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Saheeli, Sublime Artificer": {
         "MOC": {
             "338": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Lathril, Blade of the Elves": {
+        "KHC": {
+            "1": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Springbloom Druid": {
+        "KHC": {
+            "74": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Elvish Mystic": {
+        "KHC": {
+            "58": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Wood Elves": {
+        "KHC": {
+            "80": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Ruthless Winnower": {
+        "KHC": {
+            "10": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Wirewood Channeler": {
+        "KHC": {
+            "79": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Reclamation Sage": {
+        "KHC": {
+            "72": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Numa, Joraga Chieftain": {
+        "KHC": {
+            "71": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "End-Raze Forerunners": {
+        "KHC": {
+            "61": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Jaspera Sentinel": {
+        "KHM": {
+            "178": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Skemfar Shadowsage": {
+        "KHM": {
+            "110": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Farhaven Elf": {
+        "KHC": {
+            "62": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Imperious Perfect": {
+        "KHC": {
+            "64": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Beast Whisperer": {
+        "KHC": {
+            "54": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rhys the Exiled": {
+        "KHC": {
+            "73": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Poison-Tip Archer": {
+        "KHC": {
+            "90": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Eyeblight Cullers": {
+        "KHC": {
+            "48": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sylvan Messenger": {
+        "KHC": {
+            "75": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Cultivator of Blades": {
+        "KHC": {
+            "55": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Canopy Tactician": {
+        "KHM": {
+            "378": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Elvish Archdruid": {
+        "KHC": {
+            "57": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Jagged-Scar Archers": {
+        "KHC": {
+            "65": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Nullmage Shepherd": {
+        "KHC": {
+            "70": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Shaman of the Pack": {
+        "KHC": {
+            "92": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Voice of Many": {
+        "KHC": {
+            "77": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Lys Alana Scarblade": {
+        "KHC": {
+            "50": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Elvish Rejuvenator": {
+        "KHC": {
+            "60": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Golgari Findbroker": {
+        "KHC": {
+            "86": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Twinblade Assassins": {
+        "KHC": {
+            "95": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Dwynen, Gilt-Leaf Daen": {
+        "KHC": {
+            "56": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Marwyn, the Nurturer": {
+        "KHC": {
+            "68": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Miara, Thorn of the Glade": {
+        "KHC": {
+            "51": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Abomination of Llanowar": {
+        "KHC": {
+            "81": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Lys Alana Huntmaster": {
+        "KHC": {
+            "67": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Wolverine Riders": {
+        "KHC": {
+            "14": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Harald, King of Skemfar": {
+        "KHM": {
+            "212": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Voice of the Woods": {
+        "KHC": {
+            "78": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Masked Admirers": {
+        "KHC": {
+            "69": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Llanowar Tribe": {
+        "KHC": {
+            "66": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Leaf-Crowned Visionary": {
+        "DMU": {
+            "167": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Tergrid's Shadow": {
+        "KHM": {
+            "113": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Poison the Cup": {
+        "KHM": {
+            "103": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Putrefy": {
+        "KHC": {
+            "91": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Elven Ambush": {
+        "KHM": {
+            "391": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Cultivate": {
+        "STA": {
+            "51": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Eyeblight Massacre": {
+        "KHC": {
+            "49": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Casualties of War": {
+        "KHC": {
+            "83": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Bounty of Skemfar": {
+        "KHC": {
+            "12": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Elvish Promenade": {
+        "KHC": {
+            "59": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Pact of the Serpent": {
+        "KHC": {
+            "9": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Return Upon the Tide": {
+        "KHM": {
+            "106": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rampant Growth": {
+        "2X2": {
+            "155": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Harvest Season": {
+        "KHC": {
+            "63": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Binding the Old Gods": {
+        "KHM": {
+            "206": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Crown of Skemfar": {
+        "KHC": {
+            "13": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Elderfang Venom": {
+        "KHC": {
+            "15": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Prowess of the Fair": {
+        "KHC": {
+            "53": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Pride of the Perfect": {
+        "KHC": {
+            "52": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Moldervine Reclamation": {
+        "KHC": {
+            "89": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Serpent's Soul-Jar": {
+        "KHC": {
+            "11": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Jungle Hollow": {
+        "KHC": {
+            "113": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Golgari Guildgate": {
+        "KHC": {
+            "111": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Golgari Rot Farm": {
+        "KHC": {
+            "112": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Skemfar Elderhall": {
+        "KHM": {
+            "268": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Myriad Landscape": {
+        "KHC": {
+            "115": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Verdant Catacombs": {
+        "MH2": {
+            "260": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Foul Orchard": {
+        "KHC": {
+            "110": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Tyvar, Jubilant Brawler": {
+        "ONE": {
+            "218": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
