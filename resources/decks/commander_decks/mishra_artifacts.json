@@ -1,0 +1,123 @@
+{
+    "name": "Mishra Artifacts",
+    "commander": {"name": "Mishra, Eminent One", "setCode": "BRC", "setNumber": "1", "treatment": "foil"},
+    "theme": "",
+    "deck_in_use": false,
+    "the_99": {
+        "creatures": [
+            {"name": "Burnished Hart", "setCode": "BRR", "setNumber": "8", "treatment": "normal"},
+            {"name": "Geth, Lord of the Vault", "setCode": "BRC", "setNumber": "107", "treatment": "normal"},
+            {"name": "Master Transmuter", "setCode": "BRC", "setNumber": "87", "treatment": "normal"},
+            {"name": "Audacious Reshapers", "setCode": "BRC", "setNumber": "112", "treatment": "normal"},
+            {"name": "Silas Renn, Seeker Adept", "setCode": "BRC", "setNumber": "129", "treatment": "normal"},
+            {"name": "Fain, the Broker", "setCode": "BRC", "setNumber": "105", "treatment": "normal"},
+            {"name": "Herald of Anguish", "setCode": "BRC", "setNumber": "108", "treatment": "normal"},
+            {"name": "Slobad, Goblin Tinkerer", "setCode": "BRC", "setNumber": "118", "treatment": "normal"},
+            {"name": "Jhoira, Weatherlight Captain", "setCode": "BRC", "setNumber": "126", "treatment": "normal"},
+            {"name": "Workshop Elders", "setCode": "BRC", "setNumber": "102", "treatment": "normal"},
+            {"name": "Traxos, Scourge of Kroog", "setCode": "BRC", "setNumber": "170", "treatment": "normal"},
+            {"name": "Brudiclad, Telchor Engineer", "setCode": "BRC", "setNumber": "122", "treatment": "normal"},
+            {"name": "Farid, Enterprising Salvager", "setCode": "BRC", "setNumber": "13", "treatment": "normal"},
+            {"name": "Metalwork Colossus", "setCode": "BRC", "setNumber": "147", "treatment": "normal"},
+            {"name": "Emry, Lurker of the Loch", "setCode": "BRC", "setNumber": "81", "treatment": "normal"},
+            {"name": "Glint Raker", "setCode": "BRC", "setNumber": "7", "treatment": "normal"},
+            {"name": "Ashnod the Uncaring", "setCode": "BRC", "setNumber": "4", "treatment": "foil"},
+            {"name": "Muzzio, Visionary Architect", "setCode": "BRC", "setNumber": "89", "treatment": "normal"},
+            {"name": "Scavenged Brawler", "setCode": "BRC", "setNumber": "17", "treatment": "normal"},
+            {"name": "Blast-Furnace Hellkite", "setCode": "BRC", "setNumber": "12", "treatment": "normal"},
+            {"name": "Hellkite Igniter", "setCode": "BRC", "setNumber": "117", "treatment": "normal"},
+            {"name": "Padeem, Consul of Innovation", "setCode": "BRC", "setNumber": "91", "treatment": "normal"}
+        ],
+        "instants": [
+            {"name": "Thirst for Knowledge", "setCode": "BRC", "setNumber": "96", "treatment": "normal"},
+            {"name": "Bedevil", "setCode": "BRC", "setNumber": "121", "treatment": "normal"},
+            {"name": "Abrade", "setCode": "BRC", "setNumber": "111", "treatment": "normal"},
+            {"name": "Chaos Warp", "setCode": "BRC", "setNumber": "114", "treatment": "normal"},
+            {"name": "Fact or Fiction", "setCode": "BRC", "setNumber": "84", "treatment": "normal"}
+        ],
+        "sorceries": [
+            {"name": "Feed the Swarm", "setCode": "BRC", "setNumber": "106", "treatment": "normal"},
+            {"name": "Blasphemous Act", "setCode": "BRC", "setNumber": "113", "treatment": "normal"},
+            {"name": "Thoughtcast", "setCode": "BRC", "setNumber": "99", "treatment": "normal"},
+            {"name": "Expressive Iteration", "setCode": "BRC", "setNumber": "125", "treatment": "normal"},
+            {"name": "Faithless Looting", "setCode": "BRC", "setNumber": "116", "treatment": "normal"},
+            {"name": "Terisiare's Devastation", "setCode": "BRC", "setNumber": "9", "treatment": "normal"}
+        ],
+        "enchantments": [
+        ],
+        "artifacts": [
+            {"name": "Mirrorworks", "setCode": "BRC", "setNumber": "149", "treatment": "normal"},
+            {"name": "Mycosynth Wellspring", "setCode": "BRC", "setNumber": "150", "treatment": "normal"},
+            {"name": "Nihil Spellbomb", "setCode": "BRC", "setNumber": "152", "treatment": "normal"},
+            {"name": "Machine God's Effigy", "setCode": "BRC", "setNumber": "16", "treatment": "normal"},
+            {"name": "Idol of Oblivion", "setCode": "BRC", "setNumber": "144", "treatment": "normal"},
+            {"name": "Executioner's Capsule", "setCode": "BRC", "setNumber": "104", "treatment": "normal"},
+            {"name": "Smelting Vat", "setCode": "BRC", "setNumber": "18", "treatment": "normal"},
+            {"name": "Strionic Resonator", "setCode": "BRC", "setNumber": "165", "treatment": "normal"},
+            {"name": "Wondrous Crucible", "setCode": "BRC", "setNumber": "20", "treatment": "normal"},
+            {"name": "Thran Dynamo", "setCode": "BRC", "setNumber": "168", "treatment": "normal"},
+            {"name": "Spine of Ish Sah", "setCode": "BRC", "setNumber": "162", "treatment": "normal"},
+            {"name": "Lithoform Engine", "setCode": "BRC", "setNumber": "146", "treatment": "normal"},
+            {"name": "Mind Stone", "setCode": "BRC", "setNumber": "148", "treatment": "normal"},
+            {"name": "Trading Post", "setCode": "BRC", "setNumber": "169", "treatment": "normal"},
+            {"name": "Dimir Signet", "setCode": "BRC", "setNumber": "138", "treatment": "normal"},
+            {"name": "Oni-Cult Anvil", "setCode": "BRC", "setNumber": "127", "treatment": "normal"},
+            {"name": "Fellwar Stone", "setCode": "BRC", "setNumber": "141", "treatment": "normal"},
+            {"name": "Ichor Wellspring", "setCode": "BRC", "setNumber": "143", "treatment": "normal"},
+            {"name": "Sol Ring", "setCode": "BRC", "setNumber": "160", "treatment": "normal"},
+            {"name": "Hedron Archive", "setCode": "BRC", "setNumber": "142", "treatment": "normal"},
+            {"name": "Arcane Signet", "setCode": "BRC", "setNumber": "132", "treatment": "normal"},
+            {"name": "Servo Schematic", "setCode": "BRC", "setNumber": "158", "treatment": "normal"},
+            {"name": "Wayfarer's Bauble", "setCode": "BRC", "setNumber": "171", "treatment": "normal"},
+            {"name": "Dreamstone Hedron", "setCode": "BRC", "setNumber": "139", "treatment": "normal"},
+            {"name": "Prophetic Prism", "setCode": "BRC", "setNumber": "155", "treatment": "normal"},
+            {"name": "Rakdos Signet", "setCode": "BRC", "setNumber": "156", "treatment": "normal"},
+            {"name": "Commander's Sphere", "setCode": "BRC", "setNumber": "135", "treatment": "normal"},
+            {"name": "Mnemonic Sphere", "setCode": "BRC", "setNumber": "88", "treatment": "normal"},
+            {"name": "Oblivion Stone", "setCode": "BRC", "setNumber": "153", "treatment": "normal"},
+            {"name": "Cursed Mirror", "setCode": "BRC", "setNumber": "115", "treatment": "normal"}
+        ],
+        "non_basic_lands": [
+            {"name": "Temple of Deceit", "setCode": "BRC", "setNumber": "205", "treatment": "normal"},
+            {"name": "Ash Barrens", "setCode": "BRC", "setNumber": "174", "treatment": "normal"},
+            {"name": "Mistvault Bridge", "setCode": "BRC", "setNumber": "189", "treatment": "normal"},
+            {"name": "Smoldering Marsh", "setCode": "BRC", "setNumber": "202", "treatment": "normal"},
+            {"name": "Temple of Epiphany", "setCode": "BRC", "setNumber": "207", "treatment": "normal"},
+            {"name": "Silverbluff Bridge", "setCode": "BRC", "setNumber": "200", "treatment": "normal"},
+            {"name": "Shadowblood Ridge", "setCode": "BRC", "setNumber": "199", "treatment": "normal"},
+            {"name": "Terramorphic Expanse", "setCode": "BRC", "setNumber": "210", "treatment": "normal"},
+            {"name": "Command Tower", "setCode": "BRC", "setNumber": "178", "treatment": "normal"},
+            {"name": "Buried Ruin", "setCode": "BRC", "setNumber": "177", "treatment": "normal"},
+            {"name": "Rakdos Carnarium", "setCode": "BRC", "setNumber": "194", "treatment": "normal"},
+            {"name": "Darkwater Catacombs", "setCode": "BRC", "setNumber": "181", "treatment": "normal"},
+            {"name": "Path of Ancestry", "setCode": "BRC", "setNumber": "192", "treatment": "normal"},
+            {"name": "Vault of Whispers", "setCode": "BRC", "setNumber": "211", "treatment": "normal"},
+            {"name": "Seat of the Synod", "setCode": "BRC", "setNumber": "198", "treatment": "normal"},
+            {"name": "Crumbling Necropolis", "setCode": "BRC", "setNumber": "179", "treatment": "normal"},
+            {"name": "Temple of Malice", "setCode": "BRC", "setNumber": "208", "treatment": "normal"},
+            {"name": "Izzet Boilerworks", "setCode": "BRC", "setNumber": "188", "treatment": "normal"},
+            {"name": "Great Furnace", "setCode": "BRC", "setNumber": "187", "treatment": "normal"},
+            {"name": "Dimir Aqueduct", "setCode": "BRC", "setNumber": "182", "treatment": "normal"},
+            {"name": "Myriad Landscape", "setCode": "BRC", "setNumber": "190", "treatment": "normal"},
+            {"name": "Exotic Orchard", "setCode": "BRC", "setNumber": "185", "treatment": "normal"},
+            {"name": "Drossforge Bridge", "setCode": "BRC", "setNumber": "183", "treatment": "normal"}
+        ], 
+        "planeswalker": [
+
+        ],
+        "basic_lands": {
+            "Islands": 5,
+            "Mountains": 4,
+            "Swamps": 4
+        }
+    },
+    "potential_upgrades": {
+        "creatures": [
+        ],
+        "instants": [
+            
+        ],
+        "enchantments": [
+        ]
+    }
+}
