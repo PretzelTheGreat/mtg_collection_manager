@@ -8399,6 +8399,18 @@
                     "foil": 0
                 }
             }
+        },
+        "MOM": {
+            "270": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Golgari Guildgate": {
@@ -10431,6 +10443,18 @@
                     "foil": 0
                 }
             }
+        },
+        "LTR": {
+            "266": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Plains": {
@@ -10466,6 +10490,16 @@
                     "normal": 0,
                     "foil": 1
                 }
+            },
+            "277": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
             }
         },
         "BRC": {
@@ -10483,6 +10517,64 @@
                 "treatments": {
                     "normal": 2,
                     "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "MID": {
+            "380": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 4
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "DMU": {
+            "262": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "263": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "SNC": {
+            "263": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "BRO": {
+            "279": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
                 },
                 "in_use": {
                     "normal": 0,
@@ -10584,10 +10676,22 @@
             "281": {
                 "treatments": {
                     "normal": 6,
-                    "foil": 0
+                    "foil": 1
                 },
                 "in_use": {
                     "normal": 6,
+                    "foil": 0
+                }
+            }
+        },
+        "BRO": {
+            "277": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -10627,6 +10731,52 @@
                     "foil": 0
                 }
             }
+        },
+        "LTR": {
+            "264": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "DMU": {
+            "266": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "MID": {
+            "381": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 4
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "271": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Mountain": {
@@ -10656,10 +10806,262 @@
             "280": {
                 "treatments": {
                     "normal": 8,
-                    "foil": 0
+                    "foil": 1
                 },
                 "in_use": {
                     "normal": 8,
+                    "foil": 0
+                }
+            },
+            "288": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "MID": {
+            "383": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 4
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "ONE": {
+            "270": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "DMU": {
+            "280": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "271": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Umbilicus": {
+        "DMR": {
+            "237": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Eternal Witness": {
+        "P30A": {
+            "12": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Omnath, Locus of All": {
+        "MOM": {
+            "387": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Everquill Phoenix": {
+        "MOC": {
+            "275": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Thopter Assembly": {
+        "MOC": {
+            "386": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sram, Senior Edificer": {
+        "MUL": {
+            "6": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rankle and Torbran": {
+        "MOM": {
+            "252": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Wooded Ridgeline": {
+        "DMU": {
+            "260": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Crystal Grotto": {
+        "DMU": {
+            "246": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rustvale Bridge": {
+        "MH2": {
+            "253": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Tanglepool Bridge": {
+        "MH2": {
+            "257": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Tramway Station": {
+        "SNC": {
+            "258": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Thornwood Falls": {
+        "MOM": {
+            "274": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Wind-Scarred Crag": {
+        "MOM": {
+            "276": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
