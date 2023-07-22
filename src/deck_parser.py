@@ -37,6 +37,22 @@ def print_deck_stats(deck, pricing_data = None):
     if deck_value != None:
         print(f"Total Deck Value: ${deck_value}")
 
+def dedupe_basic_lands(basic_lands):
+    new_basic_lands = {}
+
+    # {"name": "", "setCode": "", "setNumber": "", "treatment": "", "num_of_treatment": 1, "num_in_use": 0}
+
+    for card in basic_lands:
+        combined_name = f"{card['name']}:{card['setCode']}:{card['setNumber']}:{card['treatment']}"
+        if combined_name not in new_basic_lands.keys():
+            new_basic_lands[combined_name] = card
+
+        else:
+            new_basic_lands[combined_name]['num_of_treatment'] += card['num_of_treatment']
+            new_basic_lands[combined_name]['num_in_use'] += card['num_in_use']
+
+    return list(new_basic_lands.values())
+
 def convert_deck_to_csv_format(deck):
     # this can be used to convert a deck list to the csv format
     # used to add to the collection database. primarily used if
@@ -68,5 +84,19 @@ def convert_deck_to_csv_format(deck):
                 f["treatment"] = card["treatment"]
                 f["setNumber"] = card["setNumber"]
                 cards_to_convert.append(f)
+        elif card_type == "basic_lands":
+            basic_lands = []
+            for card in cards:
+                f = {"name": "", "setCode": "", "setNumber": "", "treatment": "", "num_of_treatment": 1, "num_in_use": 0}
+                if deck["deck_in_use"]:
+                    f["num_in_use"] = 1
+                f["name"] = card["name"]
+                f["setCode"] = card["setCode"]
+                f["treatment"] = card["treatment"]
+                f["setNumber"] = card["setNumber"]
+                basic_lands.append(f)
+            deduped_lands = dedupe_basic_lands(basic_lands)
+            cards_to_convert.extend(deduped_lands)
+
 
     return cards_to_convert
