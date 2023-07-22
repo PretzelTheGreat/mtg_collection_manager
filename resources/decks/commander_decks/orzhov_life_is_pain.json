@@ -508,10 +508,26 @@
             }
         ],
         "planeswalker": [],
-        "basic_lands": {
-            "Swamps": 9,
-            "Plains": 9
-        }
+        "basic_lands": [
+            {"name": "Swamp", "setCode": "ONE", "setNumber": "269", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "ONE", "setNumber": "269", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "ONE", "setNumber": "264", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "MID", "setNumber": "273", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "MID", "setNumber": "272", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "VOW", "setNumber": "273", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "DMU", "setNumber": "279", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "DMU", "setNumber": "279", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "MOM", "setNumber": "287", "treatment": "normal"},
+            {"name": "Plains", "setCode": "ONE", "setNumber": "267", "treatment": "normal"},
+            {"name": "Plains", "setCode": "ONE", "setNumber": "267", "treatment": "normal"},
+            {"name": "Plains", "setCode": "ONE", "setNumber": "267", "treatment": "normal"},
+            {"name": "Plains", "setCode": "ONE", "setNumber": "267", "treatment": "normal"},
+            {"name": "Plains", "setCode": "ONE", "setNumber": "267", "treatment": "normal"},
+            {"name": "Plains", "setCode": "ONE", "setNumber": "262", "treatment": "normal"},
+            {"name": "Plains", "setCode": "ONE", "setNumber": "262", "treatment": "normal"},
+            {"name": "Plains", "setCode": "ONE", "setNumber": "262", "treatment": "foil"},
+            {"name": "Plains", "setCode": "MOM", "setNumber": "282", "treatment": "foil"}
+        ]
     },
     "potential_upgrades": {
         "creatures": [],
