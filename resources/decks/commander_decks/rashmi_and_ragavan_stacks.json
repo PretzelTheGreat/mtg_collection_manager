@@ -491,11 +491,29 @@
                 "setNumber": "338"
             }
         ],
-        "basic_lands": {
-            "Forests": 6,
-            "Islands": 7,
-            "Mountains": 8
-        }
+        "basic_lands": [
+            {"name": "Forest", "setCode": "MOM", "setNumber": "281", "treatment": "normal"},
+            {"name": "Forest", "setCode": "MOM", "setNumber": "281", "treatment": "normal"},
+            {"name": "Forest", "setCode": "MOM", "setNumber": "281", "treatment": "normal"},
+            {"name": "Forest", "setCode": "MOM", "setNumber": "281", "treatment": "normal"},
+            {"name": "Forest", "setCode": "MOM", "setNumber": "281", "treatment": "normal"},
+            {"name": "Forest", "setCode": "MOM", "setNumber": "281", "treatment": "normal"},
+            {"name": "Island", "setCode": "MOM", "setNumber": "278", "treatment": "normal"},
+            {"name": "Island", "setCode": "MOM", "setNumber": "278", "treatment": "normal"},
+            {"name": "Island", "setCode": "MOM", "setNumber": "278", "treatment": "normal"},
+            {"name": "Island", "setCode": "MOM", "setNumber": "278", "treatment": "normal"},
+            {"name": "Island", "setCode": "MOM", "setNumber": "278", "treatment": "normal"},
+            {"name": "Island", "setCode": "MOM", "setNumber": "278", "treatment": "normal"},
+            {"name": "Island", "setCode": "MOM", "setNumber": "278", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "MOM", "setNumber": "280", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "MOM", "setNumber": "280", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "MOM", "setNumber": "280", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "MOM", "setNumber": "280", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "MOM", "setNumber": "280", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "MOM", "setNumber": "280", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "MOM", "setNumber": "280", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "MOM", "setNumber": "280", "treatment": "normal"}
+        ]
     },
     "potential_upgrades": {
         "creatures": [],

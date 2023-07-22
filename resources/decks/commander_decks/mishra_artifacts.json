@@ -105,11 +105,21 @@
         "planeswalker": [
 
         ],
-        "basic_lands": {
-            "Islands": 5,
-            "Mountains": 4,
-            "Swamps": 4
-        }
+        "basic_lands": [
+            {"name": "Island", "setCode": "BRC", "setNumber": "32", "treatment": "normal"},
+            {"name": "Island", "setCode": "BRC", "setNumber": "32", "treatment": "normal"},
+            {"name": "Island", "setCode": "BRC", "setNumber": "32", "treatment": "normal"},
+            {"name": "Island", "setCode": "BRC", "setNumber": "31", "treatment": "normal"},
+            {"name": "Island", "setCode": "BRC", "setNumber": "31", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "BRC", "setNumber": "35", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "BRC", "setNumber": "35", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "BRC", "setNumber": "36", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "BRC", "setNumber": "36", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "BRC", "setNumber": "33", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "BRC", "setNumber": "33", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "BRC", "setNumber": "34", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "BRC", "setNumber": "34", "treatment": "normal"}
+        ]
     },
     "potential_upgrades": {
         "creatures": [

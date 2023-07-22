@@ -89,10 +89,36 @@
         "planeswalker": [
             {"name": "Tyvar, Jubilant Brawler", "setCode": "ONE", "setNumber": "218", "treatment": "normal"}
         ],
-        "basic_lands": {
-            "Swamps": 12,
-            "Forests": 16
-        }
+        "basic_lands": [
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
+            {"name": "Forest", "setCode": "KHM", "setNumber": "398", "treatment": "normal"},
+            {"name": "Forest", "setCode": "KHM", "setNumber": "398", "treatment": "normal"},
+            {"name": "Forest", "setCode": "KHM", "setNumber": "398", "treatment": "normal"},
+            {"name": "Forest", "setCode": "DMU", "setNumber": "281", "treatment": "foil"},
+            {"name": "Forest", "setCode": "DMU", "setNumber": "281", "treatment": "foil"},
+            {"name": "Forest", "setCode": "DMU", "setNumber": "274", "treatment": "foil"},
+            {"name": "Forest", "setCode": "ONE", "setNumber": "271", "treatment": "normal"},
+            {"name": "Forest", "setCode": "ONE", "setNumber": "266", "treatment": "normal"},
+            {"name": "Forest", "setCode": "ONE", "setNumber": "266", "treatment": "normal"},
+            {"name": "Forest", "setCode": "MID", "setNumber": "384", "treatment": "foil"},
+            {"name": "Forest", "setCode": "MID", "setNumber": "384", "treatment": "foil"},
+            {"name": "Forest", "setCode": "MID", "setNumber": "384", "treatment": "foil"},
+            {"name": "Forest", "setCode": "MID", "setNumber": "384", "treatment": "foil"},
+            {"name": "Forest", "setCode": "MID", "setNumber": "276", "treatment": "foil"},
+            {"name": "Forest", "setCode": "MID", "setNumber": "276", "treatment": "foil"},
+            {"name": "Forest", "setCode": "MID", "setNumber": "277", "treatment": "foil"}
+        ]
     },
     "potential_upgrades": {
         "creatures": [
