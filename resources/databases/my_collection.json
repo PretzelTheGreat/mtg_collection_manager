@@ -10316,5 +10316,353 @@
                 }
             }
         }
+    },
+    "Swamp": {
+        "ONE": {
+            "269": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 1
+                }
+            },
+            "264": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "MID": {
+            "273": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            },
+            "272": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "VOW": {
+            "273": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "DMU": {
+            "279": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 1
+                }
+            }
+        },
+        "MOM": {
+            "287": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "KHM": {
+            "396": {
+                "treatments": {
+                    "normal": 12,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 12,
+                    "foil": 0
+                }
+            }
+        },
+        "BRC": {
+            "33": {
+                "treatments": {
+                    "normal": 4,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "34": {
+                "treatments": {
+                    "normal": 3,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Plains": {
+        "ONE": {
+            "267": {
+                "treatments": {
+                    "normal": 5,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 5,
+                    "foil": 0
+                }
+            },
+            "262": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 2,
+                    "foil": 1
+                }
+            }
+        },
+        "MOM": {
+            "282": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "BRC": {
+            "29": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "30": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Forest": {
+        "KHM": {
+            "398": {
+                "treatments": {
+                    "normal": 3,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 3,
+                    "foil": 0
+                }
+            }
+        },
+        "DMU": {
+            "281": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 2
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 2
+                }
+            },
+            "274": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "ONE": {
+            "271": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            },
+            "266": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 2,
+                    "foil": 0
+                }
+            }
+        },
+        "MID": {
+            "384": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 4
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 4
+                }
+            },
+            "276": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 2
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 2
+                }
+            },
+            "277": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "MOM": {
+            "281": {
+                "treatments": {
+                    "normal": 6,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 6,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Island": {
+        "BRC": {
+            "32": {
+                "treatments": {
+                    "normal": 5,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "31": {
+                "treatments": {
+                    "normal": 4,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "MOM": {
+            "278": {
+                "treatments": {
+                    "normal": 7,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 7,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Mountain": {
+        "BRC": {
+            "35": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "36": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        },
+        "MOM": {
+            "280": {
+                "treatments": {
+                    "normal": 8,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 8,
+                    "foil": 0
+                }
+            }
+        }
     }
 }
