@@ -21,6 +21,7 @@ class CollectionManager:
         # has been generated for the day
         self.collection = util_funcs.import_json_file(self.collection_filename)
         self.card_database = card_database.load_card_database()
+        card_database.generate_validation_files(self.card_database)
         self.pricing_data = pricing_info.load_pricing_database(self.card_database)
         self.constructed_decks = {}
         self.parse_decks_folder()

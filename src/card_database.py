@@ -63,6 +63,49 @@ def load_card_database():
 
     return util_funcs.import_json_file(f"resources/databases/{filename}")
 
+def generate_validation_files(database):
+    # this will generate all the temporary files that are used for validating the 
+    # search criteria input by the user
+    # this function is configured to check if the file already exists before writing data
+    types_file_found = True if 'types_key_results.txt' in os.listdir('resources/tmp') else False
+    subtypes_file_found = True if 'subtypes_key_results.txt' in os.listdir('resources/tmp') else False
+    supertypes_file_found = True if 'supertypes_key_results.txt' in os.listdir('resources/tmp') else False
+    keywords_file_found = True if 'keywords_results.txt' in os.listdir('resources/tmp') else False
+        
+    subtypes_key = []
+    supertypes_key = []
+    types_key = []
+    keywords = []
+
+    for card in database.values():
+        for t in card['types']:
+            if t not in types_key:
+                types_key.append(t)
+
+        for t in card['subtypes']:
+            if t not in subtypes_key:
+                subtypes_key.append(t)
+
+        for t in card['supertypes']:
+            if t not in supertypes_key:
+                supertypes_key.append(t)
+
+        if 'keywords' in card.keys():
+            for keyword in card['keywords']:
+                if keyword not in keywords:
+                    keywords.append(keyword)
+
+    if not types_file_found:
+        util_funcs.export_text_file('resources/tmp/types_key_results.txt', types_key)
+    
+    if not subtypes_file_found:
+        util_funcs.export_text_file('resources/tmp/subtypes_key_results.txt', subtypes_key)
+
+    if not supertypes_file_found:
+        util_funcs.export_text_file('resources/tmp/supertypes_key_results.txt', supertypes_key)
+    
+    if not keywords_file_found:
+        util_funcs.export_text_file('resources/tmp/keywords_results.txt', keywords)
 
 def parse_search_string(search_string):
     # this function will take in user input string, that contains a key:value fields separated by spaces
@@ -80,21 +123,23 @@ def parse_search_string(search_string):
     # and then iterate over regex search results to convert spaces in the quotes
     # to underscores, replacing the original text in the search string
     key_value_pairs = re.compile(r'([\w]+:(?:(?:[\w]+|"[\w\W\s]*?")(?:,)?)+)')
-    util_funcs.log_message(f"search string before regex replace: {search_string}", "DEBUG")
     result = key_value_pairs.findall(search_string)
-    util_funcs.log_message(f"results of search: {result}", "DEBUG")
 
     # these keys require specific input so it will be validated against the following criteria
     validation_criteria = {'rarity': ["common", "uncommon", "rare", "mythic"], 
                            'colors': ['W', 'U', 'B', 'R', 'G'], 
                            'colorIdentity': ['W', 'U', 'B', 'R', 'G'],
                            'manaCost': r'(\{(?:[WUBRG](?:\/[WUBRGP])?|[0-9]|X)\}+)',
-                           'legalities': ["Legal", "Restricted", "Illegal"]}
+                           'legalities': ["Legal", "Restricted", "Illegal"],
+                           'keywords': util_funcs.import_text_file('resources/tmp/keywords_results.txt'),
+                           'types': util_funcs.import_text_file('resources/tmp/types_key_results.txt'),
+                           'subtypes': util_funcs.import_text_file('resources/tmp/subtypes_key_results.txt'),
+                           'supertypes': util_funcs.import_text_file('resources/tmp/supertypes_key_results.txt')}
 
-    database_keys_mapping = {'avl': 'availability', 'coi': 'colorIdentity', 'col':'colors', 'kyw':'keywords',
-                            'mnc': 'manaCost', 'mnv': 'manaValue', 'name': 'name', 'nbr': 'number', 'pwr': 'power',
+    database_keys_mapping = {'coi': 'colorIdentity', 'cmc': 'convertedManaCost', 'col':'colors', 'kyw':'keywords',
+                            'mnc': 'manaCost', 'mnv': 'manaValue', 'name': 'name', 'pwr': 'power',
                             'rty': 'rarity', 'rul': 'rulings', 'sbt': 'subtypes', 'spt': 'supertypes', 'text': 'text',
-                            'tgh': 'toughness', 'type': 'type', 'tps': 'types', 'leg': 'legalities', 'cmc': 'convertedManaCost'}
+                            'tgh': 'toughness', 'tps': 'types', 'leg': 'legalities'}
     
     # convert search string into a dict with the key:value pairs
     search_terms = {}
