@@ -34,6 +34,16 @@ def import_csv_file(filename):
     log_message(f"finished loading {filename}", "INFO")
     return data
 
+def import_text_file(filename):
+    data = []
+    log_message(f"loading {filename}", "INFO")
+    with open(filename, encoding='utf-8') as open_file:
+        for line in open_file.readlines():
+            data.append(line.strip())
+
+    log_message(f"finished loading {filename}", "INFO")
+    return data
+
 def export_json_file(filename, data, indent=4):
     log_message(f"exporting {filename}", "INFO")
     with open(filename, 'w', encoding='utf-8') as open_file:
@@ -49,6 +59,18 @@ def export_csv_file(filename, data, fieldnames):
 
         csv_writer.writeheader()
         csv_writer.writerows(data)
+
+    log_message(f"done exporting {filename}", "INFO")
+
+def export_text_file(filename, data):
+    # this is a simple export function to handle exporting text files
+    log_message(f"exporting {filename}", "INFO")
+    with open(filename, 'w', encoding='utf-8') as open_file:
+        for line in data:
+            if line == data[-1]:
+                open_file.write(f"{line}")
+            else:
+                open_file.write(f"{line}\n")
 
     log_message(f"done exporting {filename}", "INFO")
 
