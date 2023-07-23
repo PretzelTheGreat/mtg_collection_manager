@@ -121,11 +121,17 @@ def parse_search_string(search_string):
             new_v = {"type": "", "colors_to_match": []}
 
             if type(v) == str:
-                new_v["type"] = "explicit"
+                if k == 'col':
+                    new_v["type"] = "explicit_colors"
+                elif k == 'coi':
+                    new_v["type"] = "explicit_colorIdentity"
                 new_v["colors_to_match"] = list(v)
 
             elif type(v) == list:
-                new_v["type"] = "includes"
+                if k == 'col':
+                    new_v["type"] = "includes_colors"
+                elif k == 'coi':
+                    new_v["type"] = "includes_colorIdentity"
                 new_v["colors_to_match"] = v
 
             v = new_v
@@ -135,6 +141,44 @@ def parse_search_string(search_string):
 
     util_funcs.log_message(f'search_terms: {search_terms}', 'DEBUG')
     return search_terms
+
+def compare_colors(colors_to_match, card_colors, mode):
+    # this simplifies matching the two lists of colors to each other
+    # includes - the card_colors contains any of the colors asked for in colors to match, to include
+    #            colorless cards
+    # explicit - will only match the colors provided. (i.e: 'WU' will only match multicolor white/blue cards)
+
+    if 'includes' in mode:
+        if len(card_colors) == 0:
+            return True
+        else:
+            # this loop will go through all the colors to match and see if the color
+            # is in the cards colors. In theory, if a color is not in there, it will
+            # pass it, moving to the next block. if no match is found, then it will
+            # go down to the final return statement returning false
+            for color in colors_to_match:
+                if color in card_colors:
+                    return True
+                
+    elif 'explicit' in mode:
+        if mode == 'explicit_colorIdentity' and len(card_colors) == 0:
+            return True
+        
+        elif mode == 'explicit_colors' and len(colors_to_match) == 0 and len(card_colors) == 0:
+            return True
+        
+        else:
+            matches = 0
+            for color in colors_to_match:
+                if color in card_colors:
+                    matches += 1
+
+            if matches == len(card_colors) and matches == len(colors_to_match):
+                return True
+
+    # the function returns false by default, meaning all other cases of true
+    # should be handled above            
+    return False
 
 def search_database(database, search_string):
     # searches the database with the matching search terms
@@ -148,22 +192,20 @@ def search_database(database, search_string):
 
     for key, term_to_match in search_terms.items():
         # handle special cases first
-        if key == "colors":
+        if key == "colors" or key=="colorIdentity":
             type_of_match = term_to_match['type']
             colors = term_to_match['colors_to_match']
-            colors.sort()
+
 
             if len(colors) == 0:
                 # handles all colorless cards
                 results = {k:v for k, v in results.items() if len(v['colors']) == 0}
 
-            elif type_of_match == "includes":
-                pass
-                #TODO: need to fix this
-                #results = {k:v for k, v in database.items() if color for color in colors in v['colors']}
+            elif 'includes' in type_of_match:
+                results = {k:v for k, v in database.items() if compare_colors(colors, v[key], type_of_match)}
 
-            elif type_of_match == "explicit":
-                results = {k:v for k, v in results.items() if colors == v['colors']}
+            elif 'explicit' in type_of_match:
+                results = {k:v for k, v in results.items() if compare_colors(colors, v[key], type_of_match)}
 
         elif key == "rarity":
             # first, ensure i am looking at only cards that have the rarity keyword
