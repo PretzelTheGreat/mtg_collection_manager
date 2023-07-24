@@ -517,7 +517,19 @@
     },
     "potential_upgrades": {
         "creatures": [],
-        "instants": [],
-        "enchantments": []
+        "instants": [
+        ],
+        "sorceries": [
+        ],
+        "enchantments": [
+        ],
+        "artifacts": [
+        ],
+        "non_basic_lands": [
+        ], 
+        "planeswalker": [
+        ],
+        "basic_lands": [
+        ]
     }
 }

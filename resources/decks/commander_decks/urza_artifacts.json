@@ -118,9 +118,18 @@
         "creatures": [
         ],
         "instants": [
-            
+        ],
+        "sorceries": [
         ],
         "enchantments": [
+        ],
+        "artifacts": [
+        ],
+        "non_basic_lands": [
+        ], 
+        "planeswalker": [
+        ],
+        "basic_lands": [
         ]
     }
 }
