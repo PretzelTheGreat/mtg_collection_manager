@@ -154,3 +154,11 @@ class CollectionManager:
 
 
         util_funcs.export_csv_file("resources/tmp/collection_valuation.csv", final_data, final_data[0].keys())
+
+
+    def modify_usage_stats(self, deck_name):
+        # this will be used to add/subtract usage data for decks
+        # there will be a metadata file tracking each deck to see if it's usage
+        # type has changed
+
+        pass
