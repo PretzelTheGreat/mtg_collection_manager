@@ -337,6 +337,11 @@ def search_database(database, search_string):
         elif key == "types":
             results = {k:v for k, v in results.items() if search_list_for_any_match(term_to_match, v['types'])}
 
+        elif key == "supertypes":
+            results = {k:v for k, v in results.items() if search_list_for_any_match(term_to_match, v['supertypes'])}
+
+        elif key == "subtypes":
+            results = {k:v for k, v in results.items() if search_list_for_any_match(term_to_match, v['subtypes'])}
         
 
     return results, False
