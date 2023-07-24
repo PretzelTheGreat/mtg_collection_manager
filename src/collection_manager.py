@@ -171,28 +171,38 @@ class CollectionManager:
 
         owned_cards = list(self.collection.keys())
 
-        sub_results = card_database.search_database(self.card_database, search_string)
-        final_results = {}
+        sub_results, invalid = card_database.search_database(self.card_database, search_string)
 
-        for k, v in sub_results.items():
-            if k in owned_cards:
-                if in_use:
-                    final_results[k] = v
+        if not invalid:
+            final_results = {}
 
-                else:
-                    ownership_info = self.collection[k]
-                    num_not_in_use = 0
-
-                    for setCode, setNumbers in ownership_info.items():
-                        # setCode: {setNumber: {treatments: {normal: 0, foil: 0}, in_use: {normal: 0, foil: 0}}}
-                        for setNumber, usage_data in setNumbers.items():
-                            # setNumber: {treatments: {normal: 0, foil: 0}, in_use: {normal: 0, foil: 0}}
-                            owned = usage_data['treatments']['normal'] + usage_data['treatments']['foil']
-                            used = usage_data['in_use']['normal'] + usage_data['in_use']['foil']
-                            num_not_in_use = owned - used
-
-                    if num_not_in_use > 0:
+            for k, v in sub_results.items():
+                if k in owned_cards:
+                    if in_use:
                         final_results[k] = v
 
+                    else:
+                        ownership_info = self.collection[k]
+                        num_not_in_use = 0
 
-        return final_results
+                        for setCode, setNumbers in ownership_info.items():
+                            # setCode: {setNumber: {treatments: {normal: 0, foil: 0}, in_use: {normal: 0, foil: 0}}}
+                            for setNumber, usage_data in setNumbers.items():
+                                # setNumber: {treatments: {normal: 0, foil: 0}, in_use: {normal: 0, foil: 0}}
+                                owned = usage_data['treatments']['normal'] + usage_data['treatments']['foil']
+                                used = usage_data['in_use']['normal'] + usage_data['in_use']['foil']
+                                num_not_in_use = owned - used
+
+                        if num_not_in_use > 0:
+                            final_results[k] = v
+
+
+            return final_results
+        
+        else:
+            print(f"The search string contained errors (see below)")
+            for k, v in sub_results.items():
+                print(f"{k}: input was {v['input']}, error reason: {v['reason']}")
+                
+            # returning an empty dict to represent no results
+            return {}

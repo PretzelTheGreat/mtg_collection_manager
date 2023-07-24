@@ -107,6 +107,51 @@ def generate_validation_files(database):
     if not keywords_file_found:
         util_funcs.export_text_file('resources/tmp/keywords_results.txt', keywords)
 
+def validate_search_criteria(search_terms):
+    # these keys require specific input so it will be validated against the following criteria
+    validation_criteria = {'rarity': ["common", "uncommon", "rare", "mythic"], 
+                           'colors': ['W', 'U', 'B', 'R', 'G'], 
+                           'colorIdentity': ['W', 'U', 'B', 'R', 'G'],
+                           'manaCost': r'(\{(?:[WUBRG](?:\/[WUBRGP])?|[0-9]|X)\}+)',
+                           'legalities': ["Legal", "Restricted", "Illegal"],
+                           'keywords': util_funcs.import_text_file('resources/tmp/keywords_results.txt'),
+                           'types': util_funcs.import_text_file('resources/tmp/types_key_results.txt'),
+                           'subtypes': util_funcs.import_text_file('resources/tmp/subtypes_key_results.txt'),
+                           'supertypes': util_funcs.import_text_file('resources/tmp/supertypes_key_results.txt')}
+    invalid_terms = {}
+
+    for key, terms in search_terms.items():
+        # if a key does not have validation criteria, it will be passed and will be treated as a literal search for whatever
+        # value was provided
+        # invalid_term[key] = {'input': terms, 'reason': ""}
+        if key in validation_criteria.keys():
+            # handle all keys that are lists or strings
+            if key != 'manaCost':
+                criteria = validation_criteria[key]
+                if key == "colors" or key == "colorIdentity":
+                    terms = terms["colors_to_match"]
+
+                if type(terms) == list:
+                    for term in terms:
+                        if term not in criteria:
+                            invalid_terms[key] = {'input': terms, 'reason': f"'{term}' is not a valid input for {key}"}
+
+                elif type(terms) == str:
+                    if terms not in criteria:
+                        invalid_terms[key] = {'input': terms, 'reason': f"'{terms}' is not a valid input for {key}"}
+
+            else:
+                # TODO: need to implement a way to check the regex result of 'manaCost' to determine if the input was valid
+                # for now, it will be considered valid
+                pass
+
+    if len(invalid_terms.keys()) == 0:
+        return None
+    
+    else:
+        return invalid_terms
+            
+
 def parse_search_string(search_string):
     # this function will take in user input string, that contains a key:value fields separated by spaces
     # and will convert it to key:value with the keys matching the database keys, returning a dict with 
@@ -124,17 +169,6 @@ def parse_search_string(search_string):
     # to underscores, replacing the original text in the search string
     key_value_pairs = re.compile(r'([\w]+:(?:(?:[\w]+|"[\w\W\s]*?")(?:,)?)+)')
     result = key_value_pairs.findall(search_string)
-
-    # these keys require specific input so it will be validated against the following criteria
-    validation_criteria = {'rarity': ["common", "uncommon", "rare", "mythic"], 
-                           'colors': ['W', 'U', 'B', 'R', 'G'], 
-                           'colorIdentity': ['W', 'U', 'B', 'R', 'G'],
-                           'manaCost': r'(\{(?:[WUBRG](?:\/[WUBRGP])?|[0-9]|X)\}+)',
-                           'legalities': ["Legal", "Restricted", "Illegal"],
-                           'keywords': util_funcs.import_text_file('resources/tmp/keywords_results.txt'),
-                           'types': util_funcs.import_text_file('resources/tmp/types_key_results.txt'),
-                           'subtypes': util_funcs.import_text_file('resources/tmp/subtypes_key_results.txt'),
-                           'supertypes': util_funcs.import_text_file('resources/tmp/supertypes_key_results.txt')}
 
     database_keys_mapping = {'coi': 'colorIdentity', 'cmc': 'convertedManaCost', 'col':'colors', 'kyw':'keywords',
                             'mnc': 'manaCost', 'mnv': 'manaValue', 'name': 'name', 'pwr': 'power',
@@ -260,6 +294,15 @@ def search_database(database, search_string):
     # returning a list of cards that match all of the criteria
     # individual keys can have ORed terms
     search_terms = parse_search_string(search_string)
+    invalid_search_terms = validate_search_criteria(search_terms)
+
+    # to handle the invalidness of the search terms, the results of the check
+    # will be passed to the calling function for the results, and will need 
+    # to be displayed to the user. A flag is passed to show whether the result
+    # is the intended result or not
+    # NOTE: True is meant to represent an error was found, False is valid criteria
+    if invalid_search_terms != None:
+        return invalid_search_terms, True
 
     # this is the intermediate list and the final result
     results = database
@@ -296,4 +339,4 @@ def search_database(database, search_string):
 
         
 
-    return results
+    return results, False
