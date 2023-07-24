@@ -162,3 +162,37 @@ class CollectionManager:
         # type has changed
 
         pass
+
+    def search_collection(self, search_string, in_use=False):
+        # this will be used to find cards that match the search criteria. 
+        # first, it will search the card_database for cards that match the 
+        # criteria. Then when the results are returned, it will then look for
+        # the name of the cards in my_collection, returning any matching results
+
+        owned_cards = list(self.collection.keys())
+
+        sub_results = card_database.search_database(self.card_database, search_string)
+        final_results = {}
+
+        for k, v in sub_results.items():
+            if k in owned_cards:
+                if in_use:
+                    final_results[k] = v
+
+                else:
+                    ownership_info = self.collection[k]
+                    num_not_in_use = 0
+
+                    for setCode, setNumbers in ownership_info.items():
+                        # setCode: {setNumber: {treatments: {normal: 0, foil: 0}, in_use: {normal: 0, foil: 0}}}
+                        for setNumber, usage_data in setNumbers.items():
+                            # setNumber: {treatments: {normal: 0, foil: 0}, in_use: {normal: 0, foil: 0}}
+                            owned = usage_data['treatments']['normal'] + usage_data['treatments']['foil']
+                            used = usage_data['in_use']['normal'] + usage_data['in_use']['foil']
+                            num_not_in_use = owned - used
+
+                    if num_not_in_use > 0:
+                        final_results[k] = v
+
+
+        return final_results
