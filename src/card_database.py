@@ -225,6 +225,22 @@ def compare_colors(colors_to_match, card_colors, mode):
     # should be handled above            
     return False
 
+def search_list_for_any_match(search_terms, data_to_check):
+    # this is an ambiguous function that will take in a list of values to check
+    # and see if any of them are in the data_to_check
+    # on the first match, true is returned, with false meaning no matches
+    # were found
+    if type(search_terms) == str:
+        if search_terms in data_to_check:
+            return True
+        
+    elif type(search_terms) == list: 
+        for term in search_terms:
+            if term in data_to_check:
+                return True
+        
+    return False
+
 def search_database(database, search_string):
     # searches the database with the matching search terms
     # the function treats all terms as ANDed together, only
@@ -236,6 +252,9 @@ def search_database(database, search_string):
     results = database
 
     for key, term_to_match in search_terms.items():
+        # this will ensure that the key being search for will be in the results
+        results = {k:v for k, v in results.items() if key in v.keys()}
+
         # handle special cases first
         if key == "colors" or key=="colorIdentity":
             type_of_match = term_to_match['type']
@@ -247,22 +266,20 @@ def search_database(database, search_string):
                 results = {k:v for k, v in results.items() if len(v['colors']) == 0}
 
             elif 'includes' in type_of_match:
-                results = {k:v for k, v in database.items() if compare_colors(colors, v[key], type_of_match)}
+                results = {k:v for k, v in results.items() if compare_colors(colors, v[key], type_of_match)}
 
             elif 'explicit' in type_of_match:
                 results = {k:v for k, v in results.items() if compare_colors(colors, v[key], type_of_match)}
 
-        elif key == "rarity":
-            # first, ensure i am looking at only cards that have the rarity keyword
-            results = {k:v for k, v in results.items() if 'rarity' in v.keys()}
-            
+        elif key == "rarity":            
             # then check for matches
             results = {k:v for k, v in results.items() if v['rarity'] in term_to_match}
 
         elif key == "text":
-            # again, only give results that have a text field
-            results = {k:v for k, v in results.items() if 'text' in v.keys()}
             results = {k:v for k, v in results.items() if term_to_match in v['text']}
+
+        elif key == "types":
+            results = {k:v for k, v in results.items() if search_list_for_any_match(term_to_match, v['types'])}
 
         
 
