@@ -89,10 +89,13 @@ class CollectionManager:
                 sets.append(setCode)
                 current_prices[setCode] = {}
 
-                for k, v in set_data.items():
-                    for treatment, num in v.items():
-                        current_prices[setCode][treatment] = pricing_info.get_price_from_card_db({"name": card_name, "setCode": setCode, "treatment": treatment}, self.pricing_data, "tcgplayer")
-                        ownership_info[k][treatment] += num
+                for setNumber, usage_data in set_data.items():
+                    current_prices[setCode][setNumber] = {}
+                    for key, treatments in usage_data.items():
+                        for treatment, num in treatments.items():
+                            if key == "treatments":
+                                current_prices[setCode][setNumber][treatment] = pricing_info.get_price_from_card_db({"name": card_name, "setCode": setCode, "setNumber": setNumber, "treatment": treatment}, self.pricing_data, "tcgplayer")
+                            ownership_info[key][treatment] += num
 
         return sets, ownership_info, current_prices
     
