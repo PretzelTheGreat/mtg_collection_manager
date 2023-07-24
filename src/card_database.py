@@ -162,17 +162,30 @@ def parse_search_string(search_string):
         # handle colors and color identity fields
         # any combo of WUBRG in a string means explicitly those colors
         # comma seperated WUBRG denotes any combination of those colors
+        # single colors will be treated as includes by default.
+        # colorIdentity searches with single colors will use the 'explicit_colorIdentity
+        # value to catch all colorless cards for color identity and only the matching color
         if k == 'col' or k == 'coi':
             new_v = {"type": "", "colors_to_match": []}
 
-            if type(v) == str:
+            if len(v) == 1:
+                if k == 'col':
+                    new_v["type"] = "includes_colors"
+                elif k == 'coi':
+                    new_v["type"] = "explicit_colorIdentity"
+                
+                new_v["colors_to_match"] = list(v)
+
+
+            elif type(v) == str and len(v) > 1:
                 if k == 'col':
                     new_v["type"] = "explicit_colors"
                 elif k == 'coi':
                     new_v["type"] = "explicit_colorIdentity"
                 new_v["colors_to_match"] = list(v)
 
-            elif type(v) == list:
+
+            elif type(v) == list and len(v) > 1:
                 if k == 'col':
                     new_v["type"] = "includes_colors"
                 elif k == 'coi':
