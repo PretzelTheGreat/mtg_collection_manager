@@ -1,0 +1,206 @@
+{
+    "name": "",
+    "commander": {"name": "Jhoira, Ageless Innovator", "setCode": "DMU", "setNumber": "202", "treatment": "normal"},
+    "theme": "",
+    "deck_in_use": false,
+    "the_99": {
+        "creatures": [
+            {"name": "Jhoira, Weatherlight Captain", "setCode": "BRC", "setNumber": "126", "treatment": "normal"},
+            {"name": "Traxos, Scourge of Kroog", "setCode": "BRC", "setNumber": "170", "treatment": "normal"},
+            {"name": "Emry, Lurker of the Loch", "setCode": "BRC", "setNumber": "81", "treatment": "normal"},
+            {"name": "Padeem, Consul of Innovation", "setCode": "BRC", "setNumber": "91", "treatment": "normal"},
+            {"name": "Burnished Hart", "setCode": "BRR", "setNumber": "8", "treatment": "normal"},
+            {
+                "name": "Brudiclad, Telchor Engineer",
+                "setCode": "MUL",
+                "treatment": "normal",
+                "setNumber": "36"
+            },
+            {
+                "name": "Pia and Kiran Nalaar",
+                "setCode": "MOC",
+                "treatment": "normal",
+                "setNumber": "288"
+            },
+            {
+                "name": "Hedron Detonator",
+                "setCode": "MOC",
+                "treatment": "normal",
+                "setNumber": "31"
+            },
+            {"name": "Etherium Sculptor", "setCode": "BRC", "setNumber": "82", "treatment": "normal"},
+            {"name": "Solemn Simulacrum", "setCode": "BRC", "setNumber": "161", "treatment": "normal"},
+            {"name": "Foundry Inspector", "setCode": "KLD", "setNumber": "215", "treatment": "normal"},
+            {"name": "Sai, Master Thopterist", "setCode": "BRC", "setNumber": "93", "treatment": "normal"},
+            {"name": "Thought Monitor", "setCode": "BRC", "setNumber": "98", "treatment": "normal"},
+            {"name": "Myr Battlesphere", "setCode": "BRC", "setNumber": "151", "treatment": "normal"},
+            {"name": "Unctus, Grand Metatect", "setCode": "ONE", "setNumber": "303", "treatment": "normal"},
+            {"name": "Ornithopter of Paradise", "setCode": "MH2", "setNumber": "430", "treatment": "normal"},
+            {"name": "Ornithopter", "setCode": "AER", "setNumber": "167", "treatment": "normal"},
+            {"name": "Herald of Kozilek", "setCode": "BFZ", "setNumber": "205", "treatment": "normal"},
+            {"name": "Chief of the Foundry", "setCode": "BRC", "setNumber": "134", "treatment": "normal"},
+            {"name": "Steel Overseer", "setCode": "BRC", "setNumber": "164", "treatment": "normal"},
+            {"name": "Steel Hellkite", "setCode": "BRC", "setNumber": "163", "treatment": "normal"},
+            {"name": "Vedalken Humiliator", "setCode": "BRC", "setNumber": "100", "treatment": "normal"},
+            {"name": "Sharding Sphinx", "setCode": "BRC", "setNumber": "94", "treatment": "normal"},
+            {
+                "name": "Hellkite Igniter",
+                "setCode": "MOC",
+                "treatment": "normal",
+                "setNumber": "284"
+            },
+            {"name": "Metalwork Colossus", "setCode": "BRC", "setNumber": "147", "treatment": "normal"},
+            {"name": "Kelpie Guide", "setCode": "STX", "setNumber": "45", "treatment": "normal"}
+        ],
+        "instants": [
+            {"name": "Negate", "setCode": "DMU", "setNumber": "58", "treatment": "normal"},
+            {"name": "Shock", "setCode": "STA", "setNumber": "44", "treatment": "normal"},
+            {"name": "Thrill of Possibility", "setCode": "STA", "setNumber": "46", "treatment": "normal"},
+            {"name": "Thirst for Knowledge", "setCode": "BRC", "setNumber": "96", "treatment": "normal"},
+            {"name": "Chaos Warp", "setCode": "BRC", "setNumber": "114", "treatment": "normal"},
+            {"name": "Fact or Fiction", "setCode": "BRC", "setNumber": "84", "treatment": "normal"},
+            {
+                "name": "Reality Shift",
+                "setCode": "MOC",
+                "treatment": "normal",
+                "setNumber": "231"
+            },
+            {"name": "Convolute", "setCode": "EMN", "setNumber": "53", "treatment": "foil"},
+            {"name": "Mana Leak", "setCode": "2X2", "setNumber": "58", "treatment": "foil"}
+        ],
+        "sorceries": [
+            {"name": "Blasphemous Act", "setCode": "BRC", "setNumber": "113", "treatment": "normal"},
+            {"name": "Thoughtcast", "setCode": "BRC", "setNumber": "99", "treatment": "normal"},
+            {"name": "Expressive Iteration", "setCode": "BRC", "setNumber": "125", "treatment": "normal"},
+            {"name": "Faithless Looting", "setCode": "BRC", "setNumber": "116", "treatment": "normal"},
+            {
+                "name": "Rise and Shine",
+                "setCode": "MOC",
+                "treatment": "normal",
+                "setNumber": "233"
+            },
+            {
+                "name": "Saheeli's Artistry",
+                "setCode": "MOC",
+                "treatment": "normal",
+                "setNumber": "234"
+            },
+            {"name": "One with the Machine", "setCode": "BRC", "setNumber": "90", "treatment": "normal"},
+            {"name": "Preordain", "setCode": "BRC", "setNumber": "92", "treatment": "normal"},
+            {"name": "Forging the Anchor", "setCode": "BRO", "setNumber": "50", "treatment": "foil"}
+        ],
+        "enchantments": [
+            {"name": "Bident of Thassa", "setCode": "BRC", "setNumber": "80", "treatment": "normal"},
+            {"name": "Thopter Spy Network", "setCode": "BRC", "setNumber": "97", "treatment": "normal"},
+            {
+                "name": "Ghirapur Aether Grid",
+                "setCode": "MOC",
+                "treatment": "normal",
+                "setNumber": "281"
+            },
+            {"name": "One with the Multiverse", "setCode": "BRO", "setNumber": "316", "treatment": "normal"}
+        ],
+        "artifacts": [
+            {
+                "name": "Izzet Signet",
+                "setCode": "MOC",
+                "treatment": "normal",
+                "setNumber": "362"
+            },
+            {
+                "name": "Inspiring Statuary",
+                "setCode": "MOC",
+                "treatment": "normal",
+                "setNumber": "361"
+            },
+            {"name": "Sol Ring", "setCode": "BRC", "setNumber": "160", "treatment": "normal"},
+            {"name": "Arcane Signet", "setCode": "BRC", "setNumber": "132", "treatment": "normal"},
+            {"name": "Encroaching Mycosynth", "setCode": "ONE", "setNumber": "47", "treatment": "foil"},
+            {"name": "Liquimetal Torque", "setCode": "BRC", "setNumber": "145", "treatment": "normal"},
+            {"name": "Machine God's Effigy", "setCode": "BRC", "setNumber": "16", "treatment": "normal"},
+            {"name": "Thran Dynamo", "setCode": "BRC", "setNumber": "168", "treatment": "normal"},
+            {"name": "Fellwar Stone", "setCode": "BRC", "setNumber": "141", "treatment": "normal"},
+            {"name": "Ichor Wellspring", "setCode": "BRC", "setNumber": "143", "treatment": "normal"},
+            {"name": "Mind Stone", "setCode": "BRC", "setNumber": "148", "treatment": "normal"},
+            {"name": "Hedron Archive", "setCode": "BRC", "setNumber": "142", "treatment": "normal"},
+            {"name": "Prophetic Prism", "setCode": "BRC", "setNumber": "155", "treatment": "normal"},
+            {"name": "Wayfarer's Bauble", "setCode": "BRC", "setNumber": "171", "treatment": "normal"},
+            {"name": "Commander's Sphere", "setCode": "BRC", "setNumber": "135", "treatment": "normal"},
+            {"name": "Traveler's Amulet", "setCode": "2X2", "setNumber": "316", "treatment": "normal"},
+            {"name": "Soul-Guide Lantern", "setCode": "BRR", "setNumber": "54", "treatment": "foil"},
+            {"name": "Relic of Legends", "setCode": "DMU", "setNumber": "236", "treatment": "foil"},
+            {"name": "Lithoform Engine", "setCode": "BRC", "setNumber": "146", "treatment": "normal"}
+        ],
+        "non_basic_lands": [
+            {"name": "Izzet Boilerworks", "setCode": "BRC", "setNumber": "188", "treatment": "normal"},
+            {"name": "Great Furnace", "setCode": "BRC", "setNumber": "187", "treatment": "normal"},
+            {"name": "Myriad Landscape", "setCode": "BRC", "setNumber": "190", "treatment": "normal"},
+            {"name": "Terramorphic Expanse", "setCode": "BRC", "setNumber": "210", "treatment": "normal"},
+            {"name": "Temple of Epiphany", "setCode": "BRC", "setNumber": "207", "treatment": "normal"},
+            {"name": "Silverbluff Bridge", "setCode": "BRC", "setNumber": "200", "treatment": "normal"},
+            {"name": "Buried Ruin", "setCode": "BRC", "setNumber": "177", "treatment": "normal"},
+            {"name": "Path of Ancestry", "setCode": "BRC", "setNumber": "192", "treatment": "normal"},
+            {"name": "Command Tower", "setCode": "BRC", "setNumber": "178", "treatment": "normal"},
+            {"name": "Spire of Industry", "setCode": "BRC", "setNumber": "203", "treatment": "normal"},
+            {"name": "Seat of the Synod", "setCode": "BRC", "setNumber": "198", "treatment": "normal"},
+            {"name": "Exotic Orchard", "setCode": "BRC", "setNumber": "185", "treatment": "normal"},
+            {"name": "Darksteel Citadel", "setCode": "BRC", "setNumber": "180", "treatment": "normal"},
+            {
+                "name": "Swiftwater Cliffs",
+                "setCode": "MOM",
+                "treatment": "foil",
+                "setNumber": "273"
+            },
+            {
+                "name": "Evolving Wilds",
+                "setCode": "MOC",
+                "treatment": "normal",
+                "setNumber": "397"
+            },
+            {
+                "name": "Frostboil Snarl",
+                "setCode": "STX",
+                "treatment": "foil",
+                "setNumber": "265"
+            },
+            {"name": "The Mycosynth Gardens", "setCode": "ONE", "setNumber": "256", "treatment": "normal"}
+        ], 
+        "planeswalker": [
+            {"name": "Saheeli, Sublime Artificer", "setCode": "MOC", "setNumber": "338", "treatment": "normal"}
+        ],
+        "basic_lands": [
+            {"name": "Mountain", "setCode": "MID", "setNumber": "383", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "MID", "setNumber": "383", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "DMU", "setNumber": "271", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "DMU", "setNumber": "280", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "ONE", "setNumber": "270", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "MID", "setNumber": "383", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "MOM", "setNumber": "288", "treatment": "foil"},
+            {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "foil"},
+            {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "foil"},
+            {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "foil"},
+            {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "foil"},
+            {"name": "Island", "setCode": "MID", "setNumber": "271", "treatment": "foil"},
+            {"name": "Island", "setCode": "DMU", "setNumber": "266", "treatment": "foil"},
+            {"name": "Island", "setCode": "BRO", "setNumber": "281", "treatment": "normal"}
+        ]
+    },
+    "potential_upgrades": {
+        "creatures": [
+        ],
+        "instants": [
+        ],
+        "sorceries": [
+        ],
+        "enchantments": [
+        ],
+        "artifacts": [
+        ],
+        "non_basic_lands": [
+        ], 
+        "planeswalker": [
+        ],
+        "basic_lands": [
+        ]
+    }
+}
