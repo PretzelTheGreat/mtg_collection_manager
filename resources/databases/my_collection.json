@@ -395,7 +395,7 @@
         "MUL": {
             "51": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -1255,7 +1255,7 @@
         "MOC": {
             "76": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -2357,7 +2357,7 @@
         "MOM": {
             "198": {
                 "treatments": {
-                    "normal": 2,
+                    "normal": 3,
                     "foil": 0
                 },
                 "in_use": {
@@ -3017,7 +3017,7 @@
         "ONE": {
             "209": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 1
                 },
                 "in_use": {
@@ -3331,7 +3331,7 @@
         "MUL": {
             "22": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -3553,7 +3553,7 @@
         "ONE": {
             "222": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -6211,7 +6211,7 @@
         "MOM": {
             "191": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -10412,7 +10412,7 @@
             "287": {
                 "treatments": {
                     "normal": 1,
-                    "foil": 0
+                    "foil": 1
                 },
                 "in_use": {
                     "normal": 1,
@@ -11266,6 +11266,34 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Nahiri's Warcrafting": {
+        "MOM": {
+            "155": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Deeproot Wayfinder": {
+        "MOM": {
+            "184": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
