@@ -8517,8 +8517,18 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
+                }
+            },
+            "344": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
                 }
             }
         }

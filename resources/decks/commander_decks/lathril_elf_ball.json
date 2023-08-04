@@ -87,7 +87,7 @@
             {"name": "Foul Orchard", "setCode": "KHC", "setNumber": "110", "treatment": "normal"}
         ], 
         "planeswalker": [
-            {"name": "Tyvar, Jubilant Brawler", "setCode": "ONE", "setNumber": "218", "treatment": "normal"}
+            {"name": "Tyvar, Jubilant Brawler", "setCode": "ONE", "setNumber": "344", "treatment": "foil"}
         ],
         "basic_lands": [
             {"name": "Swamp", "setCode": "KHM", "setNumber": "396", "treatment": "normal"},
