@@ -10415,8 +10415,8 @@
                     "foil": 1
                 },
                 "in_use": {
-                    "normal": 1,
-                    "foil": 0
+                    "normal": 0,
+                    "foil": 1
                 }
             }
         },
