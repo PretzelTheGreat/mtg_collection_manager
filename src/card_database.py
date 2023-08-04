@@ -194,8 +194,9 @@ def parse_search_string(search_string):
             v = float(v)
 
         # handle colors and color identity fields
-        # any combo of WUBRG in a string means explicitly those colors
-        # comma seperated WUBRG denotes any combination of those colors
+        # any combo of WUBRG in a string means explicitly those colors (so multicolor cards)
+        # comma seperated WUBRG denotes any combination of those colors explicitly (cards containing the colors provided)
+        # NOTE: if the key is 'colors', a list of colors will use the includes_colors key
         # single colors will be treated as includes by default.
         # colorIdentity searches with single colors will use the 'explicit_colorIdentity
         # value to catch all colorless cards for color identity and only the matching color
