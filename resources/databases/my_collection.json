@@ -773,7 +773,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -3459,7 +3459,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -3931,7 +3931,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -3946,7 +3946,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 1
+                    "foil": 0
                 }
             }
         }
@@ -3960,7 +3960,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 1
+                    "foil": 0
                 }
             }
         }
@@ -3973,7 +3973,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -3987,7 +3987,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4001,7 +4001,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4015,7 +4015,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4029,7 +4029,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4043,7 +4043,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4069,7 +4069,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4083,7 +4083,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4098,7 +4098,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 1
+                    "foil": 0
                 }
             }
         }
@@ -4111,7 +4111,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4125,7 +4125,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4139,7 +4139,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4154,7 +4154,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 1
+                    "foil": 0
                 }
             }
         }
@@ -4929,7 +4929,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4993,7 +4993,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -5071,7 +5071,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -5109,7 +5109,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -5147,7 +5147,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -5297,7 +5297,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -5377,7 +5377,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6631,7 +6631,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6645,7 +6645,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6671,7 +6671,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6685,7 +6685,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6699,7 +6699,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6713,7 +6713,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6739,7 +6739,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6753,7 +6753,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6767,7 +6767,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6793,7 +6793,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6819,7 +6819,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6845,7 +6845,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6871,7 +6871,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6897,7 +6897,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6911,7 +6911,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6925,7 +6925,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6939,7 +6939,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6953,7 +6953,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6967,7 +6967,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -6981,7 +6981,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7007,7 +7007,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7021,7 +7021,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7035,7 +7035,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7049,7 +7049,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7063,7 +7063,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7089,7 +7089,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7103,7 +7103,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7117,7 +7117,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7131,7 +7131,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7145,7 +7145,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7159,7 +7159,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7173,7 +7173,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7187,7 +7187,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7201,7 +7201,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7227,7 +7227,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7253,7 +7253,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7267,7 +7267,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7281,7 +7281,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7295,7 +7295,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7309,7 +7309,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7323,7 +7323,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7337,7 +7337,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7351,7 +7351,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7365,7 +7365,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7379,7 +7379,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7406,7 +7406,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 1
+                    "foil": 0
                 }
             }
         }
@@ -7419,7 +7419,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7433,7 +7433,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7447,7 +7447,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7461,7 +7461,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7475,7 +7475,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7489,7 +7489,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7503,7 +7503,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7541,7 +7541,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -10679,7 +10679,7 @@
                     "foil": 1
                 },
                 "in_use": {
-                    "normal": 6,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -10727,7 +10727,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 7,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -10777,6 +10777,18 @@
                     "foil": 0
                 }
             }
+        },
+        "BRO": {
+            "281": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Mountain": {
@@ -10809,7 +10821,7 @@
                     "foil": 1
                 },
                 "in_use": {
-                    "normal": 8,
+                    "normal": 0,
                     "foil": 0
                 }
             },
@@ -11062,6 +11074,188 @@
                 },
                 "in_use": {
                     "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Ornithopter of Paradise": {
+        "MH2": {
+            "430": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Ornithopter": {
+        "AER": {
+            "167": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Herald of Kozilek": {
+        "BFZ": {
+            "205": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Traveler's Amulet": {
+        "2X2": {
+            "316": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Soul-Guide Lantern": {
+        "BRR": {
+            "54": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Relic of Legends": {
+        "DMU": {
+            "236": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Thrill of Possibility": {
+        "STA": {
+            "46": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Shock": {
+        "STA": {
+            "44": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Negate": {
+        "DMU": {
+            "58": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Convolute": {
+        "EMN": {
+            "53": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Mana Leak": {
+        "2X2": {
+            "58": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Forging the Anchor": {
+        "BRO": {
+            "50": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Kelpie Guide": {
+        "STX": {
+            "45": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
                     "foil": 0
                 }
             }
