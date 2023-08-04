@@ -909,7 +909,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -924,7 +924,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 1
                 }
             }
         }
@@ -965,7 +965,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -2829,7 +2829,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -3907,7 +3907,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -3946,7 +3946,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 1
                 }
             }
         }
@@ -4015,7 +4015,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -4043,7 +4043,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -4861,7 +4861,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -4953,7 +4953,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -5017,7 +5017,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -5083,7 +5083,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -5121,7 +5121,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -5147,7 +5147,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -5321,7 +5321,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -6657,7 +6657,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -6753,7 +6753,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -6767,7 +6767,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -6857,7 +6857,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -6939,7 +6939,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -6993,7 +6993,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -7049,7 +7049,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -7075,7 +7075,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -7089,7 +7089,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -7187,7 +7187,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -7213,7 +7213,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -7281,7 +7281,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -7323,7 +7323,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -7391,7 +7391,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -7406,7 +7406,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 1
                 }
             }
         }
@@ -7527,7 +7527,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -7541,7 +7541,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -8475,7 +8475,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -8587,7 +8587,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -8615,7 +8615,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -8629,7 +8629,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -8685,7 +8685,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -8713,7 +8713,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -8755,7 +8755,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -8783,7 +8783,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -8811,7 +8811,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -8909,7 +8909,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9021,7 +9021,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9035,7 +9035,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9077,7 +9077,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9133,7 +9133,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9245,7 +9245,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9259,7 +9259,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9315,7 +9315,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9455,7 +9455,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9567,7 +9567,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9581,7 +9581,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9609,7 +9609,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9623,7 +9623,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9707,7 +9707,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9721,7 +9721,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9763,7 +9763,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9777,7 +9777,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9791,7 +9791,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9805,7 +9805,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9875,7 +9875,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9959,7 +9959,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9973,7 +9973,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9987,7 +9987,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -10029,7 +10029,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -10043,7 +10043,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -10057,7 +10057,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -10085,7 +10085,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -10113,7 +10113,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -10197,7 +10197,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -10225,7 +10225,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -10295,7 +10295,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -10309,7 +10309,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -10752,7 +10752,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 1
                 }
             }
         },
@@ -10764,7 +10764,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 4
                 }
             },
             "271": {
@@ -10774,7 +10774,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 1
                 }
             }
         },
@@ -10832,7 +10832,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 1
                 }
             }
         },
@@ -10844,7 +10844,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 3
                 }
             }
         },
@@ -10856,7 +10856,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 1
                 }
             }
         },
@@ -10868,7 +10868,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 1
                 }
             },
             "271": {
@@ -10878,7 +10878,7 @@
                 },
                 "in_use": {
                     "normal": 0,
-                    "foil": 0
+                    "foil": 1
                 }
             }
         }
