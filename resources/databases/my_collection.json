@@ -4861,7 +4861,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -4873,7 +4873,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             },
@@ -5039,7 +5039,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -5051,7 +5051,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9831,7 +9831,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -9843,7 +9843,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -9897,7 +9897,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -11289,7 +11289,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 0,
                     "foil": 0
                 }
             }
