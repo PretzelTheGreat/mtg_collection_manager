@@ -71,7 +71,7 @@
             {"name": "Blasphemous Act", "setCode": "BRC", "setNumber": "113", "treatment": "normal"},
             {"name": "Thoughtcast", "setCode": "BRC", "setNumber": "99", "treatment": "normal"},
             {"name": "Expressive Iteration", "setCode": "BRC", "setNumber": "125", "treatment": "normal"},
-            {"name": "Faithless Looting", "setCode": "BRC", "setNumber": "116", "treatment": "normal"},
+            {"name": "Shock", "setCode": "STA", "setNumber": "44", "treatment": "normal"},
             {
                 "name": "Rise and Shine",
                 "setCode": "MOC",
