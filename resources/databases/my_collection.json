@@ -4865,6 +4865,28 @@
                     "foil": 0
                 }
             }
+        },
+        "CMM": {
+            "655": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "377": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Swiftfoot Boots": {
@@ -5018,6 +5040,18 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "CMM": {
+            "653": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -5176,6 +5210,18 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "CMM": {
+            "425": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -7531,6 +7577,18 @@
                     "foil": 0
                 }
             }
+        },
+        "CMM": {
+            "661": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Saheeli, Sublime Artificer": {
@@ -9777,6 +9835,18 @@
                     "foil": 0
                 }
             }
+        },
+        "CMM": {
+            "631": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Blasphemous Act": {
@@ -9816,6 +9886,18 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "CMM": {
+            "642": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 0
                 }
             }
@@ -10799,6 +10881,18 @@
                     "foil": 0
                 }
             }
+        },
+        "CMM": {
+            "441": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
         }
     },
     "Mountain": {
@@ -11288,6 +11382,272 @@
     "Deeproot Wayfinder": {
         "MOM": {
             "184": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Extraplanar Lens": {
+        "CMM": {
+            "381": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Vindictive Lich": {
+        "CMM": {
+            "196": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Chromatic Lantern": {
+        "CMM": {
+            "376": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sakiko, Mother of Summer": {
+        "CMM": {
+            "319": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Hammer of Nazahn": {
+        "CMM": {
+            "388": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Champion's Helm": {
+        "CMM": {
+            "375": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Krenko, Mob Boss": {
+        "CMM": {
+            "238": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Gisela, Blade of Goldnight": {
+        "CMM": {
+            "682": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sidisi, Brood Tyrant": {
+        "CMM": {
+            "355": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Steelshaper's Gift": {
+        "CMM": {
+            "59": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Wretched Confluence": {
+        "CMM": {
+            "200": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Personal Tutor": {
+        "CMM": {
+            "110": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rune-Scarred Demon": {
+        "CMM": {
+            "184": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Stormsurge Kraken": {
+        "CMM": {
+            "122": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rankle, Master of Pranks": {
+        "CMM": {
+            "180": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sandstone Oracle": {
+        "CMM": {
+            "406": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Legion Vanguard": {
+        "CMM": {
+            "170": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Darksteel Ingot": {
+        "CMM": {
+            "378": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rogue's Passage": {
+        "CMM": {
+            "426": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
