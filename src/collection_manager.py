@@ -20,9 +20,8 @@ class CollectionManager:
         # card_database and pricing_data variables to see if the file
         # has been generated for the day
         self.collection = util_funcs.import_json_file(self.collection_filename)
-        self.card_database = card_database.load_card_database()
-        card_database.generate_validation_files(self.card_database)
-        self.pricing_data = pricing_info.load_pricing_database(self.card_database)
+        self.card_database = card_database.CardDatabaseManager()
+        self.pricing_data = pricing_info.load_pricing_database(self.card_database.card_database)
         self.constructed_decks = {}
         self.parse_decks_folder()
         self.collection_value = self.calculate_value_of_collection()
@@ -177,7 +176,7 @@ class CollectionManager:
 
         owned_cards = list(self.collection.keys())
 
-        sub_results, invalid = card_database.search_database(self.card_database, search_string)
+        sub_results, invalid = self.card_database.search_database(search_string)
 
         if not invalid:
             final_results = {}

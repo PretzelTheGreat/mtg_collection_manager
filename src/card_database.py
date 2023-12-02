@@ -4,108 +4,6 @@ import platform
 from src import util_funcs
 from datetime import date as date
 
-def construct_card_database():
-    # this should only be run once a week
-    # the data in AllIdentifers.json from https://mtgjson.com/ will be reformatted
-    # to fit a better data storage style for my program, while maintaining most of the data
-    # that comes with the file.
-
-    # first download the file, if a download for today does not exist
-    today = date.today()
-    filename = f"AllIdentifiers_{today.isoformat()}.json"
-    zipfile_name = f"AllIdentifiers_{today.isoformat()}.json.zip"
-    download_url = 'https://mtgjson.com/api/v5/AllIdentifiers.json.zip'
-    if filename not in os.listdir('resources/mtgjson_data'):
-        util_funcs.download_file_from_url(download_url, zipfile_name)
-        util_funcs.unzip_file_to_loc(f'resources/tmp/{zipfile_name}', 'resources/mtgjson_data')
-        if platform.system() == "Windows":
-            os.system(f'move resources\\mtgjson_data\\AllIdentifiers.json resources\\mtgjson_data\\{filename}')
-        elif platform.system() == "Linux":
-            os.system(f'mv resources/mtgjson_data/AllIdentifiers.json resources/mtgjson_data/{filename}')
-
-    # next, create the databse from the data
-    # in this step the 'number' field is renamed to setNumber, because number is too ambiguous,
-    # and doesn't indicate what it's related to
-    card_database = {}
-    keys = ['availability', 'colorIdentity', 'colors', 'convertedManaCost', 'keywords', 'layout', 
-            'legalities', 'manaCost', 'manaValue', 'name', 'number', 'originalText', 'originalType', 'power',
-            'rarity', 'rulings', 'subtypes', 'supertypes', 'text', 'toughness', 'type', 'types']
-    
-    cards_by_identifiers = util_funcs.import_json_file(f'resources/mtgjson_data/{filename}')
-
-    for uuid, data in cards_by_identifiers['data'].items():
-        setCode = data['setCode']
-        name = data['name']
-        filtered_keys = {k:v for k, v in data.items() if k in keys}
-        setNumber = filtered_keys['number']
-        void = filtered_keys.pop('number')
-
-        if name not in card_database.keys():
-            filtered_keys['uuids'] = {setCode: {setNumber: uuid}}
-            card_database[name] = filtered_keys
-
-        else:
-            if setCode not in card_database[name]['uuids']:
-                card_database[name]['uuids'][setCode] = {setNumber: uuid}
-            else:
-                card_database[name]['uuids'][setCode][setNumber] = uuid
-
-    util_funcs.export_json_file('resources/databases/card_database.json', card_database)
-
-
-def load_card_database():
-    filename = 'card_database.json'
-    metadata = util_funcs.import_json_file("resources/tmp/database_update_metadata.json")
-    if filename not in os.listdir('resources/databases') or date.fromisoformat(metadata["card_database"]) < date.today():
-        construct_card_database()
-        metadata["card_database"] = date.today().isoformat()
-        util_funcs.export_json_file("resources/tmp/database_update_metadata.json", metadata)
-
-    return util_funcs.import_json_file(f"resources/databases/{filename}")
-
-def generate_validation_files(database):
-    # this will generate all the temporary files that are used for validating the 
-    # search criteria input by the user
-    # this function is configured to check if the file already exists before writing data
-    types_file_found = True if 'types_key_results.txt' in os.listdir('resources/tmp') else False
-    subtypes_file_found = True if 'subtypes_key_results.txt' in os.listdir('resources/tmp') else False
-    supertypes_file_found = True if 'supertypes_key_results.txt' in os.listdir('resources/tmp') else False
-    keywords_file_found = True if 'keywords_results.txt' in os.listdir('resources/tmp') else False
-        
-    subtypes_key = []
-    supertypes_key = []
-    types_key = []
-    keywords = []
-
-    for card in database.values():
-        for t in card['types']:
-            if t not in types_key:
-                types_key.append(t)
-
-        for t in card['subtypes']:
-            if t not in subtypes_key:
-                subtypes_key.append(t)
-
-        for t in card['supertypes']:
-            if t not in supertypes_key:
-                supertypes_key.append(t)
-
-        if 'keywords' in card.keys():
-            for keyword in card['keywords']:
-                if keyword not in keywords:
-                    keywords.append(keyword)
-
-    if not types_file_found:
-        util_funcs.export_text_file('resources/tmp/types_key_results.txt', types_key)
-    
-    if not subtypes_file_found:
-        util_funcs.export_text_file('resources/tmp/subtypes_key_results.txt', subtypes_key)
-
-    if not supertypes_file_found:
-        util_funcs.export_text_file('resources/tmp/supertypes_key_results.txt', supertypes_key)
-    
-    if not keywords_file_found:
-        util_funcs.export_text_file('resources/tmp/keywords_results.txt', keywords)
 
 def validate_search_criteria(search_terms):
     # these keys require specific input so it will be validated against the following criteria
@@ -150,7 +48,7 @@ def validate_search_criteria(search_terms):
     
     else:
         return invalid_terms
-            
+
 
 def parse_search_string(search_string):
     # this function will take in user input string, that contains a key:value fields separated by spaces
@@ -235,6 +133,7 @@ def parse_search_string(search_string):
     util_funcs.log_message(f'search_terms: {search_terms}', 'DEBUG')
     return search_terms
 
+
 def compare_colors(colors_to_match, card_colors, mode):
     # this simplifies matching the two lists of colors to each other
     # includes - the card_colors contains any of the colors asked for in colors to match, to include
@@ -273,6 +172,7 @@ def compare_colors(colors_to_match, card_colors, mode):
     # should be handled above            
     return False
 
+
 def search_list_for_any_match(search_terms, data_to_check):
     # this is an ambiguous function that will take in a list of values to check
     # and see if any of them are in the data_to_check
@@ -289,60 +189,181 @@ def search_list_for_any_match(search_terms, data_to_check):
         
     return False
 
-def search_database(database, search_string):
-    # searches the database with the matching search terms
-    # the function treats all terms as ANDed together, only
-    # returning a list of cards that match all of the criteria
-    # individual keys can have ORed terms
-    search_terms = parse_search_string(search_string)
-    invalid_search_terms = validate_search_criteria(search_terms)
 
-    # to handle the invalidness of the search terms, the results of the check
-    # will be passed to the calling function for the results, and will need 
-    # to be displayed to the user. A flag is passed to show whether the result
-    # is the intended result or not
-    # NOTE: True is meant to represent an error was found, False is valid criteria
-    if invalid_search_terms != None:
-        return invalid_search_terms, True
-
-    # this is the intermediate list and the final result
-    results = database
-
-    for key, term_to_match in search_terms.items():
-        # this will ensure that the key being search for will be in the results
-        results = {k:v for k, v in results.items() if key in v.keys()}
-
-        # handle special cases first
-        if key == "colors" or key=="colorIdentity":
-            type_of_match = term_to_match['type']
-            colors = term_to_match['colors_to_match']
+class CardDatabaseManager:
+    # This class is to make using the card database portable. There will
+    # only ever be one instance of this class
+    def __init__(self):
+        self.card_database = None
+        self.init_card_database()
 
 
-            if len(colors) == 0:
-                # handles all colorless cards
-                results = {k:v for k, v in results.items() if len(v['colors']) == 0}
+    def init_card_database(self):
+        # this will handle the construction of the database from the mtgjson data
+        self.card_database = self.load_card_database()
+        self.generate_validation_files()
 
-            elif 'includes' in type_of_match:
-                results = {k:v for k, v in results.items() if compare_colors(colors, v[key], type_of_match)}
 
-            elif 'explicit' in type_of_match:
-                results = {k:v for k, v in results.items() if compare_colors(colors, v[key], type_of_match)}
+    def construct_card_database(self):
+        # this should only be run once a week
+        # the data in AllIdentifers.json from https://mtgjson.com/ will be reformatted
+        # to fit a better data storage style for my program, while maintaining most of the data
+        # that comes with the file.
 
-        elif key == "rarity":            
-            # then check for matches
-            results = {k:v for k, v in results.items() if v['rarity'] in term_to_match}
+        # first download the file, if a download for today does not exist
+        today = date.today()
+        filename = f"AllIdentifiers_{today.isoformat()}.json"
+        zipfile_name = f"AllIdentifiers_{today.isoformat()}.json.zip"
+        download_url = 'https://mtgjson.com/api/v5/AllIdentifiers.json.zip'
+        if filename not in os.listdir('resources/mtgjson_data'):
+            util_funcs.download_file_from_url(download_url, zipfile_name)
+            util_funcs.unzip_file_to_loc(f'resources/tmp/{zipfile_name}', 'resources/mtgjson_data')
+            if platform.system() == "Windows":
+                os.system(f'move resources\\mtgjson_data\\AllIdentifiers.json resources\\mtgjson_data\\{filename}')
+            elif platform.system() == "Linux":
+                os.system(f'mv resources/mtgjson_data/AllIdentifiers.json resources/mtgjson_data/{filename}')
 
-        elif key == "text":
-            results = {k:v for k, v in results.items() if term_to_match in v['text']}
-
-        elif key == "types":
-            results = {k:v for k, v in results.items() if search_list_for_any_match(term_to_match, v['types'])}
-
-        elif key == "supertypes":
-            results = {k:v for k, v in results.items() if search_list_for_any_match(term_to_match, v['supertypes'])}
-
-        elif key == "subtypes":
-            results = {k:v for k, v in results.items() if search_list_for_any_match(term_to_match, v['subtypes'])}
+        # next, create the databse from the data
+        # in this step the 'number' field is renamed to setNumber, because number is too ambiguous,
+        # and doesn't indicate what it's related to
+        card_database = {}
+        keys = ['availability', 'colorIdentity', 'colors', 'convertedManaCost', 'keywords', 'layout', 
+                'legalities', 'manaCost', 'manaValue', 'name', 'number', 'originalText', 'originalType', 'power',
+                'rarity', 'rulings', 'subtypes', 'supertypes', 'text', 'toughness', 'type', 'types']
         
+        cards_by_identifiers = util_funcs.import_json_file(f'resources/mtgjson_data/{filename}')
 
-    return results, False
+        for uuid, data in cards_by_identifiers['data'].items():
+            setCode = data['setCode']
+            name = data['name']
+            filtered_keys = {k:v for k, v in data.items() if k in keys}
+            setNumber = filtered_keys['number']
+            void = filtered_keys.pop('number')
+
+            if name not in card_database.keys():
+                filtered_keys['uuids'] = {setCode: {setNumber: uuid}}
+                card_database[name] = filtered_keys
+
+            else:
+                if setCode not in card_database[name]['uuids']:
+                    card_database[name]['uuids'][setCode] = {setNumber: uuid}
+                else:
+                    card_database[name]['uuids'][setCode][setNumber] = uuid
+
+        util_funcs.export_json_file('resources/databases/card_database.json', card_database)
+
+
+    def load_card_database(self):
+        filename = 'card_database.json'
+        metadata = util_funcs.import_json_file("resources/tmp/database_update_metadata.json")
+        if filename not in os.listdir('resources/databases') or date.fromisoformat(metadata["card_database"]) < date.today():
+            self.construct_card_database()
+            metadata["card_database"] = date.today().isoformat()
+            util_funcs.export_json_file("resources/tmp/database_update_metadata.json", metadata)
+
+        return util_funcs.import_json_file(f"resources/databases/{filename}")
+
+
+    def generate_validation_files(self):
+        # this will generate all the temporary files that are used for validating the 
+        # search criteria input by the user
+        # this function is configured to check if the file already exists before writing data
+        types_file_found = True if 'types_key_results.txt' in os.listdir('resources/tmp') else False
+        subtypes_file_found = True if 'subtypes_key_results.txt' in os.listdir('resources/tmp') else False
+        supertypes_file_found = True if 'supertypes_key_results.txt' in os.listdir('resources/tmp') else False
+        keywords_file_found = True if 'keywords_results.txt' in os.listdir('resources/tmp') else False
+            
+        subtypes_key = []
+        supertypes_key = []
+        types_key = []
+        keywords = []
+
+        for card in self.card_database.values():
+            for t in card['types']:
+                if t not in types_key:
+                    types_key.append(t)
+
+            for t in card['subtypes']:
+                if t not in subtypes_key:
+                    subtypes_key.append(t)
+
+            for t in card['supertypes']:
+                if t not in supertypes_key:
+                    supertypes_key.append(t)
+
+            if 'keywords' in card.keys():
+                for keyword in card['keywords']:
+                    if keyword not in keywords:
+                        keywords.append(keyword)
+
+        if not types_file_found:
+            util_funcs.export_text_file('resources/tmp/types_key_results.txt', types_key)
+        
+        if not subtypes_file_found:
+            util_funcs.export_text_file('resources/tmp/subtypes_key_results.txt', subtypes_key)
+
+        if not supertypes_file_found:
+            util_funcs.export_text_file('resources/tmp/supertypes_key_results.txt', supertypes_key)
+        
+        if not keywords_file_found:
+            util_funcs.export_text_file('resources/tmp/keywords_results.txt', keywords)
+
+
+    def search_database(self, search_string):
+        # searches the database with the matching search terms
+        # the function treats all terms as ANDed together, only
+        # returning a list of cards that match all of the criteria
+        # individual keys can have ORed terms
+        search_terms = parse_search_string(search_string)
+        invalid_search_terms = validate_search_criteria(search_terms)
+
+        # to handle the invalidness of the search terms, the results of the check
+        # will be passed to the calling function for the results, and will need 
+        # to be displayed to the user. A flag is passed to show whether the result
+        # is the intended result or not
+        # NOTE: True is meant to represent an error was found, False is valid criteria
+        if invalid_search_terms != None:
+            return invalid_search_terms, True
+
+        # this is the intermediate list and the final result
+        # the original database is copied into a new dict, in order to preserve the old dict
+        results = dict(self.card_database)
+
+        for key, term_to_match in search_terms.items():
+            # this will ensure that the key being search for will be in the results
+            results = {k:v for k, v in results.items() if key in v.keys()}
+
+            # handle special cases first
+            if key == "colors" or key=="colorIdentity":
+                type_of_match = term_to_match['type']
+                colors = term_to_match['colors_to_match']
+
+
+                if len(colors) == 0:
+                    # handles all colorless cards
+                    results = {k:v for k, v in results.items() if len(v['colors']) == 0}
+
+                elif 'includes' in type_of_match:
+                    results = {k:v for k, v in results.items() if compare_colors(colors, v[key], type_of_match)}
+
+                elif 'explicit' in type_of_match:
+                    results = {k:v for k, v in results.items() if compare_colors(colors, v[key], type_of_match)}
+
+            elif key == "rarity":            
+                # then check for matches
+                results = {k:v for k, v in results.items() if v['rarity'] in term_to_match}
+
+            elif key == "text":
+                results = {k:v for k, v in results.items() if term_to_match in v['text']}
+
+            elif key == "types":
+                results = {k:v for k, v in results.items() if search_list_for_any_match(term_to_match, v['types'])}
+
+            elif key == "supertypes":
+                results = {k:v for k, v in results.items() if search_list_for_any_match(term_to_match, v['supertypes'])}
+
+            elif key == "subtypes":
+                results = {k:v for k, v in results.items() if search_list_for_any_match(term_to_match, v['subtypes'])}
+            
+
+        return results, False
