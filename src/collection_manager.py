@@ -25,7 +25,7 @@ class CollectionManager:
         self.pricing_data = pricing_info.load_pricing_database(self.card_database)
         self.constructed_decks = {}
         self.parse_decks_folder()
-        self.collection_value = 0
+        self.collection_value = self.calculate_value_of_collection()
         self.highest_value_card = {"name": "", "setCode": "", "treatment": "", "value": 0}
         self.calculate_value_of_collection()
         
@@ -100,7 +100,7 @@ class CollectionManager:
         return sets, ownership_info, current_prices
     
 
-    def calculate_value_of_collection(self, minimum=2.0):
+    def calculate_value_of_collection(self, minimum=2.0, value_percentage=1.0):
         # this will get a total valuation of your collection, based on a minimum value (set by default to 2)
         total_value = 0
         highest_value_card = {"name": "", "setCode": "", "setNumber": "", "treatment": "", "value": 0}
@@ -111,7 +111,8 @@ class CollectionManager:
                     for treatment, num in ownership_data['treatments'].items():
                         if num > 0:
                             tmp = {"name": card_name, "setCode": setCode, "setNumber": setNumber, "treatment": treatment}
-                            current_price = pricing_info.get_price_from_card_db(tmp, self.pricing_data, "tcgplayer")
+                            # apply value_percentage here, so that minimum is based off card raw value times the percentage
+                            current_price = pricing_info.get_price_from_card_db(tmp, self.pricing_data, "tcgplayer") * value_percentage
 
                             if current_price >= minimum:
                                 if current_price > highest_value_card["value"] and num > 0:
@@ -123,8 +124,10 @@ class CollectionManager:
 
                                 total_value += current_price * num
 
-        self.collection_value = round(total_value, 2)
+        total_value = round(total_value, 2)
         self.highest_value_card = highest_value_card
+
+        return total_value
 
 
     def export_pricing_data(self, include_in_use=False, minimum=2.0):
