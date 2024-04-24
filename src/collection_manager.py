@@ -10,7 +10,7 @@ class CollectionManager:
     # in order to interact with their collection. There will be various methods that
     # allow the user to get statistics about their collection (total price of cards above $2,
     # usage stats, etc.)
-    def __init__(self, collection_filename, debug_level="DEBUG"):
+    def __init__(self, collection_filename, skip_decks=False, debug_level="DEBUG"):
         util_funcs.DEBUG_LEVEL = debug_level
         self.initalize_environment()
         self.collection_filename = collection_filename
@@ -23,7 +23,8 @@ class CollectionManager:
         self.card_database = card_database.CardDatabaseManager()
         self.pricing_data = pricing_info.load_pricing_database(self.card_database.card_database)
         self.constructed_decks = {}
-        self.parse_decks_folder()
+        if not skip_decks:
+            self.parse_decks_folder()
         self.collection_value = self.calculate_value_of_collection()
         self.highest_value_card = {"name": "", "setCode": "", "treatment": "", "value": 0}
         self.calculate_value_of_collection()
