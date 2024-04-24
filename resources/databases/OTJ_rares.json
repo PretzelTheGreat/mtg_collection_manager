@@ -7,7 +7,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -273,7 +273,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -553,7 +553,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -839,7 +839,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -941,16 +941,6 @@
                     "foil": 0
                 }
             },
-            "normal": {
-                "treatments": {
-                    "normal": 0,
-                    "foil": 0
-                },
-                "in_use": {
-                    "normal": 0,
-                    "foil": 0
-                }
-            }
         }
     },
     "Eriette, the Beguiler": {
@@ -1109,16 +1099,6 @@
     },
     "Blooming Marsh": {
         "OTJ": {
-            "foil": {
-                "treatments": {
-                    "normal": 0,
-                    "foil": 0
-                },
-                "in_use": {
-                    "normal": 0,
-                    "foil": 0
-                }
-            },
             "266": {
                 "treatments": {
                     "normal": 0,
@@ -1153,7 +1133,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
