@@ -157,7 +157,7 @@
         "OTJ": {
             "75": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -325,7 +325,7 @@
         "OTJ": {
             "82": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -381,7 +381,7 @@
         "OTP": {
             "19": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -423,7 +423,7 @@
         "OTJ": {
             "116": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -465,7 +465,7 @@
         "OTJ": {
             "171": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -493,7 +493,7 @@
         "OTJ": {
             "173": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -563,8 +563,18 @@
         "OTJ": {
             "267": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 2
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "normal": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 0
                 },
                 "in_use": {
                     "normal": 0,
@@ -867,7 +877,7 @@
         "OTJ": {
             "212": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
@@ -923,7 +933,17 @@
         "OTJ": {
             "234": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "normal": {
+                "treatments": {
+                    "normal": 0,
                     "foil": 0
                 },
                 "in_use": {
@@ -936,6 +956,198 @@
     "Eriette, the Beguiler": {
         "OTJ": {
             "202": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Archangel of Tithes": {
+        "OTJ": {
+            "2": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "High Noon": {
+        "OTJ": {
+            "15": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Archmage's Charm": {
+        "OTP": {
+            "8": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "The Key to the Vault": {
+        "OTJ": {
+            "373": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Hostile Investigator": {
+        "BIG": {
+            "10": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Generous Plunderer": {
+        "BIG": {
+            "11": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Stingerback Terror": {
+        "OTJ": {
+            "147": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Smuggler's Surprise": {
+        "OTJ": {
+            "180": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Ionize": {
+        "OTP": {
+            "49": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Voidslime": {
+        "OTP": {
+            "60": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Blooming Marsh": {
+        "OTJ": {
+            "foil": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            },
+            "266": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Marchesa, Dealer of Death": {
+        "OTJ": {
+            "220": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Fomori Vault": {
+        "BIG": {
+            "29": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
