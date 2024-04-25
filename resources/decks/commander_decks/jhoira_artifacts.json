@@ -1,11 +1,11 @@
 {
     "name": "",
-    "commander": {"name": "Jhoira, Ageless Innovator", "setCode": "DMU", "setNumber": "202", "treatment": "normal"},
+    "commander": {"name": "Jhoira, Weatherlight Captain", "setCode": "BRC", "setNumber": "126", "treatment": "normal"},
     "theme": "",
-    "deck_in_use": false,
+    "deck_in_use": true,
     "the_99": {
         "creatures": [
-            {"name": "Jhoira, Weatherlight Captain", "setCode": "BRC", "setNumber": "126", "treatment": "normal"},
+            {"name": "Jhoira, Ageless Innovator", "setCode": "DMU", "setNumber": "202", "treatment": "normal"},
             {"name": "Traxos, Scourge of Kroog", "setCode": "BRC", "setNumber": "170", "treatment": "normal"},
             {"name": "Emry, Lurker of the Loch", "setCode": "BRC", "setNumber": "81", "treatment": "normal"},
             {"name": "Padeem, Consul of Innovation", "setCode": "BRC", "setNumber": "91", "treatment": "normal"},
@@ -65,13 +65,13 @@
                 "setNumber": "231"
             },
             {"name": "Convolute", "setCode": "EMN", "setNumber": "53", "treatment": "foil"},
-            {"name": "Mana Leak", "setCode": "2X2", "setNumber": "58", "treatment": "foil"}
+            {"name": "Mana Leak", "setCode": "2X2", "setNumber": "58", "treatment": "foil"},
+            {"name": "Shock", "setCode": "STA", "setNumber": "44", "treatment": "normal"}
         ],
         "sorceries": [
             {"name": "Blasphemous Act", "setCode": "BRC", "setNumber": "113", "treatment": "normal"},
             {"name": "Thoughtcast", "setCode": "BRC", "setNumber": "99", "treatment": "normal"},
             {"name": "Expressive Iteration", "setCode": "BRC", "setNumber": "125", "treatment": "normal"},
-            {"name": "Shock", "setCode": "STA", "setNumber": "44", "treatment": "normal"},
             {
                 "name": "Rise and Shine",
                 "setCode": "MOC",
@@ -127,8 +127,8 @@
             {"name": "Wayfarer's Bauble", "setCode": "BRC", "setNumber": "171", "treatment": "normal"},
             {"name": "Commander's Sphere", "setCode": "CMM", "setNumber": "655", "treatment": "normal"},
             {"name": "Traveler's Amulet", "setCode": "2X2", "setNumber": "316", "treatment": "normal"},
-            {"name": "Soul-Guide Lantern", "setCode": "BRR", "setNumber": "54", "treatment": "foil"},
             {"name": "Relic of Legends", "setCode": "DMU", "setNumber": "236", "treatment": "foil"},
+            {"name": "Simulacrum Synthesizer", "setCode": "BIG", "setNumber": "6", "treatment": "normal"},
             {"name": "Lithoform Engine", "setCode": "BRC", "setNumber": "146", "treatment": "normal"}
         ],
         "non_basic_lands": [
@@ -139,7 +139,8 @@
             {"name": "Temple of Epiphany", "setCode": "BRC", "setNumber": "207", "treatment": "normal"},
             {"name": "Silverbluff Bridge", "setCode": "BRC", "setNumber": "200", "treatment": "normal"},
             {"name": "Buried Ruin", "setCode": "BRC", "setNumber": "177", "treatment": "normal"},
-            {"name": "Path of Ancestry", "setCode": "BRC", "setNumber": "192", "treatment": "normal"},
+            {"name": "Fomori Vault", "setCode": "BIG", "setNumber": "29", "treatment": "normal"},
+            {"name": "Thundering Falls", "setCode": "MKM", "setNumber": "331", "treatment": "normal"},
             {"name": "Command Tower", "setCode": "BRC", "setNumber": "178", "treatment": "normal"},
             {"name": "Spire of Industry", "setCode": "BRC", "setNumber": "203", "treatment": "normal"},
             {"name": "Seat of the Synod", "setCode": "BRC", "setNumber": "198", "treatment": "normal"},
@@ -169,18 +170,17 @@
             {"name": "Saheeli, Sublime Artificer", "setCode": "MOC", "setNumber": "338", "treatment": "normal"}
         ],
         "basic_lands": [
-            {"name": "Mountain", "setCode": "MID", "setNumber": "383", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "MOM", "setNumber": "280", "treatment": "foil"},
             {"name": "Mountain", "setCode": "MID", "setNumber": "383", "treatment": "foil"},
             {"name": "Mountain", "setCode": "DMU", "setNumber": "271", "treatment": "foil"},
             {"name": "Mountain", "setCode": "DMU", "setNumber": "280", "treatment": "foil"},
             {"name": "Mountain", "setCode": "ONE", "setNumber": "270", "treatment": "foil"},
-            {"name": "Mountain", "setCode": "MID", "setNumber": "383", "treatment": "foil"},
             {"name": "Mountain", "setCode": "MOM", "setNumber": "288", "treatment": "foil"},
             {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "foil"},
             {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "foil"},
             {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "foil"},
             {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "foil"},
-            {"name": "Island", "setCode": "MID", "setNumber": "271", "treatment": "foil"},
+            {"name": "Island", "setCode": "OTJ", "setNumber": "273", "treatment": "foil"},
             {"name": "Island", "setCode": "DMU", "setNumber": "266", "treatment": "foil"},
             {"name": "Island", "setCode": "BRO", "setNumber": "281", "treatment": "normal"}
         ]
