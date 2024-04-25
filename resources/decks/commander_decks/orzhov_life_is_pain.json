@@ -179,10 +179,10 @@
                 "setNumber": "114"
             },
             {
-                "name": "Benalish Sleeper",
-                "setCode": "DMU",
-                "treatment": "normal",
-                "setNumber": "8"
+                "name": "Nezumi Linkbreaker",
+                "setCode": "OTJ",
+                "treatment": "foil",
+                "setNumber": "96"
             },
             {
                 "name": "Cruel Celebrant",
@@ -230,9 +230,9 @@
             },
             {
                 "name": "Murder",
-                "setCode": "EMN",
+                "setCode": "MKM",
                 "treatment": "normal",
-                "setNumber": "97"
+                "setNumber": "300"
             },
             {
                 "name": "Altar's Reap",
@@ -241,16 +241,16 @@
                 "setNumber": "127"
             },
             {
-                "name": "Succumb to Temptation",
-                "setCode": "EMN",
+                "name": "Path to Exile",
+                "setCode": "OTP",
                 "treatment": "normal",
-                "setNumber": "107"
+                "setNumber": "6"
             },
             {
-                "name": "Vraska's Fall",
-                "setCode": "ONE",
+                "name": "Anguished Unmaking",
+                "setCode": "OTP",
                 "treatment": "normal",
-                "setNumber": "116"
+                "setNumber": "35"
             },
             {
                 "name": "Costly Plunder",
@@ -273,10 +273,10 @@
                 "setNumber": "237"
             },
             {
-                "name": "Annihilating Glare",
-                "setCode": "ONE",
+                "name": "Pest Control",
+                "setCode": "BIG",
                 "treatment": "normal",
-                "setNumber": "80"
+                "setNumber": "22"
             },
             {
                 "name": "Bone Splinters",
@@ -459,10 +459,10 @@
                 "setNumber": "272"
             },
             {
-                "name": "The Dross Pits",
-                "setCode": "ONE",
+                "name": "Shadowy Backstreet",
+                "setCode": "MKM",
                 "treatment": "normal",
-                "setNumber": "251"
+                "setNumber": "268"
             },
             {
                 "name": "Scoured Barrens",
@@ -471,16 +471,10 @@
                 "setNumber": "272"
             },
             {
-                "name": "Polluted Mire",
-                "setCode": "DMR",
-                "treatment": "normal",
-                "setNumber": "253"
-            },
-            {
-                "name": "The Fair Basilica",
-                "setCode": "ONE",
-                "treatment": "normal",
-                "setNumber": "252"
+                "name": "Forlorn Flats",
+                "setCode": "OTJ",
+                "treatment": "foil",
+                "setNumber": "258"
             },
             {
                 "name": "Command Tower",
@@ -509,22 +503,23 @@
         ],
         "planeswalker": [],
         "basic_lands": [
-            {"name": "Swamp", "setCode": "ONE", "setNumber": "269", "treatment": "normal"},
             {"name": "Swamp", "setCode": "ONE", "setNumber": "269", "treatment": "foil"},
             {"name": "Swamp", "setCode": "ONE", "setNumber": "264", "treatment": "foil"},
             {"name": "Swamp", "setCode": "MID", "setNumber": "273", "treatment": "foil"},
             {"name": "Swamp", "setCode": "MID", "setNumber": "272", "treatment": "foil"},
             {"name": "Swamp", "setCode": "VOW", "setNumber": "273", "treatment": "foil"},
-            {"name": "Swamp", "setCode": "DMU", "setNumber": "279", "treatment": "normal"},
             {"name": "Swamp", "setCode": "DMU", "setNumber": "279", "treatment": "foil"},
             {"name": "Swamp", "setCode": "MOM", "setNumber": "287", "treatment": "foil"},
-            {"name": "Plains", "setCode": "ONE", "setNumber": "267", "treatment": "normal"},
-            {"name": "Plains", "setCode": "ONE", "setNumber": "267", "treatment": "normal"},
-            {"name": "Plains", "setCode": "ONE", "setNumber": "267", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "OTJ", "setNumber": "274", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "OTJ", "setNumber": "274", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "MKM", "setNumber": "274", "treatment": "foil"},
             {"name": "Plains", "setCode": "ONE", "setNumber": "267", "treatment": "normal"},
             {"name": "Plains", "setCode": "ONE", "setNumber": "267", "treatment": "normal"},
             {"name": "Plains", "setCode": "ONE", "setNumber": "262", "treatment": "normal"},
             {"name": "Plains", "setCode": "ONE", "setNumber": "262", "treatment": "normal"},
+            {"name": "Plains", "setCode": "MKM", "setNumber": "272", "treatment": "normal"},
+            {"name": "Plains", "setCode": "MKM", "setNumber": "272", "treatment": "foil"},
+            {"name": "Plains", "setCode": "OTJ", "setNumber": "272", "treatment": "foil"},
             {"name": "Plains", "setCode": "ONE", "setNumber": "262", "treatment": "foil"},
             {"name": "Plains", "setCode": "MOM", "setNumber": "282", "treatment": "foil"}
         ]
