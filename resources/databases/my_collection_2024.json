@@ -1855,11 +1855,35 @@
                     "foil": 0
                 }
             }
+        },
+        "C21": {
+            "263": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Arcane Signet": {
         "CMM": {
             "653": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "VOC": {
+            "159": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
@@ -2023,6 +2047,18 @@
                     "foil": 0
                 }
             }
+        },
+        "VOC": {
+            "163": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Traveler's Amulet": {
@@ -2121,6 +2157,18 @@
                     "foil": 0
                 }
             }
+        },
+        "ONE": {
+            "261": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
         }
     },
     "Temple of Epiphany": {
@@ -2191,6 +2239,18 @@
                     "foil": 0
                 }
             }
+        },
+        "VOC": {
+            "172": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Spire of Industry": {
@@ -2233,6 +2293,18 @@
                     "foil": 0
                 }
             }
+        },
+        "VOC": {
+            "173": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Darksteel Citadel": {
@@ -2266,6 +2338,18 @@
     "Evolving Wilds": {
         "MOC": {
             "397": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "BRC": {
+            "184": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
@@ -2435,6 +2519,1166 @@
                 "in_use": {
                     "normal": 1,
                     "foil": 0
+                }
+            }
+        }
+    },
+    "Elas il-Kor, Sadistic Pilgrim": {
+        "DMU": {
+            "198": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Novice Occultist": {
+        "MID": {
+            "117": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Selfless Spirit": {
+        "EMN": {
+            "40": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Knight of the White Orchid": {
+        "VOC": {
+            "92": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Soul Warden": {
+        "MM3": {
+            "24": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Crawling Chorus": {
+        "ONE": {
+            "8": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Drivnod, Carnage Dominus": {
+        "ONE": {
+            "305": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Zulaport Cutthroat": {
+        "BFZ": {
+            "126": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sheoldred, the Apocalypse": {
+        "DMU": {
+            "290": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Vermin Gorger": {
+        "MH2": {
+            "107": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Braids, Arisen Nightmare": {
+        "DMU": {
+            "84": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Blood Artist": {
+        "JMP": {
+            "206": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Phyrexian Missionary": {
+        "DMU": {
+            "27": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Elesh Norn, Mother of Machines": {
+        "ONE": {
+            "10": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Teysa Karlov": {
+        "MUL": {
+            "61": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Syr Konrad, the Grim": {
+        "MOC": {
+            "269": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Indoctrination Attendant": {
+        "ONE": {
+            "16": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Knight of Dusk's Shadow": {
+        "DMU": {
+            "96": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Corpse Knight": {
+        "M20": {
+            "206": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Lurrus of the Dream-Den": {
+        "MUL": {
+            "51": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Cult Conscript": {
+        "DMU": {
+            "88": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Vito, Thorn of the Dusk Rose": {
+        "M21": {
+            "127": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Cliffhaven Vampire": {
+        "OGW": {
+            "153": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Windborn Muse": {
+        "VOC": {
+            "101": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Daxos, Blessed by the Sun": {
+        "MUL": {
+            "2": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sheoldred, Whispering One": {
+        "MUL": {
+            "16": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Kambal, Consul of Allocation": {
+        "KLD": {
+            "183": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Suture Priest": {
+        "MOC": {
+            "210": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Vraan, Executioner Thane": {
+        "ONE": {
+            "114": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Nezumi Linkbreaker": {
+        "OTJ": {
+            "96": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Cruel Celebrant": {
+        "WAR": {
+            "188": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Blood Pact": {
+        "MID": {
+            "88": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Fracture": {
+        "STX": {
+            "188": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Plumb the Forbidden": {
+        "STX": {
+            "81": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Swords to Plowshares": {
+        "VOC": {
+            "99": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Corrupted Conviction": {
+        "MOM": {
+            "98": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Infernal Grasp": {
+        "MID": {
+            "389": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Murder": {
+        "MKM": {
+            "300": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Altar's Reap": {
+        "CN2": {
+            "127": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Costly Plunder": {
+        "2XM": {
+            "80": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Vindicate": {
+        "MH2": {
+            "294": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Rite of Oblivion": {
+        "MID": {
+            "237": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Bone Splinters": {
+        "DMU": {
+            "83": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Feed the Swarm": {
+        "MIC": {
+            "117": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sunfall": {
+        "MOM": {
+            "40": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Ghostly Prison": {
+        "VOC": {
+            "87": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Skrelv's Hive": {
+        "ONE": {
+            "34": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Ghoulish Procession": {
+        "MID": {
+            "102": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Vampiric Rites": {
+        "2X2": {
+            "98": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Greed": {
+        "MH2": {
+            "274": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Phyrexian Arena": {
+        "ONE": {
+            "104": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Smothering Tithe": {
+        "2X2": {
+            "31": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Dreadhorde Invasion": {
+        "MIC": {
+            "114": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Vat of Rebirth": {
+        "ONE": {
+            "113": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Swiftfoot Boots": {
+        "BRC": {
+            "166": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Skullclamp": {
+        "BRC": {
+            "159": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Thought Vessel": {
+        "BRC": {
+            "167": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Orzhov Signet": {
+        "BRC": {
+            "154": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Weatherlight Compleated": {
+        "DMU": {
+            "242": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Moonsilver Key": {
+        "MID": {
+            "255": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sunlit Marsh": {
+        "DMU": {
+            "257": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Reliquary Tower": {
+        "BRC": {
+            "196": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Orzhov Basilica": {
+        "BRC": {
+            "191": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Bojuka Bog": {
+        "MIC": {
+            "167": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Shineshadow Snarl": {
+        "STX": {
+            "272": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Shadowy Backstreet": {
+        "MKM": {
+            "268": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Scoured Barrens": {
+        "MOM": {
+            "272": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Forlorn Flats": {
+        "OTJ": {
+            "258": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Fabled Passage": {
+        "M21": {
+            "246": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Snowfield Sinkhole": {
+        "KHM": {
+            "269": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Caves of Koilos": {
+        "DMU": {
+            "244": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Swamp": {
+        "ONE": {
+            "269": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            },
+            "264": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "MID": {
+            "273": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            },
+            "272": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "VOW": {
+            "273": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "DMU": {
+            "279": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "MOM": {
+            "287": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "OTJ": {
+            "274": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 2
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 2
+                }
+            }
+        },
+        "MKM": {
+            "274": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Plains": {
+        "ONE": {
+            "267": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 2,
+                    "foil": 0
+                }
+            },
+            "262": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 2,
+                    "foil": 1
+                }
+            }
+        },
+        "MKM": {
+            "272": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 1
+                }
+            }
+        },
+        "OTJ": {
+            "272": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "MOM": {
+            "282": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
                 }
             }
         }
