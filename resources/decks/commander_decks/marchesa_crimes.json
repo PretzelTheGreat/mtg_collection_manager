@@ -1,0 +1,141 @@
+{
+    "name": "",
+    "commander": {"name": "Marchesa, Dealer of Death", "setCode": "OTJ", "setNumber": "220", "treatment": "normal"},
+    "theme": "",
+    "deck_in_use": true,
+    "the_99": {
+        "creatures": [
+            {"name": "Tor Wauki the Younger", "setCode": "DMC", "setNumber": "46", "treatment": "foil"},
+            {"name": "Erebor Flamesmith", "setCode": "LTR", "setNumber": "122", "treatment": "foil"},
+            {"name": "Rhona, Sheoldred's Faithful", "setCode": "DMU", "setNumber": "315", "treatment": "normal"},
+            {"name": "Vohar, Vodalian Desecrator", "setCode": "DMU", "setNumber": "226", "treatment": "normal"},
+            {"name": "Najal, the Storm Runner", "setCode": "DMU", "setNumber": "307", "treatment": "normal"},
+            {"name": "Vial Smasher, Gleeful Grenadier", "setCode": "OTJ", "setNumber": "235", "treatment": "normal"},
+            {"name": "Raven of Fel Omens", "setCode": "OTJ", "setNumber": "101", "treatment": "normal"},
+            {"name": "Blood Hustler", "setCode": "OTJ", "setNumber": "80", "treatment": "normal"},
+            {"name": "Lilah, Undefeated Slickshot", "setCode": "OTJ", "setNumber": "217", "treatment": "normal"},
+            {"name": "Generous Plunderer", "setCode": "BIG", "setNumber": "11", "treatment": "normal"},
+            {"name": "Tinybones, the Pickpocket", "setCode": "OTJ", "setNumber": "109", "treatment": "normal"},
+            {"name": "Archmage's Newt", "setCode": "OTJ", "setNumber": "39", "treatment": "normal"},
+            {"name": "Lazav, Familiar Stranger", "setCode": "OTJ", "setNumber": "216", "treatment": "normal"},
+            {"name": "Desperate Bloodseeker", "setCode": "OTJ", "setNumber": "86", "treatment": "normal"},
+            {"name": "Treasure Dredger", "setCode": "OTJ", "setNumber": "110", "treatment": "normal"},
+            {"name": "Goldspan Dragon", "setCode": "KHM", "setNumber": "139", "treatment": "normal"},
+            {"name": "Cutthroat Negotiator", "setCode": "MOC", "setNumber": "40", "treatment": "normal"},
+            {"name": "Vadmir, New Blood", "setCode": "OTJ", "setNumber": "113", "treatment": "normal"},
+            {"name": "Duelist of the Mind", "setCode": "OTJ", "setNumber": "45", "treatment": "normal"},
+            {"name": "Fain, the Broker", "setCode": "BRC", "setNumber": "105", "treatment": "normal"},
+            {"name": "Archmage Emeritus", "setCode": "STX", "setNumber": "37", "treatment": "normal"},
+            {"name": "Urabrask // The Great Work", "setCode": "MOM", "setNumber": "169", "treatment": "normal"},
+            {"name": "Rakdos, Patron of Chaos", "setCode": "MKM", "setNumber": "224", "treatment": "normal"},
+            {"name": "Laughing Jasper Flint", "setCode": "OTJ", "setNumber": "215", "treatment": "normal"},
+            {"name": "Manaform Hellkite", "setCode": "VOW", "setNumber": "170", "treatment": "foil"}
+        ],
+        "instants": [
+            {"name": "Return the Favor", "setCode": "OTJ", "setNumber": "142", "treatment": "normal"},
+            {"name": "Reenact the Crime", "setCode": "MKM", "setNumber": "297", "treatment": "normal"},
+            {"name": "Reasonable Doubt", "setCode": "MKM", "setNumber": "69", "treatment": "normal"},
+            {"name": "Murder", "setCode": "OTP", "setNumber": "16", "treatment": "normal"},
+            {"name": "Chaos Warp", "setCode": "MOC", "setNumber": "273", "treatment": "normal"},
+            {"name": "Hypothesizzle", "setCode": "OTP", "setNumber": "48", "treatment": "normal"},
+            {"name": "Fling", "setCode": "OTP", "setNumber": "24", "treatment": "normal"},
+            {"name": "Archmage's Charm", "setCode": "OTP", "setNumber": "8", "treatment": "normal"},
+            {"name": "Archive Trap", "setCode": "OTP", "setNumber": "7", "treatment": "normal"},
+            {"name": "Surgical Extraction", "setCode": "OTP", "setNumber": "19", "treatment": "normal"},
+            {"name": "Great Train Heist", "setCode": "OTJ", "setNumber": "125", "treatment": "normal"},
+            {"name": "Ionize", "setCode": "OTP", "setNumber": "49", "treatment": "normal"},
+            {"name": "Explosive Derailment", "setCode": "OTJ", "setNumber": "122", "treatment": "normal"},
+            {"name": "Deadly Derision", "setCode": "MOM", "setNumber": "99", "treatment": "normal"},
+            {"name": "Ertai's Scorn", "setCode": "DMU", "setNumber": "48", "treatment": "normal"},
+            {"name": "Counterspell", "setCode": "DMR", "setNumber": "45", "treatment": "normal"}
+        ],
+        "sorceries": [
+            {"name": "Fiery Confluence", "setCode": "MOC", "setNumber": "278", "treatment": "normal"},
+            {"name": "Faithless Looting", "setCode": "BRC", "setNumber": "116", "treatment": "normal"},
+            {"name": "Brass's Bounty", "setCode": "MOC", "setNumber": "272", "treatment": "normal"},
+            {"name": "Heartless Pillage", "setCode": "OTP", "setNumber": "14", "treatment": "normal"},
+            {"name": "Scorching Shot", "setCode": "OTJ", "setNumber": "145", "treatment": "normal"},
+            {"name": "Rush of Dread", "setCode": "OTJ", "setNumber": "104", "treatment": "normal"},
+            {"name": "Hell to Pay", "setCode": "OTJ", "setNumber": "126", "treatment": "normal"},
+            {"name": "Terminal Agony", "setCode": "OTP", "setNumber": "55", "treatment": "normal"},
+            {"name": "Pilfer", "setCode": "DMU", "setNumber": "102", "treatment": "normal"},
+            {"name": "Mourner's Surprise", "setCode": "OTJ", "setNumber": "94", "treatment": "normal"}
+        ],
+        "enchantments": [
+            {"name": "Founding the Third Path", "setCode": "DMU", "setNumber": "50", "treatment": "foil"},
+            {"name": "At Knifepoint", "setCode": "OTJ", "setNumber": "193", "treatment": "normal"},
+            {"name": "Intimidation Campaign", "setCode": "OTJ", "setNumber": "208", "treatment": "normal"},
+            {"name": "Proft's Eidetic Memory", "setCode": "MKM", "setNumber": "67", "treatment": "normal"},
+            {"name": "Curse of Opulence", "setCode": "MOC", "setNumber": "274", "treatment": "normal"}
+        ],
+        "artifacts": [
+            {"name": "Beamtown Beatstick", "setCode": "MOM", "setNumber": "131", "treatment": "foil"},
+            {"name": "Bandit's Haul", "setCode": "OTJ", "setNumber": "240", "treatment": "normal"},
+            {"name": "Unlicensed Hearse", "setCode": "OTP", "setNumber": "64", "treatment": "normal"},
+            {"name": "Sword of Once and Future", "setCode": "MOM", "setNumber": "265", "treatment": "normal"},
+            {"name": "Dimir Signet", "setCode": "BRC", "setNumber": "138", "treatment": "normal"},
+            {"name": "Rakdos Signet", "setCode": "BRC", "setNumber": "156", "treatment": "normal"},
+            {"name": "Arcane Signet", "setCode": "BRC", "setNumber": "132", "treatment": "normal"},
+            {"name": "Sol Ring", "setCode": "BRC", "setNumber": "160", "treatment": "normal"}
+        ],
+        "non_basic_lands": [
+            {"name": "Command Tower", "setCode": "BRC", "setNumber": "178", "treatment": "normal"},
+            {"name": "Crosis's Catacombs", "setCode": "DMR", "setNumber": "242", "treatment": "normal"},
+            {"name": "Crumbling Necropolis", "setCode": "BRC", "setNumber": "179", "treatment": "normal"},
+            {"name": "Swiftwater Cliffs", "setCode": "MOM", "setNumber": "273", "treatment": "normal"},
+            {"name": "Molten Tributary", "setCode": "DMU", "setNumber": "251", "treatment": "normal"},
+            {"name": "Temple of Epiphany", "setCode": "MOC", "setNumber": "433", "treatment": "normal"},
+            {"name": "Frostboil Snarl", "setCode": "MOC", "setNumber": "403", "treatment": "normal"},
+            {"name": "Eroded Canyon", "setCode": "OTJ", "setNumber": "256", "treatment": "normal"},
+            {"name": "Contaminated Aquifer", "setCode": "DMU", "setNumber": "245", "treatment": "normal"},
+            {"name": "Dismal Backwater", "setCode": "MOM", "setNumber": "269", "treatment": "normal"},
+            {"name": "Darkwater Catacombs", "setCode": "BRC", "setNumber": "181", "treatment": "normal"},
+            {"name": "Dimir Aqueduct", "setCode": "BRC", "setNumber": "182", "treatment": "normal"},
+            {"name": "Temple of Deceit", "setCode": "BRC", "setNumber": "205", "treatment": "normal"},
+            {"name": "Soured Springs", "setCode": "OTJ", "setNumber": "264", "treatment": "foil"},
+            {"name": "Smouldering Marsh", "setCode": "BRC", "setNumber": "202", "treatment": "normal"},
+            {"name": "Geothermal Bog", "setCode": "DMU", "setNumber": "247", "treatment": "normal"},
+            {"name": "Shadowblood Ridge", "setCode": "BRC", "setNumber": "199", "treatment": "normal"},
+            {"name": "Temple of Malice", "setCode": "BRC", "setNumber": "208", "treatment": "normal"},
+            {"name": "Rakdos Carnarium", "setCode": "BRC", "setNumber": "194", "treatment": "normal"},
+            {"name": "Jagged Barrens", "setCode": "OTJ", "setNumber": "259", "treatment": "foil"}
+        ], 
+        "planeswalker": [
+        ],
+        "basic_lands": [
+            {"name": "Island", "setCode": "MKM", "setNumber": "273", "treatment": "foil"},
+            {"name": "Island", "setCode": "MKM", "setNumber": "273", "treatment": "normal"},
+            {"name": "Island", "setCode": "OTJ", "setNumber": "273", "treatment": "foil"},
+            {"name": "Island", "setCode": "OTJ", "setNumber": "279", "treatment": "foil"},
+            {"name": "Island", "setCode": "OTJ", "setNumber": "280", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "MKM", "setNumber": "274", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "OTJ", "setNumber": "274", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "OTJ", "setNumber": "274", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "OTJ", "setNumber": "281", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "OTJ", "setNumber": "282", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "OTJ", "setNumber": "275", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "OTJ", "setNumber": "275", "treatment": "normal"},
+            {"name": "Mountain", "setCode": "OTJ", "setNumber": "284", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "OTJ", "setNumber": "283", "treatment": "foil"},
+            {"name": "Mountain", "setCode": "MKM", "setNumber": "275", "treatment": "foil"}
+        ]
+    },
+    "potential_upgrades": {
+        "creatures": [
+        ],
+        "instants": [
+        ],
+        "sorceries": [
+        ],
+        "enchantments": [
+        ],
+        "artifacts": [
+        ],
+        "non_basic_lands": [
+        ], 
+        "planeswalker": [
+        ],
+        "basic_lands": [
+        ]
+    }
+}
