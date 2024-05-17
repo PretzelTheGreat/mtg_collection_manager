@@ -234,7 +234,11 @@ class CardDatabaseManager:
         cards_by_identifiers = util_funcs.import_json_file(f'resources/mtgjson_data/{filename}')
 
         for uuid, data in cards_by_identifiers['data'].items():
-            setCode = data['setCode']
+            try:
+                setCode = data['setCode']
+            except:
+                print(f"{uuid} ({data["name"]}) does not have a set code! ({data.keys()})")
+                continue
             name = data['name']
             filtered_keys = {k:v for k, v in data.items() if k in keys}
             setNumber = filtered_keys['number']
