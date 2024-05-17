@@ -231,7 +231,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -245,7 +245,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -259,7 +259,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -301,7 +301,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -343,7 +343,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -357,7 +357,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -371,7 +371,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -413,7 +413,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -441,7 +441,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -787,7 +787,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -899,7 +899,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -983,7 +983,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -1025,7 +1025,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -1067,7 +1067,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -1109,7 +1109,7 @@
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 0
                 }
             }
@@ -1561,6 +1561,18 @@
                     "foil": 0
                 }
             }
+        },
+        "MOC": {
+            "273": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Fact or Fiction": {
@@ -1757,6 +1769,18 @@
                     "foil": 0
                 }
             }
+        },
+        "BRC": {
+            "116": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Bident of Thassa": {
@@ -1847,11 +1871,11 @@
         "BRC": {
             "160": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 }
             }
@@ -1884,6 +1908,18 @@
         },
         "VOC": {
             "159": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "BRC": {
+            "132": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
@@ -2183,6 +2219,18 @@
                     "foil": 0
                 }
             }
+        },
+        "MOC": {
+            "433": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Silverbluff Bridge": {
@@ -2231,11 +2279,11 @@
         "BRC": {
             "178": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 }
             }
@@ -2325,11 +2373,11 @@
         "MOM": {
             "273": {
                 "treatments": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 1
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 1
                 }
             }
@@ -2371,6 +2419,18 @@
                 "in_use": {
                     "normal": 0,
                     "foil": 1
+                }
+            }
+        },
+        "MOC": {
+            "403": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
                 }
             }
         }
@@ -2471,6 +2531,50 @@
                     "foil": 1
                 }
             }
+        },
+        "OTJ": {
+            "275": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 1
+                }
+            },
+            "284": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            },
+            "283": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "MKM": {
+            "275": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
         }
     },
     "Island": {
@@ -2488,6 +2592,26 @@
         },
         "OTJ": {
             "273": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 2
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 2
+                }
+            },
+            "279": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            },
+            "280": {
                 "treatments": {
                     "normal": 0,
                     "foil": 1
@@ -2519,6 +2643,18 @@
                 "in_use": {
                     "normal": 1,
                     "foil": 0
+                }
+            }
+        },
+        "MKM": {
+            "273": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 1
                 }
             }
         }
@@ -3044,6 +3180,18 @@
     "Murder": {
         "MKM": {
             "300": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "OTP": {
+            "16": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
@@ -3601,17 +3749,15 @@
         "OTJ": {
             "274": {
                 "treatments": {
-                    "normal": 0,
-                    "foil": 2
+                    "normal": 1,
+                    "foil": 3
                 },
                 "in_use": {
-                    "normal": 0,
-                    "foil": 2
+                    "normal": 1,
+                    "foil": 3
                 }
-            }
-        },
-        "MKM": {
-            "274": {
+            },
+            "281": {
                 "treatments": {
                     "normal": 0,
                     "foil": 1
@@ -3619,6 +3765,28 @@
                 "in_use": {
                     "normal": 0,
                     "foil": 1
+                }
+            },
+            "282": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "MKM": {
+            "274": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 2
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 2
                 }
             }
         }
@@ -3672,6 +3840,860 @@
         },
         "MOM": {
             "282": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Tor Wauki the Younger": {
+        "DMC": {
+            "46": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Erebor Flamesmith": {
+        "LTR": {
+            "122": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Rhona, Sheoldred's Faithful": {
+        "DMU": {
+            "315": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Vohar, Vodalian Desecrator": {
+        "DMU": {
+            "226": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Najal, the Storm Runner": {
+        "DMU": {
+            "307": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Vial Smasher, Gleeful Grenadier": {
+        "OTJ": {
+            "235": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Raven of Fel Omens": {
+        "OTJ": {
+            "101": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Blood Hustler": {
+        "OTJ": {
+            "80": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Lazav, Familiar Stranger": {
+        "OTJ": {
+            "216": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Desperate Bloodseeker": {
+        "OTJ": {
+            "86": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Treasure Dredger": {
+        "OTJ": {
+            "110": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Goldspan Dragon": {
+        "KHM": {
+            "139": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Cutthroat Negotiator": {
+        "MOC": {
+            "40": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Fain, the Broker": {
+        "BRC": {
+            "105": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Archmage Emeritus": {
+        "STX": {
+            "37": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Urabrask // The Great Work": {
+        "MOM": {
+            "169": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rakdos, Patron of Chaos": {
+        "MKM": {
+            "224": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Manaform Hellkite": {
+        "VOW": {
+            "170": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Return the Favor": {
+        "OTJ": {
+            "142": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Reenact the Crime": {
+        "MKM": {
+            "297": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Reasonable Doubt": {
+        "MKM": {
+            "69": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Hypothesizzle": {
+        "OTP": {
+            "48": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Fling": {
+        "OTP": {
+            "24": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Explosive Derailment": {
+        "OTJ": {
+            "122": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Deadly Derision": {
+        "MOM": {
+            "99": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Ertai's Scorn": {
+        "DMU": {
+            "48": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Counterspell": {
+        "DMR": {
+            "45": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Shoot the Sheriff": {
+        "OTJ": {
+            "106": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Fiery Confluence": {
+        "MOC": {
+            "278": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Brass's Bounty": {
+        "MOC": {
+            "272": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Heartless Pillage": {
+        "OTP": {
+            "14": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Scorching Shot": {
+        "OTJ": {
+            "145": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Terminal Agony": {
+        "OTP": {
+            "55": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Pilfer": {
+        "DMU": {
+            "102": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Mourner's Surprise": {
+        "OTJ": {
+            "94": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Founding the Third Path": {
+        "DMU": {
+            "50": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "At Knifepoint": {
+        "OTJ": {
+            "193": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Intimidation Campaign": {
+        "OTJ": {
+            "208": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Proft's Eidetic Memory": {
+        "MKM": {
+            "67": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Curse of Opulence": {
+        "MOC": {
+            "274": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Beamtown Beatstick": {
+        "MOM": {
+            "131": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Bandit's Haul": {
+        "OTJ": {
+            "240": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sword of Once and Future": {
+        "MOM": {
+            "265": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Dimir Signet": {
+        "BRC": {
+            "138": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rakdos Signet": {
+        "BRC": {
+            "156": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Crosis's Catacombs": {
+        "DMR": {
+            "242": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Crumbling Necropolis": {
+        "BRC": {
+            "179": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Molten Tributary": {
+        "DMU": {
+            "251": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Eroded Canyon": {
+        "OTJ": {
+            "256": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Contaminated Aquifer": {
+        "DMU": {
+            "245": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Dismal Backwater": {
+        "MOM": {
+            "269": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Darkwater Catacombs": {
+        "BRC": {
+            "181": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Dimir Aqueduct": {
+        "BRC": {
+            "182": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Temple of Deceit": {
+        "BRC": {
+            "205": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Soured Springs": {
+        "OTJ": {
+            "264": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Smouldering Marsh": {
+        "BRC": {
+            "202": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Geothermal Bog": {
+        "DMU": {
+            "247": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Shadowblood Ridge": {
+        "BRC": {
+            "199": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Temple of Malice": {
+        "BRC": {
+            "208": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rakdos Carnarium": {
+        "BRC": {
+            "194": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Jagged Barrens": {
+        "OTJ": {
+            "259": {
                 "treatments": {
                     "normal": 0,
                     "foil": 1
