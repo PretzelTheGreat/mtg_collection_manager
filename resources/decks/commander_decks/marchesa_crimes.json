@@ -41,13 +41,13 @@
             {"name": "Fling", "setCode": "OTP", "setNumber": "24", "treatment": "normal"},
             {"name": "Archmage's Charm", "setCode": "OTP", "setNumber": "8", "treatment": "normal"},
             {"name": "Archive Trap", "setCode": "OTP", "setNumber": "7", "treatment": "normal"},
-            {"name": "Surgical Extraction", "setCode": "OTP", "setNumber": "19", "treatment": "normal"},
             {"name": "Great Train Heist", "setCode": "OTJ", "setNumber": "125", "treatment": "normal"},
             {"name": "Ionize", "setCode": "OTP", "setNumber": "49", "treatment": "normal"},
             {"name": "Explosive Derailment", "setCode": "OTJ", "setNumber": "122", "treatment": "normal"},
             {"name": "Deadly Derision", "setCode": "MOM", "setNumber": "99", "treatment": "normal"},
             {"name": "Ertai's Scorn", "setCode": "DMU", "setNumber": "48", "treatment": "normal"},
-            {"name": "Counterspell", "setCode": "DMR", "setNumber": "45", "treatment": "normal"}
+            {"name": "Counterspell", "setCode": "DMR", "setNumber": "45", "treatment": "normal"},
+            {"name": "Shoot the Sheriff", "setCode": "OTJ", "setNumber": 106, "treatment": "normal"}
         ],
         "sorceries": [
             {"name": "Fiery Confluence", "setCode": "MOC", "setNumber": "278", "treatment": "normal"},
