@@ -212,3 +212,9 @@ class CollectionManager:
                 
             # returning an empty dict to represent no results
             return {}
+        
+    def save_collection(self, filename=None):
+        if filename == None:
+            filename = self.collection_filename
+
+        util_funcs.export_json_file(filename, self.collection)
