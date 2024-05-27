@@ -1891,6 +1891,18 @@
                     "foil": 0
                 }
             }
+        },
+        "MIC": {
+            "162": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Arcane Signet": {
@@ -1920,6 +1932,18 @@
         },
         "BRC": {
             "132": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "MIC": {
+            "157": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
@@ -2179,6 +2203,18 @@
                     "foil": 0
                 }
             }
+        },
+        "MIC": {
+            "177": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Terramorphic Expanse": {
@@ -2299,6 +2335,18 @@
                     "foil": 0
                 }
             }
+        },
+        "MIC": {
+            "170": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Spire of Industry": {
@@ -2343,6 +2391,18 @@
             }
         },
         "VOC": {
+            "173": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "MIC": {
             "173": {
                 "treatments": {
                     "normal": 1,
@@ -2581,12 +2641,32 @@
         "MID": {
             "381": {
                 "treatments": {
-                    "normal": 0,
+                    "normal": 4,
                     "foil": 4
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 4,
                     "foil": 4
+                }
+            },
+            "271": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 2,
+                    "foil": 0
+                }
+            },
+            "270": {
+                "treatments": {
+                    "normal": 2,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 2,
+                    "foil": 0
                 }
             }
         },
@@ -2654,6 +2734,52 @@
                 },
                 "in_use": {
                     "normal": 1,
+                    "foil": 1
+                }
+            }
+        },
+        "VOW": {
+            "270": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "ONE": {
+            "263": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            },
+            "268": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        },
+        "STX": {
+            "368": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
                     "foil": 1
                 }
             }
@@ -2754,6 +2880,16 @@
                     "normal": 1,
                     "foil": 0
                 }
+            },
+            "90": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
             }
         }
     },
@@ -2803,11 +2939,11 @@
         "DMU": {
             "84": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 }
             }
@@ -3201,6 +3337,18 @@
                     "foil": 0
                 }
             }
+        },
+        "EMN": {
+            "97": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Altar's Reap": {
@@ -3375,11 +3523,11 @@
         "ONE": {
             "104": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 }
             }
@@ -3458,6 +3606,18 @@
     "Thought Vessel": {
         "BRC": {
             "167": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "CMR": {
+            "346": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
@@ -3679,11 +3839,11 @@
             },
             "264": {
                 "treatments": {
-                    "normal": 0,
+                    "normal": 3,
                     "foil": 1
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 3,
                     "foil": 1
                 }
             }
@@ -3701,12 +3861,22 @@
             },
             "272": {
                 "treatments": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 1
                 },
                 "in_use": {
-                    "normal": 0,
+                    "normal": 1,
                     "foil": 1
+                }
+            },
+            "382": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 4
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 4
                 }
             }
         },
@@ -3724,6 +3894,36 @@
         },
         "DMU": {
             "279": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 1
+                }
+            },
+            "268": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            },
+            "269": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 1
+                }
+            },
+            "270": {
                 "treatments": {
                     "normal": 0,
                     "foil": 1
@@ -3787,6 +3987,18 @@
                 "in_use": {
                     "normal": 0,
                     "foil": 2
+                }
+            }
+        },
+        "ELD": {
+            "260": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
                 }
             }
         }
@@ -4541,11 +4753,11 @@
         "DMU": {
             "245": {
                 "treatments": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 },
                 "in_use": {
-                    "normal": 1,
+                    "normal": 2,
                     "foil": 0
                 }
             }
@@ -4577,6 +4789,18 @@
                     "foil": 0
                 }
             }
+        },
+        "MIC": {
+            "171": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
         }
     },
     "Dimir Aqueduct": {
@@ -4596,6 +4820,18 @@
     "Temple of Deceit": {
         "BRC": {
             "205": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        },
+        "MIC": {
+            "184": {
                 "treatments": {
                     "normal": 1,
                     "foil": 0
@@ -4701,6 +4937,860 @@
                 "in_use": {
                     "normal": 0,
                     "foil": 1
+                }
+            }
+        }
+    },
+    "Wilhelt, the Rotcleaver": {
+        "MIC": {
+            "2": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Midnight Reaper": {
+        "MIC": {
+            "125": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Tomb Tyrant": {
+        "MIC": {
+            "23": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Corpse Augur": {
+        "MIC": {
+            "109": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Gisa and Geralf": {
+        "MIC": {
+            "150": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Prowling Geistcatcher": {
+        "MIC": {
+            "21": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Fleshbag Marauder": {
+        "MIC": {
+            "118": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Gorex, the Tombshell": {
+        "MIC": {
+            "20": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Ravenous Rotbelly": {
+        "MIC": {
+            "22": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Cleaver Skaab": {
+        "MIC": {
+            "11": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Forgotten Creation": {
+        "MIC": {
+            "100": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Gleaming Overseer": {
+        "MIC": {
+            "151": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Shadow Kin": {
+        "MIC": {
+            "16": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Stitcher Geralf": {
+        "MIC": {
+            "104": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Undead Alchemist": {
+        "MIC": {
+            "105": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Hordewing Skaab": {
+        "MIC": {
+            "15": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Overseer of the Damned": {
+        "MIC": {
+            "127": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Butcher of Malakir": {
+        "MIC": {
+            "107": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Eloise, Nephalia Sleuth": {
+        "MIC": {
+            "3": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Eater of Hope": {
+        "MIC": {
+            "115": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Havengul Runebinder": {
+        "MIC": {
+            "101": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Diregraf Colossus": {
+        "MIC": {
+            "112": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Lord of the Accursed": {
+        "MIC": {
+            "124": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Gravespawn Sovereign": {
+        "MIC": {
+            "120": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Liliana's Devotee": {
+        "MIC": {
+            "122": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Geralf, Visionary Stitcher": {
+        "VOW": {
+            "319": {
+                "treatments": {
+                    "normal": 0,
+                    "foil": 1
+                },
+                "in_use": {
+                    "normal": 0,
+                    "foil": 1
+                }
+            }
+        }
+    },
+    "Diregraf Captain": {
+        "MIC": {
+            "148": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Death Baron": {
+        "MIC": {
+            "111": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Wonder": {
+        "MH2": {
+            "271": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Cemetery Reaper": {
+        "MIC": {
+            "108": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Gisa, Glorious Resurrector": {
+        "MID": {
+            "103": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Drown in Dreams": {
+        "MIC": {
+            "13": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Aetherspouts": {
+        "MIC": {
+            "97": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Go for the Throat": {
+        "MIC": {
+            "119": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Dread Summons": {
+        "MIC": {
+            "113": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Ghouls' Night Out": {
+        "MIC": {
+            "19": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Dark Salvation": {
+        "MIC": {
+            "110": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Hour of Eternity": {
+        "MIC": {
+            "102": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Syphon Flesh": {
+        "MIC": {
+            "129": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Empty the Laboratory": {
+        "MIC": {
+            "14": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Army of the Damned": {
+        "MIC": {
+            "106": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Zombie Apocalypse": {
+        "MIC": {
+            "131": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Distant Melody": {
+        "MIC": {
+            "98": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Curse of Unbinding": {
+        "MIC": {
+            "12": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Endless Ranks of the Dead": {
+        "MIC": {
+            "116": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Liliana's Mastery": {
+        "MIC": {
+            "123": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Open the Graves": {
+        "MIC": {
+            "126": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Curse of the Restless Dead": {
+        "MIC": {
+            "18": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Rooftop Storm": {
+        "MIC": {
+            "103": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Crowded Crypt": {
+        "MIC": {
+            "17": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sky Diamond": {
+        "MIC": {
+            "161": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Talisman of Dominance": {
+        "MIC": {
+            "164": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Charcoal Diamond": {
+        "MIC": {
+            "158": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Sunken Hollow": {
+        "MIC": {
+            "182": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Choked Estuary": {
+        "MIC": {
+            "169": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Mistvault Bridge": {
+        "MH2": {
+            "249": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Dmir Aqueduct": {
+        "MIC": {
+            "172": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Tainted Isle": {
+        "MIC": {
+            "183": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Shipwreck Marsh": {
+        "MID": {
+            "267": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Liliana, Death's Majesty": {
+        "MIC": {
+            "121": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
+                }
+            }
+        }
+    },
+    "Liliana, the Last Hope": {
+        "2X2": {
+            "81": {
+                "treatments": {
+                    "normal": 1,
+                    "foil": 0
+                },
+                "in_use": {
+                    "normal": 1,
+                    "foil": 0
                 }
             }
         }
