@@ -1,0 +1,141 @@
+{
+    "name": "Wilhelt Zombies",
+    "commander": {"name": "Wilhelt, the Rotcleaver", "setCode": "MIC", "setNumber": "2", "treatment": "foil"},
+    "theme": "Zombies. That's all",
+    "deck_in_use": true,
+    "the_99": {
+        "creatures": [
+            {"name": "Midnight Reaper", "setCode": "MIC", "setNumber": "125", "treatment": "normal"},
+            {"name": "Tomb Tyrant", "setCode": "MIC", "setNumber": "23", "treatment": "normal"},
+            {"name": "Corpse Augur", "setCode": "MIC", "setNumber": "109", "treatment": "normal"},
+            {"name": "Gisa and Geralf", "setCode": "MIC", "setNumber": "150", "treatment": "normal"},
+            {"name": "Prowling Geistcatcher", "setCode": "MIC", "setNumber": "21", "treatment": "normal"},
+            {"name": "Fleshbag Marauder", "setCode": "MIC", "setNumber": "118", "treatment": "normal"},
+            {"name": "Gorex, the Tombshell", "setCode": "MIC", "setNumber": "20", "treatment": "normal"},
+            {"name": "Ravenous Rotbelly", "setCode": "MIC", "setNumber": "22", "treatment": "normal"},
+            {"name": "Cleaver Skaab", "setCode": "MIC", "setNumber": "11", "treatment": "normal"},
+            {"name": "Forgotten Creation", "setCode": "MIC", "setNumber": "100", "treatment": "normal"},
+            {"name": "Gleaming Overseer", "setCode": "MIC", "setNumber": "151", "treatment": "normal"},
+            {"name": "Shadow Kin", "setCode": "MIC", "setNumber": "16", "treatment": "normal"},
+            {"name": "Stitcher Geralf", "setCode": "MIC", "setNumber": "104", "treatment": "normal"},
+            {"name": "Undead Alchemist", "setCode": "MIC", "setNumber": "105", "treatment": "normal"},
+            {"name": "Hordewing Skaab", "setCode": "MIC", "setNumber": "15", "treatment": "normal"},
+            {"name": "Overseer of the Damned", "setCode": "MIC", "setNumber": "127", "treatment": "normal"},
+            {"name": "Butcher of Malakir", "setCode": "MIC", "setNumber": "107", "treatment": "normal"},
+            {"name": "Eloise, Nephalia Sleuth", "setCode": "MIC", "setNumber": "3", "treatment": "foil"},
+            {"name": "Eater of Hope", "setCode": "MIC", "setNumber": "115", "treatment": "normal"},
+            {"name": "Havengul Runebinder", "setCode": "MIC", "setNumber": "101", "treatment": "normal"},
+            {"name": "Diregraf Colossus", "setCode": "MIC", "setNumber": "112", "treatment": "normal"},
+            {"name": "Lord of the Accursed", "setCode": "MIC", "setNumber": "124", "treatment": "normal"},
+            {"name": "Braids, Arisen Nightmare", "setCode": "DMU", "setNumber": "84", "treatment": "normal"},
+            {"name": "Gravespawn Sovereign", "setCode": "MIC", "setNumber": "120", "treatment": "normal"},
+            {"name": "Drivnod, Carnage Dominus", "setCode": "ONE", "setNumber": "90", "treatment": "normal"},
+            {"name": "Liliana's Devotee", "setCode": "MIC", "setNumber": "122", "treatment": "normal"},
+            {"name": "Geralf, Visionary Stitcher", "setCode": "VOW", "setNumber": "319", "treatment": "foil"},
+            {"name": "Diregraf Captain", "setCode": "MIC", "setNumber": "148", "treatment": "normal"},
+            {"name": "Death Baron", "setCode": "MIC", "setNumber": "111", "treatment": "normal"},
+            {"name": "Wonder", "setCode": "MH2", "setNumber": "271", "treatment": "normal"},
+            {"name": "Cemetery Reaper", "setCode": "MIC", "setNumber": "108", "treatment": "normal"},
+            {"name": "Gisa, Glorious Resurrector", "setCode": "MID", "setNumber": "103", "treatment": "normal"}
+        ],
+        "instants": [
+            {"name": "Drown in Dreams", "setCode": "MIC", "setNumber": "13", "treatment": "normal"},
+            {"name": "Aetherspouts", "setCode": "MIC", "setNumber": "97", "treatment": "normal"},
+            {"name": "Murder", "setCode": "EMN", "setNumber": "97", "treatment": "normal"},
+            {"name": "Go for the Throat", "setCode": "MIC", "setNumber": "119", "treatment": "normal"}
+        ],
+        "sorceries": [
+            {"name": "Dread Summons", "setCode": "MIC", "setNumber": "113", "treatment": "normal"},
+            {"name": "Ghouls' Night Out", "setCode": "MIC", "setNumber": "19", "treatment": "normal"},
+            {"name": "Dark Salvation", "setCode": "MIC", "setNumber": "110", "treatment": "normal"},
+            {"name": "Hour of Eternity", "setCode": "MIC", "setNumber": "102", "treatment": "normal"},
+            {"name": "Syphon Flesh", "setCode": "MIC", "setNumber": "129", "treatment": "normal"},
+            {"name": "Empty the Laboratory", "setCode": "MIC", "setNumber": "14", "treatment": "normal"},
+            {"name": "Army of the Damned", "setCode": "MIC", "setNumber": "106", "treatment": "normal"},
+            {"name": "Zombie Apocalypse", "setCode": "MIC", "setNumber": "131", "treatment": "normal"},
+            {"name": "Distant Melody", "setCode": "MIC", "setNumber": "98", "treatment": "normal"}
+        ],
+        "enchantments": [
+            {"name": "Curse of Unbinding", "setCode": "MIC", "setNumber": "12", "treatment": "normal"},
+            {"name": "Endless Ranks of the Dead", "setCode": "MIC", "setNumber": "116", "treatment": "normal"},
+            {"name": "Liliana's Mastery", "setCode": "MIC", "setNumber": "123", "treatment": "normal"},
+            {"name": "Open the Graves", "setCode": "MIC", "setNumber": "126", "treatment": "normal"},
+            {"name": "Curse of the Restless Dead", "setCode": "MIC", "setNumber": "18", "treatment": "normal"},
+            {"name": "Rooftop Storm", "setCode": "MIC", "setNumber": "103", "treatment": "normal"},
+            {"name": "Phyrexian Arena", "setCode": "ONE", "setNumber": "104", "treatment": "normal"}
+        ],
+        "artifacts": [
+            {"name": "Crowded Crypt", "setCode": "MIC", "setNumber": "17", "treatment": "normal"},
+            {"name": "Thought Vessel", "setCode": "CMR", "setNumber": "346", "treatment": "normal"},
+            {"name": "Sol Ring", "setCode": "MIC", "setNumber": "162", "treatment": "normal"},
+            {"name": "Sky Diamond", "setCode": "MIC", "setNumber": "161", "treatment": "normal"},
+            {"name": "Talisman of Dominance", "setCode": "MIC", "setNumber": "164", "treatment": "normal"},
+            {"name": "Arcane Signet", "setCode": "MIC", "setNumber": "157", "treatment": "normal"},
+            {"name": "Charcoal Diamond", "setCode": "MIC", "setNumber": "158", "treatment": "normal"}
+        ],
+        "non_basic_lands": [
+            {"name": "Command Tower", "setCode": "MIC", "setNumber": "170", "treatment": "normal"},
+            {"name": "Sunken Hollow", "setCode": "MIC", "setNumber": "182", "treatment": "normal"},
+            {"name": "Contaminated Aquifer", "setCode": "DMU", "setNumber": "245", "treatment": "normal"},
+            {"name": "Choked Estuary", "setCode": "MIC", "setNumber": "169", "treatment": "normal"},
+            {"name": "Darkwater Catacombs", "setCode": "MIC", "setNumber": "171", "treatment": "normal"},
+            {"name": "Temple of Deceit", "setCode": "MIC", "setNumber": "184", "treatment": "normal"},
+            {"name": "Mistvault Bridge", "setCode": "MH2", "setNumber": "249", "treatment": "normal"},
+            {"name": "Dmir Aqueduct", "setCode": "MIC", "setNumber": "172", "treatment": "normal"},
+            {"name": "Myriad Landscape", "setCode": "MIC", "setNumber": "177", "treatment": "normal"},
+            {"name": "Tainted Isle", "setCode": "MIC", "setNumber": "183", "treatment": "normal"},
+            {"name": "Exotic Orchard", "setCode": "MIC", "setNumber": "173", "treatment": "normal"},
+            {"name": "Shipwreck Marsh", "setCode": "MID", "setNumber": "267", "treatment": "normal"}
+        ], 
+        "planeswalker": [
+            {"name": "Liliana, Death's Majesty", "setCode": "MIC", "setNumber": "121", "treatment": "normal"},
+            {"name": "Liliana, the Last Hope", "setCode": "2X2", "setNumber": "81", "treatment": "normal"}
+        ],
+        "basic_lands": [
+            {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "normal"},
+            {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "normal"},
+            {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "normal"},
+            {"name": "Island", "setCode": "MID", "setNumber": "381", "treatment": "normal"},
+            {"name": "Island", "setCode": "MID", "setNumber": "271", "treatment": "normal"},
+            {"name": "Island", "setCode": "MID", "setNumber": "271", "treatment": "normal"},
+            {"name": "Island", "setCode": "MID", "setNumber": "270", "treatment": "normal"},
+            {"name": "Island", "setCode": "MID", "setNumber": "270", "treatment": "normal"},
+            {"name": "Island", "setCode": "VOW", "setNumber": "270", "treatment": "normal"},
+            {"name": "Island", "setCode": "ONE", "setNumber": "263", "treatment": "foil"},
+            {"name": "Island", "setCode": "ONE", "setNumber": "268", "treatment": "foil"},
+            {"name": "Island", "setCode": "STX", "setNumber": "368", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "MID", "setNumber": "382", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "MID", "setNumber": "382", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "MID", "setNumber": "382", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "MID", "setNumber": "382", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "ONE", "setNumber": "264", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "ONE", "setNumber": "264", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "ONE", "setNumber": "264", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "ELD", "setNumber": "260", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "DMU", "setNumber": "268", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "DMU", "setNumber": "269", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "DMU", "setNumber": "270", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "DMU", "setNumber": "269", "treatment": "foil"},
+            {"name": "Swamp", "setCode": "DMU", "setNumber": "279", "treatment": "normal"},
+            {"name": "Swamp", "setCode": "MID", "setNumber": "272", "treatment": "normal"}
+        ]
+    },
+    "potential_upgrades": {
+        "creatures": [
+        ],
+        "instants": [
+        ],
+        "sorceries": [
+        ],
+        "enchantments": [
+        ],
+        "artifacts": [
+        ],
+        "non_basic_lands": [
+        ], 
+        "planeswalker": [
+        ],
+        "basic_lands": [
+        ]
+    }
+}
